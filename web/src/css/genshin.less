@@ -1,0 +1,65 @@
+/*
+ * 颜色定义区
+ */
+@DARK_BG_COLOR: rgb(61, 70, 84); // 暗背景色
+@DARK_BG_ELE_COLOR: rgb(68, 77, 94); // 暗背景色上的浅色，用于背景元素/logo绘制
+@DARK_TEXT_COLOR: rgb(154, 163, 180); // 暗背景上的文字颜色
+@DARK_BG_INACTIVE_COLOR: rgb(55, 65, 79); // 可交互元素未激活的暗背景色
+@DARKEST_BG_COLOR: rgb(51, 51, 51); // 最暗的背景色，通常用于暗背景色上为对比度低的元素衬底，如icon等
+
+@GOLD_TEXT_COLOR: rgb(211, 188, 153); // 金色字体颜色，多用于标题或强调
+@GOLD_TEXT_SUB_COLOR: rgb(169,149,144); // 暗金色字体颜色，多用于标题小字部分
+
+@LIGHT_BG_COLOR: rgb(245,240,237); // 亮背景色
+@LIGHT_BG_ACTIVE_COLOR: rgb(250,247,239); // 可交互元素被激活后的亮背景色
+@LIGHT_BG_INACTIVE_COLOR: rgb(234,229,217); // 可交互元素未激活的亮背景色
+
+@font-face {
+  font-family: genshin;
+  src: url("../../assets/font/汉仪文黑-85W.ttf");
+}
+
+* {
+  font-family: genshin, serif;
+}
+
+.utils {
+  .padding(@horizontal, @vertical) {
+    padding: @vertical @horizontal @vertical @horizontal;
+  }
+
+  .margin(@horizontal, @vertical) {
+    margin: @vertical @horizontal @vertical @horizontal;
+  }
+
+  .flow {
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+
+  .no-warp {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+  }
+}
+
+
+
+.title-bar {
+  background-color: @DARK_BG_COLOR;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6vh;
+  min-height: 64px;
+  .utils.flow;
+  .utils.padding(16px, 0px);
+
+  .title {
+    color: @GOLD_TEXT_COLOR;
+    font-size: 32px;
+    .utils.no-warp;
+  }
+}
