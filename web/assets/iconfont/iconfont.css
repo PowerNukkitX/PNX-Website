@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3206231 */
+  src: url('iconfont.ttf?t=1645798501092') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.genshin-shejimulu:before {
+  content: "\e614";
+}
+
+.genshin-zhankai-copy:before {
+  content: "\e601";
+}
+
+.genshin-shouqi:before {
+  content: "\e747";
+}
+
+.genshin-xinxi:before {
+  content: "\e600";
+}
+
+.genshin-gengduo:before {
+  content: "\e609";
+}
+
+.genshin-gengduo1:before {
+  content: "\e678";
+}
+
+.genshin-plustianjia:before {
+  content: "\e765";
+}
+
+.genshin-plume:before {
+  content: "\e607";
+}
+
+.genshin-sands:before {
+  content: "\e608";
+}
+
+.genshin-circle:before {
+  content: "\e60a";
+}
+
+.genshin-goblet:before {
+  content: "\e60c";
+}
+
+.genshin-item:before {
+  content: "\e617";
+}
+
+.genshin-task:before {
+  content: "\e618";
+}
+
+.genshin-tool:before {
+  content: "\e619";
+}
+
+.genshin-artifact:before {
+  content: "\e61a";
+}
+
+.genshin-material:before {
+  content: "\e61c";
+}
+
+.genshin-fanhui:before {
+  content: "\e652";
+}
+
