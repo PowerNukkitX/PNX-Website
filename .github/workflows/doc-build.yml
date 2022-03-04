@@ -67,7 +67,7 @@ jobs:
           key-secret: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
           region: oss-cn-hongkong
           bucket: pnx-doc
-          asset-path: ./web/html/zh-cn
+          asset-path: ./web/html/zh-cn/**
           target-path: /zh-cn
 
       - name: 输出上传内容
