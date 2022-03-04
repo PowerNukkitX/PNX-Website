@@ -1,5 +1,5 @@
 name: PNX-doc
-on: [push]
+on: [ push ]
 
 jobs:
   check-files:
@@ -35,6 +35,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      - uses: actions/setup-java@v2
+        name: 配置java环境
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
       - name: 下载PowerDoc
         uses: robinraju/release-downloader@v1.3
         with:
@@ -43,9 +49,9 @@ jobs:
           fileName: "*"
 
       - name: 构建中文文档
-        run: %JAVA_HOME_17_X64/bin/java -jar PowerDoc-1.0-SNAPSHOT-shaded.jar ./web/zh-cn.json
+        run: java -jar PowerDoc-1.0-SNAPSHOT-shaded.jar ./web/zh-cn.json
 
-      - name: Archive artifacts
+      - name: 上传中文文档压缩包
         uses: actions/upload-artifact@v3
         if: success()
         with:
