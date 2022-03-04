@@ -17,7 +17,7 @@
           "copies": {
             "./assets/image": "./html/zh-cn/image",
             "./template/css": "./html/zh-cn/css",
-            "./assets/image/favicon.ico": "./html/zh-cn/favicon.ico"
+            "./assets/image/favicon.ico": "./html/favicon.ico"
           }
         }
       }
