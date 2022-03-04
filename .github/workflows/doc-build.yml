@@ -58,16 +58,15 @@ jobs:
           name: doc_zh-cn
           path: web/html/zh-cn
 
-      - name: 上传构件至云存储
-        id: upload-oss
-        uses: yinlinyang/ali-oss-utils@1.0.1
+      - name: 部署中文文档
+        uses: fangbinwei/aliyun-oss-website-action@v1
         with:
-          access-key-id: ${{ secrets.ALIYUN_ACCESS_KEY_ID }}
-          access-key-secret: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
-          region: oss-cn-hongkong
+          accessKeyId: ${{ secrets.ALIYUN_ACCESS_KEY_ID }}
+          accessKeySecret: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
           bucket: pnx-doc
-          source: ./web/html/zh-cn/
-          target: /zh-cn
+          endpoint: oss-cn-hongkong.aliyuncs.com
+          folder: web/html
+          skipSetting: true
 
       - name: 输出上传内容
         run: echo ${{ steps.upload-oss.outputs.url }}
