@@ -1,0 +1,65 @@
+{
+  "title": "PowerNukkitX文档",
+  "author": [
+    "超神的冰凉"
+  ],
+  "pages": {
+    "path": "../PNX文档",
+    "recursion": true,
+    "filter": ".*"
+  },
+  "processflow": {
+    "processors": [
+      {
+        "id": "copy-resources",
+        "use": "copy-file",
+        "args": {
+          "copies": {
+            "./assets/image": "./html/image",
+            "./template/css": "./html/css",
+            "./assets/image/favicon.ico": "./html/favicon.ico"
+          }
+        }
+      }
+    ]
+  },
+  "workflow": {
+    "outputPath": "./html",
+    "steps": [
+      {
+        "id": "render-markdown",
+        "use": "markdown",
+        "args": {
+          "cssClass": {
+            "h1": "mdui-text-color-theme",
+            "table": "mdui-table mdui-table-hoverable"
+          }
+        }
+      },
+      {
+        "id": "generate-catalogue",
+        "use": "catalogue",
+        "args": {
+          "cssClass": {
+            "p": "category-title mdui-text-color-theme",
+            "ol": "category-sub",
+            "strong": "mdui-text-color-theme-accent"
+          }
+        }
+      },
+      {
+        "id": "generate-html",
+        "use": "html-format",
+        "args": {
+          "templatePath": "./template/zh-cn.html",
+          "placeholders": {
+            "md": "markdown.rendered",
+            "catalogue": "html.catalogue",
+            "title": "file.noExtName",
+            "relativePrefix": "file.rootRelativePrefix"
+          }
+        }
+      }
+    ]
+  }
+}

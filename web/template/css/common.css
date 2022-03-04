@@ -1,0 +1,44 @@
+.icon-image {
+    width: 48px;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+.icon-title {
+    font-weight: bold;
+    margin-top: -12px;
+}
+
+.icon-title .icon-title-main {
+    padding-bottom: 4px;
+    border-bottom: 4px solid white;
+}
+
+.icon-title .icon-title-space {
+    width: 1px;
+}
+
+.icon-title .icon-title-sup {
+    font-size: 16px;
+    position: absolute;
+    margin-top: -3px;
+    margin-left: 1px;
+}
+
+p.category-title {
+    margin-bottom: 2px;
+    margin-left: calc(12px - 2em);
+}
+
+ol.category-sub {
+    margin-bottom: 2px;
+}
+
+.category-v-space {
+    height: 20px;
+}
+
+.copyright {
+    width: fit-content;
+    font-size: 8px;
+}
