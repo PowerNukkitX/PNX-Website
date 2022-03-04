@@ -58,17 +58,17 @@ jobs:
           name: doc_zh-cn
           path: web/html/zh-cn
 
-      - name: 上传构件至云存储
-        uses: tvrcgo/upload-to-oss@v0.1.1
-        id: upload-oss
-        if: success()
+      - uses: taixw2/deploy-aliyun-oss@v1
+        name: 上传构件至云存储
         with:
-          key-id: ${{ secrets.ALIYUN_ACCESS_KEY_ID }}
-          key-secret: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
-          region: oss-cn-hongkong
+          region: oss-cn-hongkong.aliyuncs.com
+          access-key-id: ${{ secrets.ALIYUN_ACCESS_KEY_ID }}
+          access-key-secret: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
           bucket: pnx-doc
-          asset-path: ./web/html/zh-cn/**
-          target-path: /zh-cn
+          secure: true
+          entry: web/html/zh-cn/**/*
+          remote-dir: /zh-cn
+          path-rewrite: ^web/html/zh-cn/
 
       - name: 输出上传内容
         run: echo ${{ steps.upload-oss.outputs.url }}
