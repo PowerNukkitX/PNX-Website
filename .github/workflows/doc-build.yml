@@ -58,11 +58,12 @@ jobs:
           name: doc_zh-cn
           path: web/html/zh-cn
 
-      - name: 部署到阿里云
-        uses: fangbinwei/aliyun-oss-website-action@v1
+      - name: 上传构件至云存储
+        uses: tvrcgo/upload-to-oss@v0.1.1
         with:
-          accessKeyId: ${{ secrets.ALIYUN_ACCESS_KEY_ID }}
-          accessKeySecret: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
+          key-id: ${{ secrets.ALIYUN_ACCESS_KEY_ID }}
+          key-secret: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
+          region: oss-cn-hongkong
           bucket: pnx-doc
-          endpoint: oss-cn-hongkong.aliyuncs.com
-          folder: web/html/zh-cn
+          asset-path: web/html/zh-cn
+          target-path: /
