@@ -66,4 +66,4 @@ jobs:
           region: oss-cn-hongkong
           bucket: pnx-doc
           asset-path: web/html/zh-cn
-          target-path: /
+          target-path: /zh-cn
