@@ -60,10 +60,15 @@ jobs:
 
       - name: 上传构件至云存储
         uses: tvrcgo/upload-to-oss@v0.1.1
+        id: upload-oss
+        if: success()
         with:
           key-id: ${{ secrets.ALIYUN_ACCESS_KEY_ID }}
           key-secret: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
           region: oss-cn-hongkong
           bucket: pnx-doc
-          asset-path: web/html/zh-cn
+          asset-path: ./web/html/zh-cn
           target-path: /zh-cn
+
+      - name: 输出上传内容
+        run: echo ${{ steps.upload-oss.outputs.url }}
