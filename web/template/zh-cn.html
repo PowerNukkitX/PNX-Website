@@ -35,12 +35,20 @@
             </a>
             <span class="mdui-typo-title">%title%</span>
             <div class="mdui-toolbar-spacer"></div>
-            <a href="javascript:" class="mdui-btn mdui-btn-icon">
+            <a href="javascript:wip()" class="mdui-btn mdui-btn-icon">
                 <i class="mdui-icon material-icons">search</i>
             </a>
-            <a href="javascript:" class="mdui-btn mdui-btn-icon">
+            <a href="javascript:" class="mdui-btn mdui-btn-icon" mdui-menu="{target: '#more-menu'}">
                 <i class="mdui-icon material-icons">more_vert</i>
             </a>
+            <ul class="mdui-menu" id="more-menu">
+                <li class="mdui-menu-item">
+                    <a href="javascript:switchTheme()" class="mdui-ripple">
+                        <i class="mdui-menu-item-icon mdui-icon material-icons">timelapse</i>
+                        切换主题
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
 </header>
@@ -64,5 +72,7 @@
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1.27.0/components/prism-javascript.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1.27.0/components/prism-java.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1.27.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+<!-- PNX-文档JS库 -->
+<script src="js/zh-cn.min.js"></script>
 </body>
 </html>

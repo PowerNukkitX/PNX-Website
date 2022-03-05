@@ -65,6 +65,7 @@ jobs:
           accessKeySecret: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
           bucket: pnx-doc
           endpoint: oss-cn-hongkong.aliyuncs.com
+          otherCacheControl: no-cache
           folder: web/html
           skipSetting: true
 
