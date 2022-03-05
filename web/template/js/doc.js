@@ -20,3 +20,26 @@ function switchTheme() {
         })
     }
 }
+
+function checkLanguage() {
+    const languageId = (window.language || navigator.language || navigator.browserLanguage).toLowerCase();
+    if(document.documentElement.lang !== languageId) {
+        let tipMessage;
+        if(window.languageLinks[languageId]) {
+            switch (languageId) {
+                case "zh-cn":
+                    tipMessage = "这篇文档有简体中文版";
+                    break;
+                case "en-us":
+                    tipMessage = "There's an English version.";
+                    break;
+            }
+            document.getElementById("switch-language-tip-box").classList.remove("mdui-hidden");
+            const aEle = document.getElementById("switch-language-tip-text");
+            aEle.innerText = tipMessage;
+            //aEle.setAttribute("href", window.languageLinks[languageId]);
+        }
+    }
+}
+
+checkLanguage();

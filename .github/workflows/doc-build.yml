@@ -49,7 +49,7 @@ jobs:
           fileName: "*"
 
       - name: 构建中文文档
-        run: java -jar PowerDoc-1.0-SNAPSHOT-shaded.jar ./web/zh-cn.json
+        run: java -jar PowerDoc-1.0-SNAPSHOT-shaded.jar ./web/book.json
 
       - name: 上传中文文档压缩包
         uses: actions/upload-artifact@v3

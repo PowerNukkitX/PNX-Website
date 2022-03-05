@@ -1,0 +1,16 @@
+{
+  "catalogue": {
+    "priority": {
+
+    }
+  },
+  "title": {
+    "Server_faq.md": "Server related"
+  },
+  "multiLanguage": [
+    {
+      "zh-cn": "开服问题.md",
+      "en-us": "Server_faq.md"
+    }
+  ]
+}

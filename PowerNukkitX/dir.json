@@ -1,0 +1,18 @@
+{
+  "catalogue": {
+    "priority": {
+      "PowerNukkitX.md": 999,
+      "PowerNukkitX_en-us.md": 999
+    }
+  },
+  "title": {
+    "faq": "FAQ",
+    "PowerNukkitX_en-us.md": "PowerNukkitX"
+  },
+  "multiLanguage": [
+    {
+      "zh-cn": "PowerNukkitX.md",
+      "en-us": "PowerNukkitX_en-us.md"
+    }
+  ]
+}

@@ -4,9 +4,12 @@
     "超神的冰凉"
   ],
   "pages": {
-    "path": "../PNX文档",
+    "path": "../PowerNukkitX",
     "recursion": true,
     "filter": ".*\\.md"
+  },
+  "defaultVariables": {
+    "file.language": "zh-cn"
   },
   "processflow": {
     "processors": [
@@ -15,9 +18,18 @@
         "use": "copy-file",
         "args": {
           "copies": {
-            "./assets/image": "./html/zh-cn/image",
-            "./template/css": "./html/zh-cn/css",
-            "./template/js": "./html/zh-cn/js",
+            "./assets/image": [
+              "./html/zh-cn/image",
+              "./html/en-us/image"
+            ],
+            "./template/css": [
+              "./html/zh-cn/css",
+              "./html/en-us/css"
+            ],
+            "./template/js": [
+              "./html/zh-cn/js",
+              "./html/en-us/js"
+            ],
             "./assets/image/favicon.ico": "./html/favicon.ico"
           }
         }
@@ -25,7 +37,7 @@
     ]
   },
   "workflow": {
-    "outputPath": "./html/zh-cn",
+    "outputPath": "./html/%file.language%",
     "steps": [
       {
         "id": "render-markdown",
@@ -54,11 +66,14 @@
         "id": "generate-html",
         "use": "html-format",
         "args": {
-          "templatePath": "./template/zh-cn.html",
+          "templatePaths": {
+            "zh-cn": "./template/zh-cn.html",
+            "en-us": "./template/en-us.html"
+          },
           "placeholders": {
             "md": "markdown.rendered",
             "catalogue": "html.catalogue",
-            "title": "file.noExtName",
+            "title": "file.title",
             "relativePrefix": "file.rootRelativePrefix"
           }
         }

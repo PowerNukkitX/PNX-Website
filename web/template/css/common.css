@@ -42,3 +42,11 @@ ol.category-sub {
     width: fit-content;
     font-size: 8px;
 }
+
+.fit {
+    width: fit-content;
+}
+
+.switch-language-text {
+    margin: 18px 0 8px 0;
+}
