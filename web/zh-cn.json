@@ -6,7 +6,7 @@
   "pages": {
     "path": "../PNX文档",
     "recursion": true,
-    "filter": ".*"
+    "filter": ".*\\.md"
   },
   "processflow": {
     "processors": [
@@ -32,6 +32,8 @@
         "args": {
           "cssClass": {
             "h1": "mdui-text-color-theme",
+            "h2": "mdui-text-color-theme",
+            "h3": "mdui-text-color-theme",
             "table": "mdui-table mdui-table-hoverable"
           }
         }
