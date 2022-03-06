@@ -70,5 +70,7 @@ function defaultCheckTheme() {
     }
 }
 
-checkLanguage();
+window.addEventListener("load", () => {
+    checkLanguage();
+})
 defaultCheckTheme();
