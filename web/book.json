@@ -63,6 +63,10 @@
         }
       },
       {
+        "id": "generate-multi-language-files",
+        "use": "multi-language-links"
+      },
+      {
         "id": "generate-html",
         "use": "html-format",
         "args": {
@@ -74,7 +78,8 @@
             "md": "markdown.rendered",
             "catalogue": "html.catalogue",
             "title": "file.title",
-            "relativePrefix": "file.rootRelativePrefix"
+            "relativePrefix": "file.rootRelativePrefix",
+            "languageFiles": "json.multiLanguageFiles"
           }
         }
       }

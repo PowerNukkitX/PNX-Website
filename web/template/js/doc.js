@@ -22,23 +22,36 @@ function switchTheme() {
 }
 
 function checkLanguage() {
-    const languageId = (window.language || navigator.language || navigator.browserLanguage).toLowerCase();
-    if(document.documentElement.lang !== languageId) {
+    let languageId = (window.language || navigator.language || navigator.browserLanguage).toLowerCase();
+    const currentLanguageId = document.documentElement.lang;
+    if (currentLanguageId !== languageId) {
         let tipMessage;
-        if(window.languageLinks[languageId]) {
-            switch (languageId) {
-                case "zh-cn":
-                    tipMessage = "这篇文档有简体中文版";
-                    break;
-                case "en-us":
-                    tipMessage = "There's an English version.";
-                    break;
-            }
-            document.getElementById("switch-language-tip-box").classList.remove("mdui-hidden");
-            const aEle = document.getElementById("switch-language-tip-text");
-            aEle.innerText = tipMessage;
-            //aEle.setAttribute("href", window.languageLinks[languageId]);
+        let back = false;
+        switch (languageId) {
+            case "zh-cn":
+                tipMessage = "这篇文档有简体中文版";
+                break;
+            case "en-us":
+                tipMessage = "There's an English version.";
+                break;
+            default:
+                tipMessage = "Maybe you want the English version.";
+                back = true;
+                break;
         }
+        if (back) {
+            if (window.languageLinks["en-us"]) {
+                languageId = "en-us";
+            } else {
+                return;
+            }
+        }
+        document.getElementById("switch-language-tip-box").classList.remove("mdui-hidden");
+        const aEle = document.getElementById("switch-language-tip-text");
+        aEle.innerText = tipMessage;
+        aEle.setAttribute("href", window.location.href.replace(currentLanguageId, languageId)
+            .replace(window.languageLinks[currentLanguageId].replace(".md", ".html"), window.languageLinks[languageId]).replace(".md", ".html"));
+
     }
 }
 
