@@ -6,18 +6,26 @@ function wip() {
     })
 }
 
-function switchTheme() {
+function switchTheme(noNotice) {
     const clazz = document.body.classList;
     if (clazz.contains("mdui-theme-layout-dark")) {
-        clazz.remove("mdui-theme-layout-dark");
-        mdui.snackbar(translate("more-menu.switch-to-day"), {
-            buttonText: translate("more-menu.ok")
-        })
+        clazz.remove("mdui-theme-layout-dark", "mdui-theme-primary-light-blue", "mdui-theme-accent-light-blue");
+        clazz.add("mdui-theme-primary-indigo", "mdui-theme-accent-indigo");
+        if (!noNotice) {
+            mdui.snackbar(translate("more-menu.switch-to-day"), {
+                buttonText: translate("more-menu.ok")
+            });
+        }
+        window.localStorage.setItem("dark-theme", "false");
     } else {
-        clazz.add("mdui-theme-layout-dark");
-        mdui.snackbar(translate("more-menu.switch-to-night"), {
-            buttonText: translate("more-menu.ok")
-        })
+        clazz.remove("mdui-theme-primary-indigo", "mdui-theme-accent-indigo");
+        clazz.add("mdui-theme-layout-dark", "mdui-theme-primary-light-blue", "mdui-theme-accent-light-blue");
+        if (!noNotice) {
+            mdui.snackbar(translate("more-menu.switch-to-night"), {
+                buttonText: translate("more-menu.ok")
+            })
+        }
+        window.localStorage.setItem("dark-theme", "true");
     }
 }
 
@@ -55,4 +63,12 @@ function checkLanguage() {
     }
 }
 
+function defaultCheckTheme() {
+    const flag = window.localStorage.getItem("dark-theme");
+    if (flag && flag === "true") {
+        switchTheme(true);
+    }
+}
+
 checkLanguage();
+defaultCheckTheme();
