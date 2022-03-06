@@ -5,12 +5,17 @@
     }
   },
   "title": {
-    "Server_faq.md": "Server related"
+    "Server_faq.md": "Server related",
+    "Terra_faq.md": "Terra related"
   },
   "multiLanguage": [
     {
       "zh-cn": "开服问题.md",
       "en-us": "Server_faq.md"
+    },
+    {
+      "zh-cn": "Terra问题.md",
+      "en-us": "Terra_faq.md"
     }
   ]
 }
