@@ -2,7 +2,7 @@
 
 ![PNX Banner](./image/PNX_BANNER.png)  
 
-<h3 style="width: fit-content;" class="mdui-center">高性能、富原版特性、高拓展性的独立服务端核心</h2>  
+<h3 style="width: fit-content;" class="mdui-center">High-performance, more-feature, highly extensible server software</h2>  
 
 [![Discord](https://img.shields.io/discord/944227466912870410?style=flat-square)](https://discord.gg/j7UwsaNu4V)
 [![简体中文](https://img.shields.io/badge/简体中文-100%25-green?style=flat-square)](https://github.com/BlocklyNukkit/PowerNukkitX/blob/master/README.md)
@@ -13,32 +13,39 @@
 
 -----  
 
-## 什么是PowerNukkitX？  
+## What is PowerNukkitX?  
 
-PowerNukkitX（简称PNX）是由包括BlocklyNukkit团队在内的中国Nukkit开发者们负责开发维护的Nukkit分支版本，修复了众多BUG，改善了性能，及时跟进新版本支持、支持1.18所有新方块和新物品、支持新版下界、支持史诗地形生成器(Terra)。在这些大更改的情况下，PNX仍然保持了良好的插件兼容性，Nukkit生态中的数千个插件仍然可以在PNX上运行。
-得益于完全开源的代码，您在遵守开源协议的情况下使用PowerNukkitX没有任何法律风险，内部的数十万API可以随意调用，您可以深入查看实现，通过JVM生态中的各种工具及其方便地进行开发、调试、注入、拦截。也正因如此，Nukkit生态丰富多彩，成百上千各种各样的插件供您选择，您可以用您喜欢的任意JVM语言编写插件，如Java,Kotlin,Scala,Python,Javascript,Lua……
+PowerNukkitX (PNX for short) is a branch version of Nukkit developed and maintained by Chinese Nukkit developers, 
+including the BlocklyNukkit team. We have fixed numerous bugs, improved performance, followed up with timely new version support, 
+support for all new cubes and new items in 1.18, support for the new version of the underworld, 
+and support for the epic terrain generator (Terra).  With these big changes, PNX still maintains an excellent plugin compatibility, 
+and thousands of plugins in the Nukkit ecosystem still work on PNX. Thanks to the completely open source code, 
+you have no legal risk to use PowerNukkitX in compliance with the open source protocol. Hundreds of thousands of APIs inside can be called at will, 
+you can look deeper into the implementation, develop, debug, inject, intercept through various tools in the JVM ecosystem and its convenience.
+Because of this, the Nukkit ecosystem is rich and diverse, with hundreds of different plugins to choose from. You can write plugins in any JVM language you like, 
+such as Java, Kotlin, Scala, Python, Javascript, Lua ......
 
-## 为什么我们要开发PNX？  
+## Why we developed PNX?  
 
-最直接的原因就是：只有核心强，生态才能强。  
-我们可以毫不掩饰地说，去重之后，Nukkit生态是基岩版作品最多的生态之一，也是基岩版最高技术力的圈子之一。但是，Nukkit核心在开发团队被CubeCraft买去开发Geyser
-项目之后，开发强度急剧下降，随着国外众多开发者进入JE圈子，国内BDS圈子向心力逐渐加强，Nukkit系核心渐渐地不再能跟上be社区发展的步伐。作为自由开源精神的践行者，
-作为Nukkit生态的主力，我们有必要接过Nukkit系服务端开发的任务，续写被EaseCation遗忘的的国人核心开发的篇章。
+The most direct reason is this: only when the core is strong, the ecology can be strong.  
+We can say in no uncertain terms that after de-weighting, the Nukkit ecology is one of the ecologies with the most works in the bedrock version, and one of the circles with the highest technical power in the bedrock version. However, Nukkit core was bought by CubeCraft to develop Geyser after the development team
+After the project, the development intensity dropped sharply, and as many foreign developers entered the JE circle and the domestic BDS circle gradually strengthened its centripetal force, the Nukkit core gradually stopped being able to keep up with the pace of development of the be community. As a practitioner of the spirit of free and open source, the
+As the main force of the Nukkit ecology, we need to take over the task of the Nukkit system server-side development and continue the chapter of the national core development forgotten by EaseCation.
 
-## PNX的优势：  
+## Advantages  
 
-- 最新版mcbe协议支持
-- 1.18全物品方块及其功能支持
-- 384格世界支持
-- 新版下界生物群系支持
-- 史诗地形生成器
-- 修复众多bug
-- 自定义物品、方块（WIP）
-- 全开源、全API开放、插件众多
-- 更高性能，多核优化（堆核而非堆cpu频率）
+- Support latest bedrock protocol
+- Support all 1.18 items and blocks
+- 384-height world
+- New nether
+- Epic Terrain Generator (Terra)
+- Fix many bugs
+- Custom items, blocks and ui（WIP）
+- Open source, many plugins
+- Higher performance, multi-core optimization
 
-## 联系我们：  
+## Connect us  
 
 - Discord：[https://discord.gg/j7UwsaNu4V](https://discord.gg/j7UwsaNu4V)
-- BN QQ群：953752196
-- 官网：[https://www.powernukkitx.cn](https://www.powernukkitx.cn)
+- BlocklyNukkit QQ group：953752196
+- Website：[https://www.powernukkitx.cn](https://www.powernukkitx.cn)
