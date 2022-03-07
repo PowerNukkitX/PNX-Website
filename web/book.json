@@ -30,7 +30,10 @@
               "./html/zh-cn/js",
               "./html/en-us/js"
             ],
-            "./assets/image/favicon.ico": "./html/favicon.ico"
+            "./assets/image/favicon.ico": "./html/favicon.ico",
+            "./template/index.html": "./html/index.html",
+            "./template/css/common.css": "./html/css/common.css",
+            "./template/js/index.min.js": "./html/js/index.min.js"
           }
         }
       }

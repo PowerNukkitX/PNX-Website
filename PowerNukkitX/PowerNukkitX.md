@@ -40,5 +40,5 @@ PowerNukkitX（简称PNX）是由包括BlocklyNukkit团队在内的中国Nukkit�
 ## 联系我们：  
 
 - Discord：[https://discord.gg/j7UwsaNu4V](https://discord.gg/j7UwsaNu4V)
-- BN QQ群：953752196
+- QQ: [QQ群](https://jq.qq.com/?_wv=1027&k=6rm3gbUI)
 - 官网：[https://www.powernukkitx.cn](https://www.powernukkitx.cn)
