@@ -1,7 +1,9 @@
 {
   "catalogue": {
     "priority": {
-
+      "启动PNX.md": 9,
+      "启动器命令行参数.md": 8,
+      "启动器配置文件.md": 7
     }
   },
   "title": {
@@ -10,6 +12,12 @@
   "multiLanguage": [
     {
       "zh-cn": "启动PNX.md"
+    },
+    {
+      "zh-cn": "启动器配置文件.md"
+    },
+    {
+      "zh-cn": "启动器命令行参数.md"
     }
   ]
 }
