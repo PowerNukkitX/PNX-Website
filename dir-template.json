@@ -1,0 +1,16 @@
+{
+  "catalogue": {
+    "priority": {
+
+    }
+  },
+  "title": {
+    "?.md": "xxx"
+  },
+  "multiLanguage": [
+    {
+      "zh-cn": "?.md",
+      "en-us": "?.md"
+    }
+  ]
+}

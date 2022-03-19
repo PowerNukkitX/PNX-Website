@@ -3,12 +3,17 @@
     "priority": {
       "PowerNukkitX.md": 999,
       "PowerNukkitX_en-us.md": 999,
+      "bootstrap": -100,
       "faq": -999
     }
   },
   "title": {
     "faq": "FAQ",
-    "PowerNukkitX_en-us.md": "PowerNukkitX"
+    "PowerNukkitX_en-us.md": "PowerNukkitX",
+    "bootstrap": {
+      "zh-cn": "启动器",
+      "en-us": "Bootstrap"
+    }
   },
   "multiLanguage": [
     {
