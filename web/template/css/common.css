@@ -27,8 +27,7 @@
 }
 
 p.category-title {
-    margin-bottom: 2px;
-    margin-left: calc(12px - 2em);
+    font-weight: bold;
 }
 
 ol.category-sub {
