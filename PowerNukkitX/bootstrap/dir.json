@@ -7,11 +7,12 @@
     }
   },
   "title": {
-
+    "Start_PNX.md": "Start PNX"
   },
   "multiLanguage": [
     {
-      "zh-cn": "启动PNX.md"
+      "zh-cn": "启动PNX.md",
+      "en-us": "Start_PNX.md"
     },
     {
       "zh-cn": "启动器配置文件.md"
