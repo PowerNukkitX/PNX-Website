@@ -10,6 +10,7 @@
   "title": {
     "faq": "FAQ",
     "PowerNukkitX_en-us.md": "PowerNukkitX",
+    "Get_Started.md": "Get Started",
     "bootstrap": {
       "zh-cn": "启动器",
       "en-us": "Bootstrap"
@@ -21,7 +22,8 @@
       "en-us": "PowerNukkitX_en-us.md"
     },
     {
-      "zh-cn": "快速入门.md"
+      "zh-cn": "快速入门.md",
+      "en-us": "Get_Started.md"
     }
   ]
 }
