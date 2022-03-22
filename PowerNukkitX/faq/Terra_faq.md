@@ -24,6 +24,13 @@ worlds:
 
 Then, restart the server, and now you can try the terra terrain generator.  
 
+## Why black biomes
+
+Because Terra will mark unfinished biomes with black concrete blocks.    
+![](%relativePrefix%image/common/terra_faq/Terra_Black_min.png)   
+If you do not want these black biomes to appear, you can use the config pack provided by us without the unfinished biomes.[Download](https://assets.powernukkitx.cn/stable/default.zip)  
+Once downloaded, please replace `./terra/packs/default.zip` with the default config pack. Restart the server to complete the changes.
+
 ## Why terra doesn't work
 
 - If your world was previously using something other than the terra generator, terra won't work. Consider using a new world.  
