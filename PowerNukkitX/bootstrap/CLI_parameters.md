@@ -35,3 +35,7 @@ explain：Update dependencies
 usage：`--updateBootstrap`  
 explain：Update Bootstrap  
 
+## updateComponents
+
+usage：`--updateComponents`  
+explain：Update extra components  

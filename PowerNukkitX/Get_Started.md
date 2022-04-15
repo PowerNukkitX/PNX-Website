@@ -8,7 +8,7 @@ This tutorial will take you through a quick installation and start-up of the ser
 ### Download launcher
 
 Stable version：  
-Download stable launcher [master-3d4fa5102](https://assets.powernukkitx.cn/stable/Bootstrap-0.0.1-beta-shaded.jar)
+Download stable launcher [master-ef2e75c](https://assets.powernukkitx.cn/stable/Bootstrap-0.0.1-beta-shaded.jar)
 
 the latest version：
 go to [Action](https://github.com/PowerNukkitX/PowerNukkitX/actions), open the build interface of the version you want to download and download powernukkitx bootstrap
