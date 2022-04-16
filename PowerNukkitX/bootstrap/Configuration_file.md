@@ -13,6 +13,8 @@ The user profile of Bootstrap is in the same directory which name is `bootstrap.
 |min-restart-time|30000|Minimum restart interval (ms). If two starts are less than this time, it will not restart automatically|
 |auto-restart|false|Auto restart by default|
 |gui-terminal-color|PowerNukkitX|GUI terminal theme (powernukkitx/Windows）|
+|displayLaunchCommand|false|Whether to display the PNX launch command in the CLI|
+|preferredJVM|GraalVM|Prefer to start PNX with the JVM that has this configuration item in its name|
 |graalvm.version|22.0.0.2|Version of graalvm to download|
 |graalvm.win-x86|https://download.fastgit.org/graalvm/graalvm-ce-builds/releases/download/vm-22.0.0.2/graalvm-ce-java17-windows-amd64-22.0.0.2.zip||
 |graalvm.linux-x86|https://download.fastgit.org/graalvm/graalvm-ce-builds/releases/download/vm-22.0.0.2/graalvm-ce-java17-linux-amd64-22.0.0.2.zip||
