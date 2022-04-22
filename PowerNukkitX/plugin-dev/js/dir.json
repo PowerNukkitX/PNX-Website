@@ -1,0 +1,19 @@
+{
+  "catalogue": {
+    "priority": {
+      "概述.md": 99,
+      "插件格式.md": 98
+    }
+  },
+  "title": {
+
+  },
+  "multiLanguage": [
+    {
+      "zh-cn": "概述.md"
+    },
+    {
+      "zh-cn": "插件格式.md"
+    }
+  ]
+}

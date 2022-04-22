@@ -4,7 +4,8 @@
       "PowerNukkitX.md": 999,
       "PowerNukkitX_en-us.md": 999,
       "bootstrap": -100,
-      "faq": -999
+      "faq": -999,
+      "plugin-dev": -1000
     }
   },
   "title": {
@@ -14,6 +15,10 @@
     "bootstrap": {
       "zh-cn": "启动器",
       "en-us": "Bootstrap"
+    },
+    "plugin-dev": {
+      "zh-cn": "插件开发",
+      "en-us": "Plugin Development"
     }
   },
   "multiLanguage": [

@@ -1,0 +1,14 @@
+{
+  "catalogue": {
+    "priority": {
+      "js": 1
+    }
+  },
+  "title": {
+    "js": {
+      "zh-cn": "JavaScript插件开发",
+      "en-us": "JavaScript Plugins"
+    }
+  },
+  "multiLanguage": []
+}
