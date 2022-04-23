@@ -1,0 +1,763 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                287,
+                339
+            ],
+            "filename": "concurrent.js",
+            "lineno": 8,
+            "columnno": 6,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000015",
+                "name": "jsPlugin",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "jsPlugin",
+        "longname": "jsPlugin",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                347,
+                405
+            ],
+            "filename": "concurrent.js",
+            "lineno": 9,
+            "columnno": 6,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000025",
+                "name": "concurrentManager",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "concurrentManager",
+        "longname": "concurrentManager",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * 将对象包装为原子对象\n * @param obj\n */",
+        "meta": {
+            "range": [
+                444,
+                519
+            ],
+            "filename": "concurrent.js",
+            "lineno": 15,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000030",
+                "name": "exports.atomic",
+                "type": "FunctionDeclaration",
+                "paramnames": [
+                    "obj"
+                ]
+            }
+        },
+        "description": "将对象包装为原子对象",
+        "params": [
+            {
+                "name": "obj"
+            }
+        ],
+        "name": "atomic",
+        "longname": "atomic",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                451,
+                519
+            ],
+            "filename": "concurrent.js",
+            "lineno": 15,
+            "columnno": 7,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000031",
+                "name": "atomic",
+                "type": "FunctionDeclaration",
+                "paramnames": [
+                    "obj"
+                ]
+            }
+        },
+        "undocumented": true,
+        "name": "atomic",
+        "longname": "atomic",
+        "kind": "function",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * 获取原子对象等待最长时间，单位ms，默认30000\n * @type {number}\n */",
+        "meta": {
+            "range": [
+                576,
+                661
+            ],
+            "filename": "concurrent.js",
+            "lineno": 23,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000041",
+                "name": "exports.getAtomicTimeout",
+                "type": "FunctionDeclaration",
+                "paramnames": []
+            }
+        },
+        "description": "获取原子对象等待最长时间，单位ms，默认30000",
+        "type": {
+            "names": [
+                "number"
+            ]
+        },
+        "name": "getAtomicTimeout",
+        "longname": "getAtomicTimeout",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                583,
+                661
+            ],
+            "filename": "concurrent.js",
+            "lineno": 23,
+            "columnno": 7,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000042",
+                "name": "getAtomicTimeout",
+                "type": "FunctionDeclaration",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "getAtomicTimeout",
+        "longname": "getAtomicTimeout",
+        "kind": "function",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * 设置原子对象等待最长时间，单位ms，默认30000\n * @param timeout {number}\n */",
+        "meta": {
+            "range": [
+                727,
+                826
+            ],
+            "filename": "concurrent.js",
+            "lineno": 31,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000050",
+                "name": "exports.setAtomicTimeout",
+                "type": "FunctionDeclaration",
+                "paramnames": [
+                    "timeout"
+                ]
+            }
+        },
+        "description": "设置原子对象等待最长时间，单位ms，默认30000",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ]
+                },
+                "name": "timeout"
+            }
+        ],
+        "name": "setAtomicTimeout",
+        "longname": "setAtomicTimeout",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                734,
+                826
+            ],
+            "filename": "concurrent.js",
+            "lineno": 31,
+            "columnno": 7,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000051",
+                "name": "setAtomicTimeout",
+                "type": "FunctionDeclaration",
+                "paramnames": [
+                    "timeout"
+                ]
+            }
+        },
+        "undocumented": true,
+        "name": "setAtomicTimeout",
+        "longname": "setAtomicTimeout",
+        "kind": "function",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                828,
+                2113
+            ],
+            "filename": "concurrent.js",
+            "lineno": 35,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000061",
+                "name": "exports.Worker",
+                "type": "ClassDeclaration"
+            }
+        },
+        "undocumented": true,
+        "name": "Worker",
+        "longname": "Worker",
+        "kind": "class",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                835,
+                2113
+            ],
+            "filename": "concurrent.js",
+            "lineno": 35,
+            "columnno": 7,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000062",
+                "name": "Worker",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "sourcePath",
+                    "startImmediately"
+                ]
+            }
+        },
+        "undocumented": true,
+        "name": "Worker",
+        "longname": "Worker",
+        "kind": "class",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * 创建一个Worker\n     * @param sourcePath {string} worker源代码路径\n     * @param startImmediately {boolean} 是否立即启动worker执行，默认true\n     */",
+        "meta": {
+            "range": [
+                997,
+                1528
+            ],
+            "filename": "concurrent.js",
+            "lineno": 41,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000065",
+                "name": "exports.Worker",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "sourcePath",
+                    "startImmediately"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "创建一个Worker",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "worker源代码路径",
+                "name": "sourcePath"
+            },
+            {
+                "type": {
+                    "names": [
+                        "boolean"
+                    ]
+                },
+                "description": "是否立即启动worker执行，默认true",
+                "name": "startImmediately",
+                "defaultvalue": true
+            }
+        ],
+        "name": "Worker",
+        "longname": "Worker#Worker",
+        "kind": "class",
+        "memberof": "Worker",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1056,
+                1114
+            ],
+            "filename": "concurrent.js",
+            "lineno": 42,
+            "columnno": 8,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000074",
+                "name": "this.jsWorker",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "jsWorker",
+        "longname": "Worker#jsWorker",
+        "kind": "member",
+        "memberof": "Worker",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1209,
+                1306
+            ],
+            "filename": "concurrent.js",
+            "lineno": 45,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000098",
+                "name": "get",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "get",
+        "longname": "get",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1320,
+                1433
+            ],
+            "filename": "concurrent.js",
+            "lineno": 48,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000108",
+                "name": "set",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "set",
+        "longname": "set",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * 启动尚未启动的worker\n     */",
+        "meta": {
+            "range": [
+                1571,
+                1617
+            ],
+            "filename": "concurrent.js",
+            "lineno": 60,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000130",
+                "name": "Worker#start",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "启动尚未启动的worker",
+        "name": "start",
+        "longname": "Worker#start",
+        "kind": "function",
+        "memberof": "Worker",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * 向Worker发送信息，返回Worker的onmessage函数的返回值\n     * @param values\n     * @returns {any}\n     */",
+        "meta": {
+            "range": [
+                1726,
+                1806
+            ],
+            "filename": "concurrent.js",
+            "lineno": 69,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000141",
+                "name": "Worker#postMessage",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "values"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "向Worker发送信息，返回Worker的onmessage函数的返回值",
+        "params": [
+            {
+                "name": "values",
+                "variable": true
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "any"
+                    ]
+                }
+            }
+        ],
+        "name": "postMessage",
+        "longname": "Worker#postMessage",
+        "kind": "function",
+        "memberof": "Worker",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * 向Worker发送异步信息，返回一个Promise\n     * @param values\n     * @returns {Promise<any>}\n     */",
+        "meta": {
+            "range": [
+                1913,
+                2016
+            ],
+            "filename": "concurrent.js",
+            "lineno": 78,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000155",
+                "name": "Worker#postMessageAsync",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "values"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "向Worker发送异步信息，返回一个Promise",
+        "params": [
+            {
+                "name": "values",
+                "variable": true
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise.<any>"
+                    ]
+                }
+            }
+        ],
+        "name": "postMessageAsync",
+        "longname": "Worker#postMessageAsync",
+        "kind": "function",
+        "memberof": "Worker",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * 终结（强制停止）此Worker\n     */",
+        "meta": {
+            "range": [
+                2061,
+                2111
+            ],
+            "filename": "concurrent.js",
+            "lineno": 85,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000171",
+                "name": "Worker#terminate",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "终结（强制停止）此Worker",
+        "name": "terminate",
+        "longname": "Worker#terminate",
+        "kind": "function",
+        "memberof": "Worker",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2115,
+                2750
+            ],
+            "filename": "concurrent.js",
+            "lineno": 90,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000182",
+                "name": "exports.Job",
+                "type": "ClassDeclaration"
+            }
+        },
+        "undocumented": true,
+        "name": "Job",
+        "longname": "Job",
+        "kind": "class",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2122,
+                2750
+            ],
+            "filename": "concurrent.js",
+            "lineno": 90,
+            "columnno": 7,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000183",
+                "name": "Job",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "sourcePath",
+                    "startImmediately"
+                ]
+            }
+        },
+        "undocumented": true,
+        "name": "Job",
+        "longname": "Job",
+        "kind": "class",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * 创建一个Job\n     * @param sourcePath {string} Job源代码路径\n     * @param startImmediately {boolean} 是否立即启动job，默认true\n     */",
+        "meta": {
+            "range": [
+                2270,
+                2483
+            ],
+            "filename": "concurrent.js",
+            "lineno": 96,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000186",
+                "name": "exports.Job",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "sourcePath",
+                    "startImmediately"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "创建一个Job",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "Job源代码路径",
+                "name": "sourcePath"
+            },
+            {
+                "type": {
+                    "names": [
+                        "boolean"
+                    ]
+                },
+                "description": "是否立即启动job，默认true",
+                "name": "startImmediately",
+                "defaultvalue": true
+            }
+        ],
+        "name": "Job",
+        "longname": "Job#Job",
+        "kind": "class",
+        "memberof": "Job",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2329,
+                2379
+            ],
+            "filename": "concurrent.js",
+            "lineno": 97,
+            "columnno": 8,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000195",
+                "name": "this.job",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "job",
+        "longname": "Job#job",
+        "kind": "member",
+        "memberof": "Job",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * 执行Job的main函数并传入指定参数\n     * @param args {...any}\n     * @returns {Promise<any>}\n     */",
+        "meta": {
+            "range": [
+                2591,
+                2661
+            ],
+            "filename": "concurrent.js",
+            "lineno": 109,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000221",
+                "name": "Job#work",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "args"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "执行Job的main函数并传入指定参数",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "any"
+                    ]
+                },
+                "variable": true,
+                "name": "args"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise.<any>"
+                    ]
+                }
+            }
+        ],
+        "name": "work",
+        "longname": "Job#work",
+        "kind": "function",
+        "memberof": "Job",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * 终结（强制停止）此Job\n     */",
+        "meta": {
+            "range": [
+                2703,
+                2748
+            ],
+            "filename": "concurrent.js",
+            "lineno": 116,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module",
+            "code": {
+                "id": "astnode100000237",
+                "name": "Job#terminate",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "终结（强制停止）此Job",
+        "name": "terminate",
+        "longname": "Job#terminate",
+        "kind": "function",
+        "memberof": "Job",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "D:\\nukkit\\PNX-Website\\PowerNukkitX\\plugin-dev\\js\\inner-module\\concurrent.js"
+        ]
+    }
+]

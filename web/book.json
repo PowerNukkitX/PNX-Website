@@ -43,6 +43,10 @@
     "outputPath": "./html/%file.language%",
     "steps": [
       {
+        "id": "JSDoc",
+        "use": "js-doc"
+      },
+      {
         "id": "render-markdown",
         "use": "markdown",
         "args": {

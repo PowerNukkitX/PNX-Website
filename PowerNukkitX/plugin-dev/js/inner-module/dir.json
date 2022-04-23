@@ -1,0 +1,34 @@
+{
+  "catalogue": {
+    "priority": {
+      "plugin-id.md": 99,
+      "powernukkitx.md": 98,
+      "concurrent.md": 97
+    }
+  },
+  "title": {
+    "concurrent.md": {
+      "zh-cn": "concurrent模块",
+      "en-us": "Module concurrent"
+    },
+    "plugin-id.md": {
+      "zh-cn": "plugin-id模块",
+      "en-us": "Module plugin-id"
+    },
+    "powernukkitx.md": {
+      "zh-cn": "powernukkitx模块",
+      "en-us": "Module powernukkitx"
+    }
+  },
+  "multiLanguage": [
+    {
+      "zh-cn": "plugin-id.md"
+    },
+    {
+      "zh-cn": "powernukkitx.md"
+    },
+    {
+      "zh-cn": "concurrent.md"
+    }
+  ]
+}
