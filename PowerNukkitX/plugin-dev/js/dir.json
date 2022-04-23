@@ -4,24 +4,33 @@
       "概述.md": 99,
       "插件格式.md": 98,
       "模块.md": 97,
-      "inner-module": 90
+      "inner-module": 90,
+      "概述_en-us.md": 99,
+      "插件格式_en-us.md": 98,
+      "模块_en-us.md": 97
     }
   },
   "title": {
     "inner-module": {
       "zh-cn": "内置模块",
       "en-us": "Inner Modules"
-    }
+    },
+    "概述_en-us.md": "Summary",
+    "模块_en-us.md": "Modules",
+    "插件格式_en-us.md": "Plugin Format"
   },
   "multiLanguage": [
     {
-      "zh-cn": "概述.md"
+      "zh-cn": "概述.md",
+      "en-us": "概述_en-us.md"
     },
     {
-      "zh-cn": "插件格式.md"
+      "zh-cn": "插件格式.md",
+      "en-us": "插件格式_en-us.md"
     },
     {
-      "zh-cn": "模块.md"
+      "zh-cn": "模块.md",
+      "en-us": "模块_en-us.md"
     }
   ]
 }

@@ -44,7 +44,25 @@
     "steps": [
       {
         "id": "JSDoc",
-        "use": "js-doc"
+        "use": "js-doc",
+        "args": {
+          "lang": {
+            "zh-cn": {
+              "class": "类",
+              "function": "函数",
+              "allow-esm": "允许通过ESM导入",
+              "type": "类型",
+              "return-type": "返回类型",
+              "parameters": "参数",
+              "name": "名称",
+              "comment": "注释",
+              "method": "方法",
+              "member": "成员",
+              "belong-to": "归属于",
+              "constructor": "构造函数"
+            }
+          }
+        }
       },
       {
         "id": "render-markdown",

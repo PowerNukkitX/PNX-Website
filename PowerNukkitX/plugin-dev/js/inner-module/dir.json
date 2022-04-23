@@ -3,32 +3,38 @@
     "priority": {
       "plugin-id.md": 99,
       "powernukkitx.md": 98,
-      "concurrent.md": 97
+      "concurrent.md": 97,
+      "plugin-id_en-us.md": 99,
+      "powernukkitx_en-us.md": 98,
+      "concurrent_en-us.md": 97
     }
   },
   "title": {
     "concurrent.md": {
-      "zh-cn": "concurrent模块",
-      "en-us": "Module concurrent"
+      "zh-cn": "concurrent模块"
     },
+    "concurrent_en-us.md": "concurrent",
     "plugin-id.md": {
-      "zh-cn": "plugin-id模块",
-      "en-us": "Module plugin-id"
+      "zh-cn": "plugin-id模块"
     },
+    "plugin-id_en-us.md": "plugin-id",
     "powernukkitx.md": {
-      "zh-cn": "powernukkitx模块",
-      "en-us": "Module powernukkitx"
-    }
+      "zh-cn": "powernukkitx模块"
+    },
+    "powernukkitx_en-us.md": "powernukkitx"
   },
   "multiLanguage": [
     {
-      "zh-cn": "plugin-id.md"
+      "zh-cn": "plugin-id.md",
+      "en-us": "plugin-id_en-us.md"
     },
     {
-      "zh-cn": "powernukkitx.md"
+      "zh-cn": "powernukkitx.md",
+      "en-us": "powernukkitx_en-us.md"
     },
     {
-      "zh-cn": "concurrent.md"
+      "zh-cn": "concurrent.md",
+      "en-us": "concurrent_en-us.md"
     }
   ]
 }
