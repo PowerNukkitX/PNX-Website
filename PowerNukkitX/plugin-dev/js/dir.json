@@ -3,11 +3,15 @@
     "priority": {
       "概述.md": 99,
       "插件格式.md": 98,
-      "模块.md": 97
+      "模块.md": 97,
+      "inner-module": 90
     }
   },
   "title": {
-
+    "inner-module": {
+      "zh-cn": "内置模块",
+      "en-us": "Inner Modules"
+    }
   },
   "multiLanguage": [
     {
