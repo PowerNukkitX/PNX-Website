@@ -1,0 +1,16 @@
+{
+  "catalogue": {
+    "priority": {
+
+    }
+  },
+  "title": {
+    "物品方块ID_en-us.md": "IDs"
+  },
+  "multiLanguage": [
+    {
+      "zh-cn": "物品方块ID.md",
+      "en-us": "物品方块ID_en-us.md"
+    }
+  ]
+}

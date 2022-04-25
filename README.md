@@ -1,4 +1,3 @@
-# PNX-Website
-PowerNukkitX Offical Website
+# PowerNukkitX  
 
-Coming Soon....
+- [Documents](https://doc.powernukkitx.cn/)  

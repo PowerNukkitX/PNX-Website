@@ -8,6 +8,10 @@
     "js": {
       "zh-cn": "JavaScript插件开发",
       "en-us": "JavaScript Plugins"
+    },
+    "res": {
+      "zh-cn": "实用资源",
+      "en-us": "Resources"
     }
   },
   "multiLanguage": []
