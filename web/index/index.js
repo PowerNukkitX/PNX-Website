@@ -6,23 +6,19 @@ const eng = {
     "wip.main": "Coming soon...",
     "wip.ok": "OK",
     "more-menu.switch-theme": "Switch theme",
+    "more-menu.document": "PNX docs",
     "more-menu.switch-to-day": "Switched to day theme",
     "more-menu.switch-to-night": "Switched to night theme",
-    "more-menu.ok": "OK",
-    "index.doc-site": "Documents",
-    "index.doc": "Document",
-    "index.open-doc": "Goto documents"
+    "more-menu.ok": "OK"
 }
 const chn = {
     "wip.main": "此功能正在开发中",
     "wip.ok": "确认",
     "more-menu.switch-theme": "切换主题",
+    "more-menu.document": "PNX文档",
     "more-menu.switch-to-day": "已切换至日间主题",
     "more-menu.switch-to-night": "已切换至夜间主题",
-    "more-menu.ok": "确认",
-    "index.doc-site": "文档站",
-    "index.doc": "文档",
-    "index.open-doc": "前往文档"
+    "more-menu.ok": "确认"
 }
 
 function switchTheme(noNotice) {

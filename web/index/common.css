@@ -1,0 +1,71 @@
+.icon-image {
+    width: 48px;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+.icon-title {
+    font-weight: bold;
+    margin-top: -12px;
+    min-width: 33px;
+}
+
+.icon-title .icon-title-main {
+    padding-bottom: 4px;
+    border-bottom: 4px solid white;
+}
+
+.icon-title .icon-title-space {
+    width: 1px;
+}
+
+.icon-title .icon-title-sup {
+    font-size: 16px;
+    position: absolute;
+    margin-top: -3px;
+    margin-left: 1px;
+}
+
+.v-space-md {
+    height: 32px;
+}
+
+.h-space-md {
+    width: 32px;
+}
+
+.copyright {
+    width: fit-content;
+    font-size: 8px;
+}
+
+.logo-title {
+    font-weight: bold;
+    font-size: calc(max(4.5vw + 24px, 40px));
+    margin: 32px 0 12px 32px;
+}
+
+@media (max-width: 600px) {
+    .logo-title {
+        margin: 16px 0 0 0;
+        text-align: center;
+    }
+}
+
+.logo-icon {
+    width: 95%;
+    padding-top: 2.5%;
+    padding-left: 2.5%;
+}
+
+.fit {
+    width: fit-content;
+}
+
+.parent-width {
+    width: 100%;
+}
+
+.switch-language-text {
+    margin: 18px 0 8px 0;
+}
