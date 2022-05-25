@@ -41,8 +41,19 @@
 
 .logo-title {
     font-weight: bold;
-    font-size: calc(max(4.5vw + 24px, 40px));
-    margin: 32px 0 12px 32px;
+    font-size: max(6vw, 40px);
+    margin: calc(3vw) 0 12px 32px;
+}
+
+.logo-description {
+    font-size: max(3vw, 18px);
+    margin: calc(3vw) 0 12px 32px;
+}
+
+@media (min-width: 600px) {
+    .logo-description {
+        display: block;
+    }
 }
 
 @media (max-width: 600px) {
@@ -50,12 +61,50 @@
         margin: 16px 0 0 0;
         text-align: center;
     }
+
+    .logo-description {
+        margin: 16px 0 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
 }
 
 .logo-icon {
     width: 95%;
     padding-top: 2.5%;
     padding-left: 2.5%;
+}
+
+#logo-dyn-description {
+    text-align: center;
+}
+
+#logo-dyn-description:after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: max(3vw, 18px);
+    transform: translate(2px, 2px);
+    animation: blink 1.2s infinite steps(1, start);
+}
+
+@keyframes blink {
+    0%, 100% {
+        background-color: #000;
+    }
+    50% {
+        background-color: transparent;
+    }
+}
+
+.link-btn-box {
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 .fit {
