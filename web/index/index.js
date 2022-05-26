@@ -22,7 +22,22 @@ const eng = {
     "logo-des-7": "384-height worlds ",
     "logo-des-8": "Multi-world supported ",
     "logo-des-9": "Epic world generator within ",
-    "link.source-code": "Source Code"
+    "link.source-code": "Source Code",
+    "text.why-choose-pnx": "Why choose PNX?",
+    "text.servers-choice": "Many servers' choice",
+    "text.running-pnx": "servers are running PNX",
+
+    "text.high-performance": "High performance",
+    "text.high-performance.description": "Multi-core parallel computing + Graal JIT",
+    "text.high-performance.content": "The parallel processing capability of PNX enables it to make full use of multi-core CPU. You don't need to pursue high CPU frequency, and you can enjoy the huge performance improvement brought by multi-core CPU. At the same time, we use the world's leading graaljit compiler to dynamically convert java code into high-quality machine code most suitable for your CPU, so that Java code has high performance comparable to C++.",
+
+    "text.more-feature": "Vanilla features",
+    "text.more-feature.description": "All blocks, items, recipes, etc.",
+    "text.more-feature.content": "PNX supports more vanilla features, including but not limited to all blocks, items, recipes, redstone, vanilla commands, water-logged blocks, etc. PNX is committed to providing a better survival mode game experience.",
+
+    "text.and-more": "And more...",
+    "text.and-more.description": "More advantages are waiting you to explore.",
+    "text.and-more.content": "PNX has countless other advantages, waiting to meet you in the process of using it."
 }
 const chn = {
     "wip.main": "此功能正在开发中",
@@ -43,7 +58,22 @@ const chn = {
     "logo-des-7": "拥有384格全新世界",
     "logo-des-8": "支持单端多世界",
     "logo-des-9": "能够生成壁纸级史诗地形",
-    "link.source-code": "源代码"
+    "link.source-code": "源代码",
+    "text.why-choose-pnx": "为什么选择PNX？",
+    "text.servers-choice": "众多服务器的共同选择",
+    "text.running-pnx": "台服务器正在运行PNX",
+
+    "text.high-performance": "高性能",
+    "text.high-performance.description": "多核并行计算 + Graal即时编译器",
+    "text.high-performance.content": "PNX的并行处理能力使得其能够更充分地利用多核CPU，您无需追求CPU高主频，可以享受多核心CPU带来的巨大性能提升。同时，我们引入世界领先的GraalJIT编译器，将java代码动态转换为最适合您的CPU的高质量机器码，让java代码拥有堪比C++的高性能。",
+
+    "text.more-feature": "更多原版特性",
+    "text.more-feature.description": "高版本方块、物品、合成等应有尽有",
+    "text.more-feature.content": "PNX支持更多原版特性，包括但不限于所有原版方块、物品及其合成，红石电路，原版命令，含水方块等。PNX致力于提供更好的生存游戏体验。",
+
+    "text.and-more": "还有更多...",
+    "text.and-more.description": "更多优点等待您探索",
+    "text.and-more.content": "PNX还有其他数不胜数的优点，等待着在您在使用的过程中与您邂逅。"
 }
 
 function switchTheme(noNotice) {
@@ -127,3 +157,42 @@ function retype(component, str, delay) {
     }
     return (component.innerText.length + str.length + 1) * delay;
 }
+
+/**
+ * 发送get请求
+ * @param url {string}
+ * @return {Promise<unknown>}
+ */
+function get(url) {
+    return new Promise(function (resolve, reject) {
+        const req = new XMLHttpRequest();
+        req.open('GET', url);
+        req.onload = function () {
+            if (req.status === 200) {
+                resolve(req.response);
+            } else {
+                reject(Error(req.statusText));
+            }
+        };
+        req.onerror = function () {
+            reject(Error("Network Error"));
+        };
+        req.send();
+    });
+}
+
+async function refreshPNXServers(callback) {
+    const response = await get("https://bstats.org/api/v1/plugins/10277/charts/nukkit_version/data");
+    const data = JSON.parse(response);
+    let count = 0;
+    for (const each of data) {
+        if (each.name.indexOf("PNX") !== -1) {
+            count += each.y;
+        }
+    }
+    if (callback) {
+        callback(count);
+    }
+}
+
+refreshPNXServers(count => document.getElementById("pnx-server-count").innerText = count).then(() => {});

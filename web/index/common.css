@@ -1,3 +1,5 @@
+/*3f51b5*/
+
 .icon-image {
     width: 48px;
     vertical-align: middle;
@@ -105,6 +107,33 @@
     display: flex;
     align-content: center;
     justify-content: center;
+}
+
+.card-bottom-gap {
+    margin-bottom: 16px;
+}
+
+.content-title {
+    text-align: center;
+    display: block!important;
+    margin-right: auto!important;
+    margin-left: auto!important;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media (min-width: 600px) {
+    .content-title {
+        font-weight: bold;
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    .content-title {
+        font-weight: bold;
+        font-size: 24px;
+    }
 }
 
 .fit {
