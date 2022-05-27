@@ -25,7 +25,9 @@ const eng = {
     "link.source-code": "Source Code",
     "text.why-choose-pnx": "Why choose PNX?",
     "text.servers-choice": "Many servers' choice",
-    "text.running-pnx": "servers are running PNX",
+    "text.servers": "servers",
+    "text.running-pnx": "are running PNX",
+    "text.on-github": "on Github",
 
     "text.high-performance": "High performance",
     "text.high-performance.description": "Multi-core parallel computing + Graal JIT",
@@ -61,7 +63,9 @@ const chn = {
     "link.source-code": "源代码",
     "text.why-choose-pnx": "为什么选择PNX？",
     "text.servers-choice": "众多服务器的共同选择",
-    "text.running-pnx": "台服务器正在运行PNX",
+    "text.servers": "台服务器",
+    "text.running-pnx": "此刻正在运行PNX",
+    "text.on-github": "在Github平台上",
 
     "text.high-performance": "高性能",
     "text.high-performance.description": "多核并行计算 + Graal即时编译器",
@@ -70,6 +74,18 @@ const chn = {
     "text.more-feature": "更多原版特性",
     "text.more-feature.description": "高版本方块、物品、合成等应有尽有",
     "text.more-feature.content": "PNX支持更多原版特性，包括但不限于所有原版方块、物品及其合成，红石电路，原版命令，含水方块等。PNX致力于提供更好的生存游戏体验。",
+
+    "text.massive-plugins":"海量插件",
+    "text.massive-plugins.description":"数千插件，任您选用",
+    "text.massive-plugins.content":"PNX在添加众多原版特性的同时仍保留了较好的插件兼容性，能够直接运行基于NukkitX和PowerNukkit编写的Java插件。此外，PNX还基于内置的JS引擎实现了LiteLoader的JSAPI，这使得LLSE插件经过少许更改即可运行在PNX上。",
+
+    "text.vanilla-command":"原版命令",
+    "text.vanilla-command.description":"支持原版命令和命令方块",
+    "text.vanilla-command.content":"PNX允许您在游戏中使用原版命令和命令方块，绝大多数原版命令和mcfunction文件都可以在pnx上使用。您可以使用命令方块快捷地自定义您的服务器。",
+
+    "text.js-engine":"JS插件",
+    "text.js-engine.description":"基于ES13标准和ESM的现代化JS插件",
+    "text.js-engine.content":"您可以使用JS快速编写基于PNX的插件。基于ES13标准和ESM的JS插件引擎使得您可以快速稳定地构建大型插件，同时保留良好的跨插件交互性，JS插件可以与其他JS或Java插件无缝交互，与Java代码一道被融合编译，打破语言边界，获取超高性能。",
 
     "text.and-more": "还有更多...",
     "text.and-more.description": "更多优点等待您探索",
@@ -196,3 +212,4 @@ async function refreshPNXServers(callback) {
 }
 
 refreshPNXServers(count => document.getElementById("pnx-server-count").innerText = count).then(() => {});
+get("https://api.powernukkitx.cn/get-github-star").then(response => document.getElementById("pnx-star-count").innerText = response);

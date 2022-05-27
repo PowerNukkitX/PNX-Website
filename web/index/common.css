@@ -113,6 +113,13 @@
     margin-bottom: 16px;
 }
 
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .content-title {
     text-align: center;
     display: block!important;
