@@ -12,6 +12,10 @@
     min-width: 33px;
 }
 
+.icon-noradius {
+    border-radius: 0;
+}
+
 .icon-title .icon-title-main {
     padding-bottom: 4px;
     border-bottom: 4px solid white;
