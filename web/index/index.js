@@ -1,4 +1,4 @@
-// noinspection JSUnresolvedFunction,JSUnresolvedVariable,DuplicatedCode
+// noinspection JSUnresolvedFunction,JSUnresolvedVariable,DuplicatedCode,NonAsciiCharacters
 
 let languageId = (window.language || navigator.language || navigator.browserLanguage).toLowerCase();
 const $ = mdui.$;
@@ -28,6 +28,12 @@ const eng = {
     "text.servers": "servers",
     "text.running-pnx": "are running PNX",
     "text.on-github": "on Github",
+    "text.thanks": "Thanks for ",
+    "倾囊相助": "generous sponsorship",
+    "慷慨解囊": "sponsorship",
+    "精神支持": "support",
+    "text.thanks-month-sponsors": "Thanks to sponsors this month",
+    "text.thanks-all-sponsors": "Thanks to all sponsors",
 
     "text.high-performance": "High performance",
     "text.high-performance.description": "Multi-core parallel computing + Graal JIT",
@@ -36,6 +42,18 @@ const eng = {
     "text.more-feature": "Vanilla features",
     "text.more-feature.description": "All blocks, items, recipes, etc.",
     "text.more-feature.content": "PNX supports more vanilla features, including but not limited to all blocks, items, recipes, redstone, vanilla commands, water-logged blocks, etc. PNX is committed to providing a better survival mode game experience.",
+
+    "text.massive-plugins": "Massive plugins",
+    "text.massive-plugins.description": "Thousands of plugins for you to choose",
+    "text.massive-plugins.content": "PNX retains good plugin compatibility while adding many vanilla features, and can directly run Java plugins written targeting nukkitx and PowerMockito. In addition, PNX also implements the JSAPI of LiteLoader based on the built-in JS engine, which enables LLSE plugins to run on PNX with only a few changes.",
+
+    "text.vanilla-command": "Vanilla command",
+    "text.vanilla-command.description": "Vanilla command & command blocks",
+    "text.vanilla-command.content": "PNX allows you to use the vanilla commands and command blocks in your server. The vast majority of the original commands and mcfunction files can work on PNX. You can quickly customize your server using the command block.",
+
+    "text.js-engine": "JS Plugin",
+    "text.js-engine.description": "JS plugins based on ES13 & ESM",
+    "text.js-engine.content": "You can use JS to quickly write PNX based plugins. The JS plugin engine based on ES13 standard and ESM enables you to build large plugins quickly and stably, while maintaining good cross plugin interaction. JS plugins can directly interact with other JS or Java plugins, and be compiled together with Java bytecode, breaking language boundaries and obtaining ultra-high performance.",
 
     "text.and-more": "And more...",
     "text.and-more.description": "More advantages are waiting you to explore.",
@@ -66,6 +84,9 @@ const chn = {
     "text.servers": "台服务器",
     "text.running-pnx": "此刻正在运行PNX",
     "text.on-github": "在Github平台上",
+    "text.thanks": "感谢您",
+    "text.thanks-month-sponsors": "感谢本月赞助者",
+    "text.thanks-all-sponsors": "感谢所有赞助者",
 
     "text.high-performance": "高性能",
     "text.high-performance.description": "多核并行计算 + Graal即时编译器",
@@ -75,17 +96,17 @@ const chn = {
     "text.more-feature.description": "高版本方块、物品、合成等应有尽有",
     "text.more-feature.content": "PNX支持更多原版特性，包括但不限于所有原版方块、物品及其合成，红石电路，原版命令，含水方块等。PNX致力于提供更好的生存游戏体验。",
 
-    "text.massive-plugins":"海量插件",
-    "text.massive-plugins.description":"数千插件，任您选用",
-    "text.massive-plugins.content":"PNX在添加众多原版特性的同时仍保留了较好的插件兼容性，能够直接运行基于NukkitX和PowerNukkit编写的Java插件。此外，PNX还基于内置的JS引擎实现了LiteLoader的JSAPI，这使得LLSE插件经过少许更改即可运行在PNX上。",
+    "text.massive-plugins": "海量插件",
+    "text.massive-plugins.description": "数千插件，任您选用",
+    "text.massive-plugins.content": "PNX在添加众多原版特性的同时仍保留了较好的插件兼容性，能够直接运行基于NukkitX和PowerNukkit编写的Java插件。此外，PNX还基于内置的JS引擎实现了LiteLoader的JSAPI，这使得LLSE插件经过少许更改即可运行在PNX上。",
 
-    "text.vanilla-command":"原版命令",
-    "text.vanilla-command.description":"支持原版命令和命令方块",
-    "text.vanilla-command.content":"PNX允许您在游戏中使用原版命令和命令方块，绝大多数原版命令和mcfunction文件都可以在pnx上使用。您可以使用命令方块快捷地自定义您的服务器。",
+    "text.vanilla-command": "原版命令",
+    "text.vanilla-command.description": "支持原版命令和命令方块",
+    "text.vanilla-command.content": "PNX允许您在游戏中使用原版命令和命令方块，绝大多数原版命令和mcfunction文件都可以在pnx上使用。您可以使用命令方块快捷地自定义您的服务器。",
 
-    "text.js-engine":"JS插件",
-    "text.js-engine.description":"基于ES13标准和ESM的现代化JS插件",
-    "text.js-engine.content":"您可以使用JS快速编写基于PNX的插件。基于ES13标准和ESM的JS插件引擎使得您可以快速稳定地构建大型插件，同时保留良好的跨插件交互性，JS插件可以与其他JS或Java插件无缝交互，与Java代码一道被融合编译，打破语言边界，获取超高性能。",
+    "text.js-engine": "JS插件",
+    "text.js-engine.description": "基于ES13标准和ESM的现代化JS插件",
+    "text.js-engine.content": "您可以使用JS快速编写基于PNX的插件。基于ES13标准和ESM的JS插件引擎使得您可以快速稳定地构建大型插件，同时保留良好的跨插件交互性，JS插件可以与其他JS或Java插件无缝交互，与Java代码一道被融合编译，打破语言边界，获取超高性能。",
 
     "text.and-more": "还有更多...",
     "text.and-more.description": "更多优点等待您探索",
@@ -148,9 +169,11 @@ $('[translate=yes]').each((index, value) => {
  */
 function translate(key) {
     if (languageId === "zh-cn") {
-        return chn[key];
+        const tmp = chn[key];
+        return tmp ? tmp : key;
     }
-    return eng[key];
+    const tmp = eng[key];
+    return tmp ? tmp : key;
 }
 
 /**
@@ -211,5 +234,29 @@ async function refreshPNXServers(callback) {
     }
 }
 
-refreshPNXServers(count => document.getElementById("pnx-server-count").innerText = count).then(() => {});
+async function refreshAfdianSponsors() {
+    const response = await get("https://api.powernukkitx.cn/get-afdian-sponsor");
+    const data = JSON.parse(response);
+    const bigTemplate = document.getElementById("sponsor-big-template").innerHTML;
+    const smallTemplate = document.getElementById("sponsor-small-template").innerHTML;
+    let bigHTML = "";
+    let smallHTML = "";
+    for (const each of data) {
+        if (each.current_plan && each.current_plan.name && each.current_plan.name !== "") {
+            bigHTML += bigTemplate.replace("dynamic.user-icon-src", each.user.avatar)
+                .replace("dynamic.user-name", each.user.name)
+                .replace("dynamic.user-donation", translate("text.thanks") + translate(each.current_plan.name));
+        } else {
+            smallHTML += smallTemplate.replace("dynamic.user-icon-src", each.user.avatar)
+                .replace("dynamic.user-name", each.user.name);
+        }
+    }
+    document.getElementById("donating-sponsor-box").innerHTML = bigHTML;
+    document.getElementById("all-sponsor-box").innerHTML = smallHTML;
+}
+
+refreshPNXServers(count => document.getElementById("pnx-server-count").innerText = count).then(() => {
+});
 get("https://api.powernukkitx.cn/get-github-star").then(response => document.getElementById("pnx-star-count").innerText = response);
+refreshAfdianSponsors().then(() => {
+});
