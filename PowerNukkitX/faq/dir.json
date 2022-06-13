@@ -1,12 +1,12 @@
 {
   "catalogue": {
     "priority": {
-
     }
   },
   "title": {
     "Server_faq.md": "Server related",
-    "Terra_faq.md": "Terra related"
+    "Terra_faq.md": "Terra related",
+    "To_Newcomers.md": "To newcomers"
   },
   "multiLanguage": [
     {
@@ -16,6 +16,10 @@
     {
       "zh-cn": "Terra问题.md",
       "en-us": "Terra_faq.md"
+    },
+    {
+      "zh-cn": "新人解惑.md",
+      "en-us": "To_Newcomers.md"
     }
   ]
 }
