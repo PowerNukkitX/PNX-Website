@@ -35,48 +35,48 @@ Nukkit服务器语言
  如果设置为auto，服务器将尝试检测CPU的核心数量（至少4个）
 
 ## network:
- batch-threshold: 256
- compression-level: 7
- async-compression: false
+ - batch-threshold: 256
+ - compression-level: 7
+ - async-compression: false
 
 ## debug:
- level: 1
- commands: false
- ignored-packets:
-  - LevelChunkPacket
+ - level: 1
+ - commands: false
+ - ignored-packets:
+   - LevelChunkPacket
 
 ## timings:
- enabled: false
- verbose: false
- history-interval: 6000
- history-length: 72000
- bypass-max: false
- privacy: false
- ignore: []
+- enabled: false
+- verbose: false
+-　history-interval: 6000
+- history-length: 72000
+- bypass-max: false
+- privacy: false
+- ignore: []
 
 ## level-settings:
- default-format: anvil
- auto-tick-rate: true
- auto-tick-rate-limit: 20
- base-tick-rate: 1
- always-tick-players: false
- tick-redstone: true
+- default-format: anvil
+- auto-tick-rate: true
+- auto-tick-rate-limit: 20
+- base-tick-rate: 1
+- always-tick-players: false
+- tick-redstone: true
 
 ## chunk-sending:
- per-tick: 4
- max-chunks: 192
- spawn-threshold: 56
- cache-chunks: false
+- per-tick: 4
+- max-chunks: 192
+- spawn-threshold: 56
+- cache-chunks: false
 
 ## chunk-ticking:
- per-tick: 40
- tick-radius: 3
- light-updates: false
- clear-tick-list: false
+- per-tick: 40
+- tick-radius: 3
+- light-updates: false
+- clear-tick-list: false
 
 ## chunk-generation:
- queue-size: 8
- population-queue-size: 8
+- queue-size: 8
+- population-queue-size: 8
 
 ## ticks-per:
 这些实体最大随机刻 (当前无效)
