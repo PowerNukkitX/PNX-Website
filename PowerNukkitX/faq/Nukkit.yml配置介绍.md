@@ -9,18 +9,18 @@ Nukkit服务器语言
 - jpn　日语
 - rus　俄语
 - spa　西班牙语　
-- pol  波兰语
-- bra  葡萄牙语-巴西
-- kor  韩语
-- ukr  乌克兰语
-- deu  德语
-- ltu  立陶宛语
-- idn  印度尼西亚语
-- cze  捷克语
-- tur  土耳其语
-- fin  芬兰
-- vie  越南语
-- fra  法语
+- pol　波兰语
+- bra　葡萄牙语-巴西
+- kor　韩语
+- ukr　乌克兰语
+- deu　德语
+- ltu　立陶宛语
+- idn　印度尼西亚语
+- cze　捷克语
+- tur　土耳其语
+- fin　芬兰
+- vie　越南语
+- fra　法语
  ## force-language: false
  是否强制服务器语言(false 关闭 true 开启)
  ## shutdown-message: "Server closed"
@@ -34,18 +34,18 @@ Nukkit服务器语言
  异步工作的线程数量
  如果设置为auto，服务器将尝试检测CPU的核心数量（至少4个）
 
-network:
+## network:
  batch-threshold: 256
  compression-level: 7
  async-compression: false
 
-debug:
+## debug:
  level: 1
  commands: false
  ignored-packets:
   - LevelChunkPacket
 
-timings:
+## timings:
  enabled: false
  verbose: false
  history-interval: 6000
@@ -54,7 +54,7 @@ timings:
  privacy: false
  ignore: []
 
-level-settings:
+## level-settings:
  default-format: anvil
  auto-tick-rate: true
  auto-tick-rate-limit: 20
@@ -62,19 +62,19 @@ level-settings:
  always-tick-players: false
  tick-redstone: true
 
-chunk-sending:
+## chunk-sending:
  per-tick: 4
  max-chunks: 192
  spawn-threshold: 56
  cache-chunks: false
 
-chunk-ticking:
+## chunk-ticking:
  per-tick: 40
  tick-radius: 3
  light-updates: false
  clear-tick-list: false
 
-chunk-generation:
+## chunk-generation:
  queue-size: 8
  population-queue-size: 8
 
