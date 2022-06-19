@@ -1,4 +1,4 @@
-# server.properties配置介绍
+# server.properties　配置介绍
 ## motd=PowerNukkitX Server
 表示服务器ESC显示名称
 ## sub-motd=https://powernukkitx.cn
