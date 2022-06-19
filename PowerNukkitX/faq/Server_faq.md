@@ -24,7 +24,7 @@ If the error is reported as: module `java.base` does not "opens `java.lang`" to 
 ## java.lang.UnsupportedClassVersionError
 Install Java17. [Download](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/17/jre/x64/windows/OpenJDK17U-jre_x64_windows_hotspot_17.0.2_8.zip)
 ## java.net.BindException: Address already in use: bind
-### solution
+### Solution
 #### Windows solution
 Win+R opens the Run window, type cmd in the window to open the command window that comes with Windows
 ```
