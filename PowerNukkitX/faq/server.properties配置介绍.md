@@ -50,7 +50,7 @@
 ## level-seed=
 主世界地图种子
 ## level-type=DEFAULT
-- 主世界地图类型 (DEFAULT　默认)
+- 主世界地图类型　(DEFAULT　默认)
 - [纯原版生成器](https://github.com/KCodeYT/VanillaGenerator)　(Vanilla　纯原版世界类型)
 - [Terra史诗世界生成器](Terra问题.html)
 ## allow-nether=on
