@@ -35,17 +35,20 @@ Nukkit服务器语言
  如果设置为auto，服务器将尝试检测CPU的核心数量（至少4个）
 
 ## network:
+网络相关设置
  - batch-threshold: 256
  - compression-level: 7
  - async-compression: false
 
 ## debug:
+debug相关设置
  - level: 1
  - commands: false
  - ignored-packets:
    - LevelChunkPacket
 
 ## timings:
+查找服务器卡顿原因
 - enabled: false
 - verbose: false
 -　history-interval: 6000
@@ -55,6 +58,7 @@ Nukkit服务器语言
 - ignore: []
 
 ## level-settings:
+地图设置
 - default-format: anvil
 - auto-tick-rate: true
 - auto-tick-rate-limit: 20
@@ -63,18 +67,21 @@ Nukkit服务器语言
 - tick-redstone: true
 
 ## chunk-sending:
+区块设置
 - per-tick: 4
 - max-chunks: 192
 - spawn-threshold: 56
 - cache-chunks: false
 
 ## chunk-ticking:
+区块随机刻
 - per-tick: 40
 - tick-radius: 3
 - light-updates: false
 - clear-tick-list: false
 
 ## chunk-generation:
+区块生成器
 - queue-size: 8
 - population-queue-size: 8
 
