@@ -36,8 +36,7 @@ Example:
 C:\Users\Administrator>netstat -ano|findstr 19132
   UDP    0.0.0.0:19132          *:*                                    12228
 ```
-Find the corresponding port with the corresponding UDP number 12228
-Type in a Windows command window to unblock port 19132
+Find the corresponding UDP number for port 12228 and enter the following command in the Windows command window to unlock port 19132
 ```
 taskkill /f /t /im 12228
 ```
