@@ -18,7 +18,7 @@ go to [Action](https://github.com/PowerNukkitX/PowerNukkitX/actions), open the b
 
 #### Windows
 
-Download openjdk17 [Installer](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/17/jre/x64/windows/OpenJDK17U-jre_x64_windows_hotspot_17.0.2_8.msi)
+Download openjdk17 [Installer](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jre/x64/windows/OpenJDK17U-jre_x64_windows_hotspot_17.0.3_7.msi)
 And follow the prompts to install, default all the way to the next step to complete the installation.
 
 #### Linux
