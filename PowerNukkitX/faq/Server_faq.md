@@ -23,3 +23,30 @@ If the error is reported as: module `java.base` does not "opens `java.lang`" to 
 
 ## java.lang.UnsupportedClassVersionError
 Install Java17. [Download](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/17/jre/x64/windows/OpenJDK17U-jre_x64_windows_hotspot_17.0.2_8.zip)
+## java.net.BindException: Address already in use: bind
+### solution
+#### Windows solution
+Win+R opens the Run window, type cmd in the window to open the command window that comes with Windows
+```
+netstat -ano|findstr 19132
+```
+Enter the above command to check if the port is occupied, the number 19132 represents the port
+Example:
+```
+C:\Users\Administrator>netstat -ano|findstr 19132
+  UDP    0.0.0.0:19132          *:*                                    12228
+```
+Find the corresponding port with the corresponding UDP number 12228
+Type in a Windows command window to unblock port 19132
+```
+taskkill /f /t /im 12228
+```
+#### Linux solution
+Enter the following command in the command box
+```
+netstat -tln | grep 19132
+```
+Check the corresponding system PID number to end the process using the following command
+```
+kill -9 PID
+```
