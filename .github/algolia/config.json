@@ -4,7 +4,12 @@
     "https://doc.powernukkitx.cn"
   ],
   "scrape_start_urls": false,
-  "selectors_exclude": [".footer", "ul.deprecated", ".switch-language-text", "mdui-appbar"],
+  "selectors_exclude": [
+    ".footer",
+    "ul.deprecated",
+    ".switch-language-text",
+    "mdui-appbar"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "h1",
@@ -15,7 +20,11 @@
     "lvl3": "h4",
     "lvl4": "h5",
     "lvl5": "h6",
-    "text": "p, li, td, code",
-    "language": ".lang-ele"
+    "text": "p, li, td, code"
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language"
+    ]
   }
 }
