@@ -19,7 +19,7 @@ function translate(key) {
 }
 
 const langSearchParameters = {
-    facetFilters: ['language:zh-cn']
+    facetFilters: ['language:zh']
 }
 
 const algoliaTranslations = {

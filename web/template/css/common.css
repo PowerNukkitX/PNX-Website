@@ -60,3 +60,7 @@ ol.category-sub {
 .DocSearch-Container {
     z-index: 1000;
 }
+
+.lang-ele {
+    display: none;
+}

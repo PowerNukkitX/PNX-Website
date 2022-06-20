@@ -19,7 +19,7 @@ function translate(key) {
 }
 
 const langSearchParameters = {
-    facetFilters: ['language:en-us']
+    facetFilters: ['language:en']
 }
 
 const algoliaTranslations = {}
