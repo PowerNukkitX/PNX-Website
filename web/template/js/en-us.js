@@ -17,3 +17,11 @@ const chn = {
 function translate(key) {
     return chn[key];
 }
+
+const langSearchParameters = {
+    facetFilters: ['language:en']
+}
+
+const algoliaTranslations = {}
+
+const algoliaPlaceholder = "Search in PNX docs"

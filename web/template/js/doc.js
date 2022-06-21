@@ -72,5 +72,15 @@ function defaultCheckTheme() {
 
 window.addEventListener("load", () => {
     checkLanguage();
+    docsearch({
+        container: document.getElementById("docsearch"),
+        appId: 'OFCZA0B2HT',
+        indexName: 'pnx_doc',
+        apiKey: 'dd150e9149e9cb03cfbcee5629eca3a9',
+        searchParameters: langSearchParameters,
+        translations: algoliaTranslations,
+        placeholder: algoliaPlaceholder
+    });
 })
+
 defaultCheckTheme();

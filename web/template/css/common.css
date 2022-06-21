@@ -50,3 +50,17 @@ ol.category-sub {
 .switch-language-text {
     margin: 18px 0 8px 0;
 }
+
+#docsearch {
+    min-width: 36px;
+    min-height: 36px;
+    margin: 0 0 0 0;
+}
+
+.DocSearch-Container {
+    z-index: 1000;
+}
+
+.lang-ele {
+    display: none;
+}

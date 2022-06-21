@@ -1,0 +1,34 @@
+name: Algolia DocSearch
+
+on:
+  #   push:
+  #     branches: [ master ]
+  #   pull_request:
+  #     branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出仓库文件
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: 创建密钥文件
+        run: touch .env
+
+      - name: 写入临时密钥
+        run: echo -e "APPLICATION_ID=${{ secrets.ALGOLIA_APP_ID }}\nAPI_KEY=${{ secrets.ALGOLIA_KEY }}" > .env
+
+      - name: 创建配置文件
+        run: touch config.json
+
+      - name: 移动配置文件
+        run: mv ./.github/algolia/config.json config.json
+
+      - name: 运行文档爬取
+        run: docker run -i --env-file=.env -e "CONFIG=$(cat config.json | jq -r tostring)" algolia/docsearch-scraper

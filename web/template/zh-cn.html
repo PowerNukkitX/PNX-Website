@@ -10,10 +10,13 @@
     <meta name="renderer" content="webkit"/>
     <meta name="force-rendering" content="webkit"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="docsearch:language" content="zh" />
     <title>PowerNukkitX文档 - %title%</title>
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/mdui/1.0.2/css/mdui.min.css"
           crossorigin="anonymous"/>
+    <!--  DocSearch CSS  -->
+    <link rel="stylesheet" href="https://unpkg.com/@docsearch/css@3"/>
     <!--  Prism.js代码高亮  -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/line-numbers/prism-line-numbers.min.css"
@@ -26,9 +29,12 @@
 <script>
     window.languageLinks = JSON.parse(`%languageFiles%`)
 </script>
+<!-- DocSearch搜索库 -->
+<script src="https://unpkg.com/@docsearch/js@3"></script>
 <!-- PNX文档JS库 -->
 <!--suppress HtmlUnknownTarget -->
 <script src="%relativePrefix%js/doc.min.js"></script>
+<i class="lang-ele">zh</i>
 <header class="appbar mdui-appbar mdui-appbar-fixed">
     <div class="mdui-appbar">
         <div class="mdui-toolbar mdui-color-theme">
@@ -41,9 +47,7 @@
             </a>
             <span class="mdui-typo-title">%title%</span>
             <div class="mdui-toolbar-spacer"></div>
-            <a href="javascript:wip()" class="mdui-btn mdui-btn-icon">
-                <i class="mdui-icon material-icons">search</i>
-            </a>
+            <div id="docsearch"></div>
             <a href="javascript:" class="mdui-btn mdui-btn-icon" mdui-menu="{target: '#more-menu'}">
                 <i class="mdui-icon material-icons">more_vert</i>
             </a>
