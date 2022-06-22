@@ -34,7 +34,7 @@
 ## force-gamemode=off
 是否强制游戏模式(OFF关闭　ON开启)
 ## hardcore=off
-是否开启硬核模式(OFF关闭　ON开启)
+是否开启极限难度模式(OFF关闭　ON开启)
 ## pvp=on
 是否开启PVP(OFF关闭　ON开启)
 ## difficulty=1
