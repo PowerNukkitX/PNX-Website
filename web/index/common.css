@@ -32,8 +32,16 @@
     height: 32px;
 }
 
-.h-space-md {
-    width: 32px;
+@media (min-width: 600px) {
+    .h-space-md {
+        width: 48px;
+    }
+}
+
+@media (max-width: 600px) {
+    .h-space-md {
+        width: 8px;
+    }
 }
 
 .copyright {
