@@ -107,5 +107,37 @@ pnx -h
 chmod 777 pnx
 ```
 4. 检测你的计算机是否是安装JAVA 17环境
-5. 安装PNX服务端核心
-6. 安装PNX运行所需的依赖库
+```
+pnx jvm check
+```
+5 .输入下述指令查看可安装的JVM
+```
+pnx jvm remote
+```
+选择以下任意一款JVM安装到你计算机
+1. GraalVM (349MB)
+2. AdoptOpenJDK (41.1MB)
+- 强烈推荐使用 GraalVM JAVA 这能让你的PowerNukkitX在处理Java与JavaScript速度更快！\
+输入下述指令安装(反之跳过)
+```
+pnx jvm install=GraalVM  
+```
+或者
+```
+pnx jvm install=AdoptOpenJDK
+```
+需要等待一段时间(根据自身主机网速决定)
+
+6. 安装PNX服务端核心
+```
+pnx server install
+```
+这时会出现最近30天内更新的PNX主分支核心\
+在下述文本后输入对应分支的编号,即可下载
+```
+Enter the index of the PNX version you want to install:
+```
+7. 安装PNX运行所需的依赖库
+```
+pnx libs -u
+```
