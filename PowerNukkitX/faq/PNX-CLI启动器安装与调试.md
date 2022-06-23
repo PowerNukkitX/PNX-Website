@@ -3,6 +3,17 @@
 PNX-CLI启动器[点击访问](https://github.com/PowerNukkitX/PNX-CLI/releases/tag/v0.0.2)
 ## PNX-CLI启动器是什么？
 它能在你的主机上快捷部署PowerNukkitX服务器,更少的占用,更方便的管理
+## 如何设置PNX-CLI参数？
+创建**pnx-cli-config.ini**文件
+输入下述文本:
+```
+#简体中文 zh-cn English en-us;
+language=zh-cn
+#选择你的JVM;
+preferredJVM=GraalVM
+#自定义JVM位置
+jvmPath=D:\jdk\java17\bin
+```
 ## PNX-CLI如何安装？
 PNX-CLI提供了3个场景部署的项目
 - PNX-CLI-Linux-arm
