@@ -72,7 +72,7 @@ pnx libs -u
 安装完毕后你PNX服务端基本工作已完成部署！
 ### 基于PNX-CLI-Linux-x86 安装PNX服务器相关步骤
 #### 操作步骤
-1. 下载完成后使用UNZIP解压PNX-CLI-Linux-x86.zip
+1. 下载完成后使用**unzip**解压PNX-CLI-Linux-x86.zip
 2. 检测你的计算机是否是安装JAVA 17环境
 3. 安装PNX服务端核心
 4. 安装PNX运行所需的依赖库
