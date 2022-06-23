@@ -81,7 +81,7 @@ Enter the index of the PNX version you want to install:
 pnx libs -u
 ```
 需要等待一段时间(根据自身主机网速决定)
-8. 双击运行PNX.exe
+8. 双击运行PNX.exe\
 **注意：你需要安装相关VC运行库**
 
 ### 基于PNX-CLI-Linux-x86 安装PNX服务器相关步骤
@@ -131,7 +131,7 @@ pnx jvm install=AdoptOpenJDK
 ```
 需要等待一段时间(根据自身主机网速决定)
 
-6. 安装PNX服务端核心
+8. 安装PNX服务端核心
 ```
 pnx server install
 ```
@@ -140,11 +140,11 @@ pnx server install
 ```
 Enter the index of the PNX version you want to install:
 ```
-8. 安装PNX运行所需的依赖库
+9. 安装PNX运行所需的依赖库
 ```
 pnx libs -u
 ```
-9. 安装完毕后输入下述指令启动服务器
+10. 安装完毕后输入下述指令启动服务器
 ```
 pnx
 ```
