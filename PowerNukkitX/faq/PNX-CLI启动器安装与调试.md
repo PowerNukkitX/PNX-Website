@@ -80,16 +80,16 @@ pnx libs -u
 11. 双击PNX.exe启动服务器\
 **注意：你需要安装相关VC运行库**
 
-### 基于PNX-CLI-Linux-x86 安装PNX服务器相关步骤
+### 基于PNX-CLI-Linux-x86(Arm)安装PNX服务器相关步骤
 #### 安装步骤
-1. 下载PNX-CLI-Linux-x86.zip压缩包[点击前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)
-2. 下载完成后,输入下述指令 **注意:/xxx/xxx 代表你PNX-CLI-Linux-x86.zip所在文件夹目录**
+1. 下载PNX-CLI-Linux-x86(Arm).zip压缩包[点击前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)
+2. 下载完成后,输入下述指令 **注意:/xxx/xxx 代表你PNX-CLI-Linux-x86(Arm).zip所在文件夹目录**
 ```
 cd /xxx/xxx
 ```
-3. 使用**unzip**解压PNX-CLI-Linux-x86.zip,解压完成后会有**pnx**文件
+3. 使用**unzip**解压PNX-CLI-Linux-x86(Arm).zip,解压完成后会有**pnx**文件
 ```
-unzip PNX-CLI-Linux-x86.zip
+unzip PNX-CLI-Linux-x86(Arm).zip
 ```
 4. 输入下述指令安装PNX快速部署工具,安装完毕后,无论在哪里都能使用PNX-CLI相关指令
 ```
