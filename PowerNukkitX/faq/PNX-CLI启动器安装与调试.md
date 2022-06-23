@@ -56,7 +56,7 @@ pnx jvm remote
 1. GraalVM (349MB)
 2. AdoptOpenJDK (41.1MB)
 - 强烈推荐使用 GraalVM JAVA 这能让你的PowerNukkitX在处理Java与JavaScript速度更快！\
-输入下述指令安装(反之跳过)
+8. 输入下述指令安装JVM(反之跳过)
 ```
 pnx jvm install=GraalVM  
 ```
@@ -118,7 +118,7 @@ pnx jvm remote
 1. GraalVM (349MB)
 2. AdoptOpenJDK (41.1MB)
 - 强烈推荐使用 GraalVM JAVA 这能让你的PowerNukkitX在处理Java与JavaScript速度更快！\
-输入下述指令安装(反之跳过)
+8. 输入下述指令安装JVM(反之跳过)
 ```
 pnx jvm install=GraalVM  
 ```
@@ -128,7 +128,7 @@ pnx jvm install=AdoptOpenJDK
 ```
 需要等待一段时间(根据自身主机网速决定)
 
-8. 安装PNX服务端核心
+9. 安装PNX服务端核心
 ```
 pnx server install
 ```
@@ -137,11 +137,11 @@ pnx server install
 ```
 Enter the index of the PNX version you want to install:
 ```
-9. 安装PNX运行所需的依赖库
+10. 安装PNX运行所需的依赖库
 ```
 pnx libs -u
 ```
-10. 安装完毕后输入下述指令启动服务器
+11. 安装完毕后输入下述指令启动服务器
 ```
 pnx
 ```
