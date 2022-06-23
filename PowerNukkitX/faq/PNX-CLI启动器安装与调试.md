@@ -21,7 +21,7 @@ PNX-CLI提供了3个场景部署的项目
 - PNX-CLI-Windows-x86\
 结合自身条件选择合适的软件部署
 ### 基于PNX-CLI-Windows-x86 安装PNX服务器相关步骤
-#### 操作步骤
+#### 安装步骤
 1. 下载完成后使用ZIP解压PNX-CLI-Windows-x86.zip
 2. 检测你的计算机是否是安装JAVA 17环境
 3. 安装PNX服务端核心
@@ -82,10 +82,16 @@ pnx libs -u
 需要等待一段时间(根据自身主机网速决定)\
 安装完毕后你PNX服务端基本工作已完成部署！
 ### 基于PNX-CLI-Linux-x86 安装PNX服务器相关步骤
-#### 操作步骤
-1. 下载完成后使用**unzip**解压PNX-CLI-Linux-x86.zip
-2. 检测你的计算机是否是安装JAVA 17环境
-3. 安装PNX服务端核心
-4. 安装PNX运行所需的依赖库
-- 下载好PNX-CLI-Linux-x86.zip压缩包后建议将压缩包保存至/home位置
-- 
+#### 安装步骤
+1. 下载PNX-CLI-Linux-x86.zip压缩包[点击前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases/tag/v0.0.2)
+2. 下载完成后,输入下述指令 注意:/xxx/xxx 代表你PNX-CLI-Linux-x86.zip所在文件夹目录
+```
+cd /xxx/xxx
+```
+3. 使用**unzip**解压PNX-CLI-Linux-x86.zip
+```
+unzip PNX-CLI-Linux-x86.zip
+```
+4. 检测你的计算机是否是安装JAVA 17环境
+5. 安装PNX服务端核心
+6. 安装PNX运行所需的依赖库
