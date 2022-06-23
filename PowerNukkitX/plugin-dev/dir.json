@@ -1,7 +1,9 @@
 {
   "catalogue": {
     "priority": {
-      "js": 1
+      "js": 1,
+      "java": 0,
+      "res": -1
     }
   },
   "title": {
@@ -12,6 +14,10 @@
     "res": {
       "zh-cn": "实用资源",
       "en-us": "Resources"
+    },
+    "java": {
+      "zh-cn": "Java插件开发",
+      "en-us": "Java Plugins"
     }
   },
   "multiLanguage": []

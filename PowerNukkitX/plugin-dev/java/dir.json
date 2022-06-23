@@ -1,0 +1,15 @@
+{
+  "catalogue": {
+    "priority": {
+    }
+  },
+  "title": {
+    "javadoc.md": {
+      "zh-cn": "跳转到JavaDoc",
+      "en-us": "Go to JavaDoc"
+    }
+  },
+  "multiLanguage": [
+
+  ]
+}
