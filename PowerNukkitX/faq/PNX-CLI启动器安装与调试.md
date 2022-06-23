@@ -40,11 +40,10 @@ C:\Users\ASUS>F: CD F:\桌面\pnx-CLI
 这段是你PNX.exe所在文件夹下
 
 ----
-5. 在命令框输入下述指令安装PNX快速部署工具
+5. 在命令框输入下述指令安装PNX快速部署工具,安装完毕后,无论在哪里都能使用PNX-CLI相关指令
 ```
 pnx sys-install
 ```
-安装完毕后,无论在哪里都能使用PNX-CLI相关指令\
 6. 在命令框输入下述指令检测你的计算机是否是安装JAVA 17环境
 ```
 pnx jvm check
