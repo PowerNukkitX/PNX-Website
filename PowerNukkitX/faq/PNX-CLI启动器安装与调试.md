@@ -24,9 +24,8 @@ PNX-CLI提供了3个场景部署的项目
 #### 安装步骤
 1. 下载PNX-CLI-Windows-x86.zip压缩包[点击前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)
 2. 使用ZIP解压PNX-CLI-Windows-x86.zip压缩包
-- Win+R键打开运行窗口
-- 在运行窗口里输入cmd打开Windows自带的命令窗口
-- 找到你PNX.exe在磁盘的那个文件夹那个位置
+3. Win+R键打开运行窗口，在运行窗口里输入cmd打开Windows自带的命令窗口
+4. 找到你PNX.exe在磁盘的那个文件夹那个位置
 ----
 **例** :\
 我的 PNX.exe 在 **F磁盘**\桌面\pnx-CLI文件夹里
@@ -41,16 +40,16 @@ C:\Users\ASUS>F: CD F:\桌面\pnx-CLI
 这段是你PNX.exe所在文件夹下
 
 ----
-3. 在命令框输入下述指令安装PNX快速部署工具
+5. 在命令框输入下述指令安装PNX快速部署工具
 ```
 pnx sys-install
 ```
 安装完毕后,无论在哪里都能使用PNX-CLI相关指令\
-4. 在命令框输入下述指令检测你的计算机是否是安装JAVA 17环境
+6. 在命令框输入下述指令检测你的计算机是否是安装JAVA 17环境
 ```
 pnx jvm check
 ```
-5. 在命令框输入下述指令查看可安装的JVM
+7. 在命令框输入下述指令查看可安装的JVM
 ```
 pnx jvm remote
 ```
@@ -67,7 +66,7 @@ pnx jvm install=GraalVM
 pnx jvm install=AdoptOpenJDK
 ```
 需要等待一段时间(根据自身主机网速决定)
-6. 在命令框输入下述指令安装PNX服务端核心
+8. 在命令框输入下述指令安装PNX服务端核心
 ```
 pnx server install
 ```
@@ -76,12 +75,12 @@ pnx server install
 ```
 Enter the index of the PNX version you want to install:
 ```
-7. 在命令框输入下述指令安装PNX运行所需的依赖库
+9. 在命令框输入下述指令安装PNX运行所需的依赖库
 ```
 pnx libs -u
 ```
 需要等待一段时间(根据自身主机网速决定)
-8. 双击运行PNX.exe\
+10. 双击运行PNX.exe\
 **注意：你需要安装相关VC运行库**
 
 ### 基于PNX-CLI-Linux-x86 安装PNX服务器相关步骤
