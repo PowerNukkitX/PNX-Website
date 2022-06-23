@@ -64,8 +64,7 @@ pnx jvm install=GraalVM
 ```
 pnx jvm install=AdoptOpenJDK
 ```
-需要等待一段时间(根据自身主机网速决定)
-8. 在命令框输入下述指令安装PNX服务端核心
+9. 在命令框输入下述指令安装PNX服务端核心
 ```
 pnx server install
 ```
@@ -74,11 +73,11 @@ pnx server install
 ```
 Enter the index of the PNX version you want to install:
 ```
-9. 在命令框输入下述指令安装PNX运行所需的依赖库
+10. 在命令框输入下述指令安装PNX运行所需的依赖库
 ```
 pnx libs -u
 ```
-10. 双击PNX.exe启动服务器
+11. 双击PNX.exe启动服务器
 **注意：你需要安装相关VC运行库**
 
 ### 基于PNX-CLI-Linux-x86 安装PNX服务器相关步骤
@@ -88,16 +87,14 @@ pnx libs -u
 ```
 cd /xxx/xxx
 ```
-3. 使用**unzip**解压PNX-CLI-Linux-x86.zip
+3. 使用**unzip**解压PNX-CLI-Linux-x86.zip,解压完成后会有**pnx**文件
 ```
 unzip PNX-CLI-Linux-x86.zip
 ```
-解压完成后会有**pnx**文件\
-4. 输入下述指令安装PNX快速部署工具
+4. 输入下述指令安装PNX快速部署工具,安装完毕后,无论在哪里都能使用PNX-CLI相关指令
 ```
 pnx sys-install
 ```
-安装完毕后,无论在哪里都能使用PNX-CLI相关指令
 5. 输入下述指令获取PNX-CLI帮助
 ```
 pnx -h
