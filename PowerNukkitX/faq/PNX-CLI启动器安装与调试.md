@@ -76,3 +76,5 @@ pnx libs -u
 2. 检测你的计算机是否是安装JAVA 17环境
 3. 安装PNX服务端核心
 4. 安装PNX运行所需的依赖库
+- 下载好PNX-CLI-Linux-x86.zip压缩包后建议将压缩包保存至/home位置
+- 
