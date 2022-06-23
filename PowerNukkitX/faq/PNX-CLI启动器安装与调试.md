@@ -93,7 +93,7 @@ cd /xxx/xxx
 ```
 unzip PNX-CLI-Linux-x86.zip
 ```
-这时文件夹下出现pnx文件,输入下述指令\
+解压完成后会有**pnx**文件,输入下述指令\
 根据自身系统环境选择
 ```
 ./pnx -h
