@@ -7,11 +7,11 @@ PNX-CLI启动器[点击访问](https://github.com/PowerNukkitX/PNX-CLI/releases/
 创建**pnx-cli-config.ini**文件
 输入下述文本:
 ```
-#简体中文 zh-cn English en-us;
+##简体中文 zh-cn English en-us
 language=zh-cn
-#选择你的JVM;
+##选择你的JVM
 preferredJVM=GraalVM
-#自定义JVM位置
+##自定义JVM位置
 jvmPath=D:\jdk\java17\bin
 ```
 ## PNX-CLI如何安装？
