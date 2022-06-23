@@ -98,7 +98,7 @@ unzip PNX-CLI-Linux-x86.zip
 ```
 pnx sys-install
 ```
-安装完毕后,无论在何处都能正常使用PNX-CLI相关指令
+安装完毕后,无论在哪里都能使用PNX-CLI相关指令
 5.输入下述指令获取PNX-CLI帮助
 ```
 pnx -h
