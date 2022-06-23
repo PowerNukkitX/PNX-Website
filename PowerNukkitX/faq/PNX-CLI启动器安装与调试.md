@@ -110,7 +110,7 @@ chmod 777 pnx
 ```
 pnx jvm check
 ```
-5 .输入下述指令查看可安装的JVM
+5. 输入下述指令查看可安装的JVM
 ```
 pnx jvm remote
 ```
