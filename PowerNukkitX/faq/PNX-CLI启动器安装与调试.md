@@ -85,7 +85,7 @@ pnx libs -u
 ### 基于PNX-CLI-Linux-x86 安装PNX服务器相关步骤
 #### 安装步骤
 1. 下载PNX-CLI-Linux-x86.zip压缩包[点击前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases/tag/v0.0.2)
-2. 下载完成后,输入下述指令 注意:/xxx/xxx 代表你PNX-CLI-Linux-x86.zip所在文件夹目录
+2. 下载完成后,输入下述指令 **注意:/xxx/xxx 代表你PNX-CLI-Linux-x86.zip所在文件夹目录**
 ```
 cd /xxx/xxx
 ```
