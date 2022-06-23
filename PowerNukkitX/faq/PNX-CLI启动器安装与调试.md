@@ -93,7 +93,7 @@ cd /xxx/xxx
 ```
 unzip PNX-CLI-Linux-x86.zip
 ```
-解压完成后会有**pnx**文件
+解压完成后会有**pnx**文件\
 4. 输入下述指令安装PNX快速部署工具
 ```
 pnx sys-install
