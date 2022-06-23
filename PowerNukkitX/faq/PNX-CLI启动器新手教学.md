@@ -9,9 +9,9 @@ PNX-CLI启动器 [点击前往下载](https://github.com/PowerNukkitX/PNX-CLI/re
 ```
 ##简体中文 zh-cn English en-us
 language=zh-cn
-##选择你的JVM
+##选择JVM
 preferredJVM=GraalVM
-##自定义JVM位置
+##JVM所在位置
 jvmPath=D:\jdk\java17\bin
 ```
 ## PNX-CLI如何安装？
