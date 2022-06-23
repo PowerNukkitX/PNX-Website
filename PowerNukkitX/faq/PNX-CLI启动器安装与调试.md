@@ -93,12 +93,12 @@ cd /xxx/xxx
 ```
 unzip PNX-CLI-Linux-x86.zip
 ```
-解压完成后会有**pnx**文件,输入下述指令\
-根据自身系统环境选择
+解压完成后会有**pnx**文件
+4. 输入下述指令安装PNX快速部署工具
 ```
-./pnx -h
+pnx sys-install
 ```
-或
+5.输入下述指令获取PNX-CLI帮助
 ```
 pnx -h
 ```
@@ -106,11 +106,11 @@ pnx -h
 ```
 chmod 777 pnx
 ```
-4. 检测你的计算机是否是安装JAVA 17环境
+6. 检测你的计算机是否是安装JAVA 17环境
 ```
 pnx jvm check
 ```
-5. 输入下述指令查看可安装的JVM
+7. 输入下述指令查看可安装的JVM
 ```
 pnx jvm remote
 ```
@@ -137,7 +137,11 @@ pnx server install
 ```
 Enter the index of the PNX version you want to install:
 ```
-7. 安装PNX运行所需的依赖库
+8. 安装PNX运行所需的依赖库
 ```
 pnx libs -u
+```
+9. 安装完毕后输入下述指令启动服务器
+```
+pnx
 ```
