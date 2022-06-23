@@ -41,16 +41,16 @@ C:\Users\ASUS>F: CD F:\桌面\pnx-CLI
 这段是你PNX.exe所在文件夹下
 
 ----
-3. 输入下述指令安装PNX快速部署工具
+3. 在命令框输入下述指令安装PNX快速部署工具
 ```
 pnx sys-install
 ```
 安装完毕后,无论在哪里都能使用PNX-CLI相关指令\
-4. 检测你的计算机是否是安装JAVA 17环境
+4. 在命令框输入下述指令检测你的计算机是否是安装JAVA 17环境
 ```
 pnx jvm check
 ```
-5. 输入下述指令查看可安装的JVM
+5. 在命令框输入下述指令查看可安装的JVM
 ```
 pnx jvm remote
 ```
@@ -67,7 +67,7 @@ pnx jvm install=GraalVM
 pnx jvm install=AdoptOpenJDK
 ```
 需要等待一段时间(根据自身主机网速决定)
-6. 安装PNX服务端核心
+6. 在命令框输入下述指令安装PNX服务端核心
 ```
 pnx server install
 ```
@@ -76,7 +76,7 @@ pnx server install
 ```
 Enter the index of the PNX version you want to install:
 ```
-7. 安装PNX运行所需的依赖库
+7. 在命令框输入下述指令安装PNX运行所需的依赖库
 ```
 pnx libs -u
 ```
