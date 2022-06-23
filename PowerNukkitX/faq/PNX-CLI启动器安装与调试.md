@@ -45,7 +45,7 @@ C:\Users\ASUS>F: CD F:\桌面\pnx-CLI
 ```
 pnx sys-install
 ```
-安装完毕后,无论在哪里都能使用PNX-CLI相关指令
+安装完毕后,无论在哪里都能使用PNX-CLI相关指令\
 4. 检测你的计算机是否是安装JAVA 17环境
 ```
 pnx jvm check
