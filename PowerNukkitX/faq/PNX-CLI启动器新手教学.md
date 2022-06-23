@@ -1,6 +1,6 @@
 # PNX-CLI启动器新手教学
-## 如何获取PNX-CLI启动器？
-PNX-CLI启动器[点击访问](https://github.com/PowerNukkitX/PNX-CLI/releases)
+## 如何下载PNX-CLI启动器？
+PNX-CLI启动器[点击前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)
 ## PNX-CLI启动器是什么？
 它能在你的主机上快捷部署PowerNukkitX服务器,更少的占用,更方便的管理
 ## 如何设置PNX-CLI参数？
