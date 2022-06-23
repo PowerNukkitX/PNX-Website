@@ -1,6 +1,6 @@
 # PNX-CLI启动器新手教学
 ## 如何下载PNX-CLI启动器？
-PNX-CLI启动器[点击前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)
+PNX-CLI启动器 [点击前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)
 ## PNX-CLI启动器是什么？
 它能在你的主机上快捷部署PowerNukkitX服务器,更少的占用,更方便的管理
 ## 如何设置PNX-CLI参数？
@@ -22,7 +22,7 @@ PNX-CLI提供了3个场景部署的项目
 结合自身条件选择合适的软件部署
 ### 基于PNX-CLI-Windows-x86 安装PNX服务器相关步骤
 #### 安装步骤
-1. 下载PNX-CLI-Windows-x86.zip压缩包[点击前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)
+1. 下载PNX-CLI-Windows-x86.zip压缩包 [点击前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)
 2. 使用ZIP解压PNX-CLI-Windows-x86.zip压缩包
 3. Win+R键打开运行窗口，在运行窗口里输入cmd打开Windows自带的命令窗口
 4. 找到你PNX.exe在磁盘的那个文件夹那个位置
@@ -82,7 +82,7 @@ pnx libs -u
 
 ### 基于PNX-CLI-Linux-x86(Arm)安装PNX服务器相关步骤
 #### 安装步骤
-1. 下载PNX-CLI-Linux-x86(Arm).zip压缩包[点击前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)
+1. 下载PNX-CLI-Linux-x86(Arm).zip压缩包 [点击前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)
 2. 下载完成后,输入下述指令 **注意:/xxx/xxx 代表你PNX-CLI-Linux-x86(Arm).zip所在文件夹目录**
 ```
 cd /xxx/xxx
