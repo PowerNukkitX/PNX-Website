@@ -79,7 +79,7 @@ Enter the index of the PNX version you want to install:
 ```
 pnx libs -u
 ```
-需要等待一段时间(根据自身主机网速决定)
+需要等待一段时间(根据自身主机网速决定)\
 10. 双击运行PNX.exe\
 **注意：你需要安装相关VC运行库**
 
