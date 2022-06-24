@@ -80,3 +80,4 @@ pnx libs -u
 11. Double-click PNX.exe to start the server\
 **Note: You need to install the relevant VC runtime libraries**
 ### Steps to install PNX server based on PNX-CLI-Linux-x86(Arm)
+#### Installation steps
