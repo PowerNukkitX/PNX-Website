@@ -90,3 +90,40 @@ cd /xxx/xxx
 ```
 unzip PNX-CLI-Linux-x86(Arm).zip
 ```
+4. Enter the following command in the command box to install the PNX Quick Deployment Tool, once installed, you will be able to use the PNX-CLI related commands wherever you are in the command box
+```
+pnx sys-install
+```
+5. Enter the following command in the command box to check if your computer is installing the JAVA 17 environment
+```
+pnx jvm check
+``` 
+6. Enter the following command in the command box to check for an installable JVM
+```
+pnx jvm remote
+```
+Choose any of the following JVMs to install on your computer
+1. GraalVM (349MB)
+2. AdoptOpenJDK (41.1MB)
+- It is highly recommended to use GraalVM JAVA. this will make your PowerNukkitX faster in Java and JavaScript \
+7. Enter the following command in the command box to install the JVM (skip installation)
+```
+pnx jvm install=GraalVM  
+```
+or
+```
+pnx jvm install=AdoptOpenJDK
+```
+8. Enter the following command in the command box to install the PNX server core
+```
+pnx server install
+```
+This will bring up the PNX master branch cores updated within the last 30 days\
+Enter the number of the corresponding branch after the text below to download it
+```
+Enter the index of the PNX version you want to install:
+```
+9. Enter the following command in the command box to install the dependent libraries required for PNX to run
+```
+pnx libs -u
+```
