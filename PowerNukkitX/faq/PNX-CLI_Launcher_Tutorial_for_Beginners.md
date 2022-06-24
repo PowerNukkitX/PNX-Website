@@ -13,3 +13,4 @@ preferredJVM=GraalVM
 ##JVM Location
 jvmPath=D:\jdk\java17\bin
 ```
+How is the PNX-CLI installed?
