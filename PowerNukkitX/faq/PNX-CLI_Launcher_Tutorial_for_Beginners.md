@@ -81,3 +81,4 @@ pnx libs -u
 **Note: You need to install the relevant VC runtime libraries**
 ### Steps to install PNX server based on PNX-CLI-Linux-x86(Arm)
 #### Installation steps
+1. Download the PNX-CLI-Linux-x86(Arm).zip archive [Download](https://github.com/PowerNukkitX/PNX-CLI/releases)
