@@ -52,3 +52,25 @@ pnx jvm check
 ```
 pnx jvm remote
 ```
+Choose any of the following JVMs to install on your computer
+1. GraalVM (349MB)
+2. AdoptOpenJDK (41.1MB)
+- It is highly recommended to use GraalVM JAVA. this will make your PowerNukkitX faster in Java and JavaScript \
+8. Enter the following command in the command box to install the JVM (skip installation)
+```
+pnx jvm install=GraalVM  
+```
+or
+```
+pnx jvm install=AdoptOpenJDK
+```
+9. Enter the following command in the command box to install the PNX server core
+```
+pnx server install
+```
+This will bring up the PNX master branch cores updated within the last 30 days\
+Enter the number of the corresponding branch after the text below to download it
+```
+Enter the index of the PNX version you want to install:
+```
+10. 
