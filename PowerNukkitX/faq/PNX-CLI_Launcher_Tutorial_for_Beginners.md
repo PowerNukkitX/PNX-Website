@@ -82,3 +82,11 @@ pnx libs -u
 ### Steps to install PNX server based on PNX-CLI-Linux-x86(Arm)
 #### Installation steps
 1. Download the PNX-CLI-Linux-x86(Arm).zip archive [Download](https://github.com/PowerNukkitX/PNX-CLI/releases)
+2. After downloading, enter the following command **Note: /xxx/xxx stands for the folder where your PNX-CLI-Linux-x86(Arm).zip is located**
+```
+cd /xxx/xxx
+```
+3. Unzip PNX-CLI-Linux-x86(Arm).zip using **unzip**, the file **pnx** will be available when the unzip is complete
+```
+unzip PNX-CLI-Linux-x86(Arm).zip
+```
