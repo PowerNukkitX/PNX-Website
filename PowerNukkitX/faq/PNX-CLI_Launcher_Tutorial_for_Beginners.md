@@ -13,4 +13,10 @@ preferredJVM=GraalVM
 ##JVM Location
 jvmPath=D:\jdk\java17\bin
 ```
-How is the PNX-CLI installed?
+## How is the PNX-CLI starter installed?
+PNX-CLI offers 3 scenario deployment projects
+
+- PNX-CLI-Linux-arm
+- PNX-CLI-Linux-x86
+- PNX-CLI-Windows-x86
+Choose the right software deployment for your conditions
