@@ -77,3 +77,5 @@ Enter the index of the PNX version you want to install:
 ```
 pnx libs -u
 ```
+11. Double-click PNX.exe to start the server\
+**Note: You need to install the relevant VC runtime libraries**
