@@ -18,5 +18,5 @@ PNX-CLI offers 3 scenario deployment projects
 
 - PNX-CLI-Linux-arm
 - PNX-CLI-Linux-x86
-- PNX-CLI-Windows-x86
+- PNX-CLI-Windows-x86\
 Choose the right software deployment for your conditions
