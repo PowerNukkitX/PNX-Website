@@ -6,7 +6,7 @@ It allows you to quickly deploy PowerNukkitX servers on your host, with less foo
 ## How do I set the PNX-CLI parameters?
 Create the pnx-cli-config.ini file and enter the following text:
 ```
-##Chinese zh-cn English en-us
+##Simplified Chinese zh-cn English en-us
 language=en-us
 ##Select JVM
 preferredJVM=GraalVM
