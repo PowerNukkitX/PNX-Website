@@ -40,7 +40,7 @@ C:\Users\ASUS>F: CD F:\桌面\pnx-CLI
 这段是你PNX.exe所在文件夹下
 
 ----
-5. 在命令框输入下述指令安装PNX快速部署工具,安装完毕后,无论在哪里都能使用PNX-CLI相关指令
+5. 在命令框输入下述指令安装PNX快速部署工具,安装完毕后,无论在命令框哪里都能使用PNX-CLI相关指令
 ```
 pnx sys-install
 ```
@@ -56,7 +56,7 @@ pnx jvm remote
 1. GraalVM (349MB)
 2. AdoptOpenJDK (41.1MB)
 - 强烈推荐使用 GraalVM JAVA 这能让你的PowerNukkitX在处理Java与JavaScript速度更快！\
-8. 在命令框输入下述指令安装JVM(反之跳过)
+8. 在命令框输入下述指令安装JVM(跳过安装)
 ```
 pnx jvm install=GraalVM  
 ```
