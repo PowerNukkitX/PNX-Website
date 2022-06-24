@@ -40,3 +40,15 @@ C:\Users\ASUS>F: CD F:\Desktop\pnx-CLI
 This section is under the folder where your PNX.exe is located
 
 ----
+5. Enter the following command in the command box to install the PNX Quick Deployment Tool, which will allow you to use PNX-CLI related commands wherever you are
+```
+pnx sys-install
+```
+ 6.Enter the following command in the command box to check if your computer is installing the JAVA 17 environment
+```
+pnx jvm check
+``` 
+7. Enter the following command in the command box to check for an installable JVM
+```
+pnx jvm remote
+```
