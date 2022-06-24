@@ -44,7 +44,7 @@ This section is under the folder where your PNX.exe is located
 ```
 pnx sys-install
 ```
- 6.Enter the following command in the command box to check if your computer is installing the JAVA 17 environment
+6. Enter the following command in the command box to check if your computer is installing the JAVA 17 environment
 ```
 pnx jvm check
 ``` 
