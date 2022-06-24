@@ -73,4 +73,7 @@ Enter the number of the corresponding branch after the text below to download it
 ```
 Enter the index of the PNX version you want to install:
 ```
-10. 
+10. Enter the following command in the command box to install the dependent libraries required for PNX to run
+```
+pnx libs -u
+```
