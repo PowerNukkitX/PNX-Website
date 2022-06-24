@@ -14,7 +14,7 @@ preferredJVM=GraalVM
 ##JVM所在位置
 jvmPath=D:\jdk\java17\bin
 ```
-## PNX-CLI如何安装？
+## PNX-CLI启动器如何安装？
 PNX-CLI提供了3个场景部署的项目
 - PNX-CLI-Linux-arm
 - PNX-CLI-Linux-x86
