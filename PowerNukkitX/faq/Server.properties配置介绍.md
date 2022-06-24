@@ -1,48 +1,48 @@
 # Server.properties　配置介绍
 ## motd=PowerNukkitX Server
-表示服务器ESC显示名称
+在服务器在线人数及延迟界面显示的 Motd 文字
 ## sub-motd=https://powernukkitx.cn
-代表外部MOTD显示
+当按下暂停（ESC）时右侧菜单顶部显示的名称
 ## server-port=19132
-代表服务器端口
+服务器启用的端口
 ## server-ip=0.0.0.0
-代表服务器IP地址
+服务器启用的 IP 地址（一般保持 0.0.0.0）
 ## view-distance=10
-代表服务器视距(强烈建议视距4-6)
+服务器限制的最大视距（建议 4 到 6）
 ## white-list=off
-是否开启服务器白名单(OFF关闭　ON开启)
+是否开启服务器白名单（off/on）
 ## achievements=on
-是否开启成就系统(OFF关闭　ON开启)
+是否开启成就系统（off/on）
 ## announce-player-achievements=on
-当玩家获得成就是否播放(OFF关闭　ON开启)
+当玩家获得成就是否发送提示信息（off/on）
 ## spawn-protection=16
 出生点保护范围
 ## max-players=20
 最大玩家数量
 ## allow-flight=off
-是否允许飞行(OFF关闭　ON开启)
+是否允许飞行（Nukkit 自带的防飞行反作弊）（off/on）
 ## spawn-animals=on
-是否生成动物(当前无效)(OFF关闭　ON开启)
+是否生成动物（当前无效）（off/on）
 ## spawn-mobs=on
-是否生成怪物(当前无效)(OFF关闭　ON开启)
+是否生成怪物（当前无效）（off/on）
 ## gamemode=0
-游戏模式：
+默认游戏模式
 - 0: 生存模式　
 - 1: 创造模式　
 - 2: 冒险模式　
 - 3: 旁观模式
 ## force-gamemode=off
-是否强制游戏模式(OFF关闭　ON开启)
+玩家加入服务器时是否设置为默认游戏模式（off/on）
 ## hardcore=off
-是否开启极限难度模式(OFF关闭　ON开启)
+启用极限模式（死亡即 Ban）（off/on）
 ## pvp=on
-是否开启PVP(OFF关闭　ON开启)
+启用 PVP（off/on）
 ## difficulty=1
-世界生存难度：
-- 0: 和平难度　
-- 1: 简单难度　
-- 2: 普通难度　
-- 3: 困难难度
+世界难度：
+- 0: 和平
+- 1: 简单
+- 2: 普通
+- 3: 困难
 ## generator-settings=
 世界生成器设置
 ## level-name=world
@@ -68,8 +68,8 @@
 ## rcon.password=iMDhjOTcxN
 远程控制协议密码
 ## auto-save=on
-自动保存(OFF关闭　ON开启)
+自动保存世界（off/on）
 ## force-resources=off
-强制资源包(OFF关闭　ON开启)
+强制使用服务器的资源包（off/on）
 ## xbox-auth=on
-XBOX许可证(OFF关闭　ON开启)
+启用 Xbox 在线验证（该功能可防止未登陆的玩家进入服务器）（off/on）
