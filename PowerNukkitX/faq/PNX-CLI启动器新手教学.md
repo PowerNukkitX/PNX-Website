@@ -56,7 +56,7 @@ pnx jvm remote
 选择以下任意一款JVM安装到你计算机
 1. GraalVM (349MB)
 2. AdoptOpenJDK (41.1MB)
-- 强烈推荐使用 GraalVM JAVA 这能让你的PowerNukkitX在处理Java与JavaScript速度更快！\
+- 强烈推荐使用 GraalVM JAVA 这能让你的PowerNukkitX在处理Java与JavaScript速度更快！
 8. 在命令框输入下述指令安装JVM(跳过安装)
 ```
 pnx jvm install=GraalVM  
@@ -84,7 +84,8 @@ pnx libs -u
 ### 基于PNX-CLI-Linux-x86(Arm)安装PNX服务器相关步骤
 #### 安装步骤
 1. 下载PNX-CLI-Linux-x86(Arm).zip压缩包 [点击前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)
-2. 下载完成后,输入下述指令 **注意:/xxx/xxx 代表你PNX-CLI-Linux-x86(Arm).zip所在文件夹目录**
+2. 下载完成后,输入下述指令\
+**注意:/xxx/xxx 代表你PNX-CLI-Linux-x86(Arm).zip所在文件夹目录**
 ```
 cd /xxx/xxx
 ```
@@ -116,7 +117,7 @@ pnx jvm remote
 选择以下任意一款JVM安装到你计算机
 1. GraalVM (349MB)
 2. AdoptOpenJDK (41.1MB)
-- 强烈推荐使用 GraalVM JAVA 这能让你的PowerNukkitX在处理Java与JavaScript速度更快！\
+- 强烈推荐使用 GraalVM JAVA 这能让你的PowerNukkitX在处理Java与JavaScript速度更快！
 8. 输入下述指令安装JVM(跳过安装)
 ```
 pnx jvm install=GraalVM  
