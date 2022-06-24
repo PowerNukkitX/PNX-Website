@@ -40,7 +40,7 @@ C:\Users\ASUS>F: CD F:\Desktop\pnx-CLI
 This section is under the folder where your PNX.exe is located
 
 ----
-5. Enter the following command in the command box to install the PNX Quick Deployment Tool, which will allow you to use PNX-CLI related commands wherever you are
+5. Enter the following command in the command box to install the PNX Quick Deployment Tool, once installed, you will be able to use the PNX-CLI related commands wherever you are in the command box
 ```
 pnx sys-install
 ```
