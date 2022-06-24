@@ -41,7 +41,7 @@ This section is under the folder where your PNX.exe is located
 
 ----
 5. Enter the following command in the command box to install the PNX Quick Deployment Tool, once installed, you will be able to use the PNX-CLI related commands wherever you are in the command box\
-**Note: You will need to restart your computer after installation**
+**Note: You will need to restart CMD or PowerShell after the installation is complete**
 ```
 pnx sys-install
 ```
@@ -93,7 +93,7 @@ cd /xxx/xxx
 unzip PNX-CLI-Linux-x86(Arm).zip
 ```
 4. Enter the following command in the command box to install the PNX Quick Deployment Tool, once installed, you will be able to use the PNX-CLI related commands wherever you are in the command box\
-**Note: You will need to restart your computer after installation**
+**Note: You will need to restart the command terminal after the installation is complete**
 ```
 pnx sys-install
 ```
