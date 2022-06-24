@@ -91,7 +91,7 @@ cd /xxx/xxx
 ```
 unzip PNX-CLI-Linux-x86(Arm).zip
 ```
-4. 输入下述指令安装PNX快速部署工具,安装完毕后,无论在哪里都能使用PNX-CLI相关指令
+4. 在命令框输入下述指令安装PNX快速部署工具,安装完毕后,无论在命令框哪里都能使用PNX-CLI相关指令
 ```
 pnx sys-install
 ```
