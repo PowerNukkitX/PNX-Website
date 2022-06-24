@@ -56,7 +56,7 @@ pnx jvm remote
 选择以下任意一款JVM安装到你计算机
 1. GraalVM (349MB)
 2. AdoptOpenJDK (41.1MB)
-- 强烈推荐使用 GraalVM JAVA 这能让你的PowerNukkitX在处理Java与JavaScript速度更快！\
+- 强烈推荐使用 GraalVM JAVA 这能让你的PowerNukkitX在处理Java与JavaScript速度更快！
 8. 在命令框输入下述指令安装JVM(跳过安装)
 ```
 pnx jvm install=GraalVM  
@@ -116,7 +116,7 @@ pnx jvm remote
 选择以下任意一款JVM安装到你计算机
 1. GraalVM (349MB)
 2. AdoptOpenJDK (41.1MB)
-- 强烈推荐使用 GraalVM JAVA 这能让你的PowerNukkitX在处理Java与JavaScript速度更快！\
+- 强烈推荐使用 GraalVM JAVA 这能让你的PowerNukkitX在处理Java与JavaScript速度更快！
 8. 输入下述指令安装JVM(跳过安装)
 ```
 pnx jvm install=GraalVM  
