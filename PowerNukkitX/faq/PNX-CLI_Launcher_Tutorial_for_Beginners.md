@@ -22,3 +22,7 @@ PNX-CLI offers 3 scenario deployment projects
 Choose the right software deployment for your conditions
 ## Steps to install PNX server based on PNX-CLI-Windows-x86
 ### Installation steps
+1. Download the PNX-CLI-Windows-x86.zip archive [Download](https://github.com/PowerNukkitX/PNX-CLI/releases)
+2. Extract the PNX-CLI-Windows-x86.zip archive using ZIP
+3. Win+R to open the Run window, type cmd in the Run window to open the command window that comes with Windows
+4. Find the folder where your PNX.exe is located on the disk
