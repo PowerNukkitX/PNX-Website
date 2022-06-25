@@ -41,7 +41,7 @@ C:\Users\ASUS>F: CD F:\桌面\pnx-CLI
 
 ----
 5. 在命令框输入下述指令安装PNX快速部署工具,安装完毕后,无论在命令框哪里都能使用PNX-CLI相关指令\
-**注意：安装完成后需要重启计算机**
+**注意：安装完成后需要重启CMD或者PowerShell**
 ```
 pnx sys-install
 ```
@@ -94,7 +94,7 @@ cd /xxx/xxx
 unzip PNX-CLI-Linux-x86(Arm).zip
 ```
 4. 在命令框输入下述指令安装PNX快速部署工具,安装完毕后,无论在命令框哪里都能使用PNX-CLI相关指令\
-**注意：安装完成后需要重启计算机**
+**注意：安装完成后需要重启命令终端**
 ```
 pnx sys-install
 ```
