@@ -145,7 +145,7 @@ pnx libs -u
 ```
 pnx
 ```
-## 如何让PNX在Linux机器上长久运行？
+## 如何让PNX在Linux主机上长久运行？
 使用screen指令,详细步骤：
 1. 在命令框输入下述指令,检查是否安装screen
 ```
