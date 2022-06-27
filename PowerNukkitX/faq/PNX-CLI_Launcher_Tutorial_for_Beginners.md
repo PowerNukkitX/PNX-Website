@@ -163,7 +163,7 @@ apt-get install screen
 ```
 screen [-AmRvx -ls -wipe][-d <Assignment name>][-h <Lines>][-r <Assignment name>][-s <shell>][-S <Assignment name>]
 ```
-**screen Options:**
+**screen Options:**\
 -4            Resolve hostnames only to IPv4 addresses.\
 -6            Resolve hostnames only to IPv6 addresses.\
 -a            Force all capabilities into each window's termcap.\
