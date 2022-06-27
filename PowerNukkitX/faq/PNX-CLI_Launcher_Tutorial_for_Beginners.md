@@ -161,7 +161,11 @@ apt-get install screen
 ```
 3. Create the screen program
 ```
-screen [-AmRvx -ls -wipe][-d <Assignment name>][-h <Lines>][-r <Assignment name>][-s <shell>][-S <Assignment name>]
+screen [-opts] [cmd [args]]
+```
+or
+```
+screen -r [host.tty]
 ```
 **screen Options:**\
 -4            Resolve hostnames only to IPv4 addresses.\
