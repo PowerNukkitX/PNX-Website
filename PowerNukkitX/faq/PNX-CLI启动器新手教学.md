@@ -166,11 +166,11 @@ apt-get install screen
 ```
 screen [-opts] [cmd [args]]
 ```
-or
+或者
 ```
 screen -r [host.tty]
 ```
-**screen详细参数**\
+**screen 设置参数**\
 -A 　将所有的视窗都调整为目前终端机的大小。\
 -d<作业名称> 　将指定的screen作业离线。\
 -h<行数> 　指定视窗的缓冲区行数。\
