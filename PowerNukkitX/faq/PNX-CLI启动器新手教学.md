@@ -162,7 +162,7 @@ yum install screen
 ```
 apt-get install screen
 ```
-3. 创建screen让PNX在里面运行！
+3. 创建screen程序
 ```
 screen [-AmRvx -ls -wipe][-d <作业名称>][-h <行数>][-r <作业名称>][-s <shell>][-S <作业名称>]
 ```
