@@ -28,7 +28,7 @@ Choose the right software deployment for your conditions
 4. Find the folder where your PNX.exe is located on the disk
 ----
 **Example** :\
-My PNX.exe is in the **F disk** \ desktop\pnx-CLI folder
+My PNX.exe is in the **F:**\desktop\pnx-CLI folder
 ```
 F:\Desktop\pnx-CLI
 ```
