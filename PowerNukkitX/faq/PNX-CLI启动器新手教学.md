@@ -164,7 +164,11 @@ apt-get install screen
 ```
 3. 创建screen程序
 ```
-screen [-AmRvx -ls -wipe][-d <作业名称>][-h <行数>][-r <作业名称>][-s <shell>][-S <作业名称>]
+screen [-opts] [cmd [args]]
+```
+or
+```
+screen -r [host.tty]
 ```
 **screen详细参数**\
 -A 　将所有的视窗都调整为目前终端机的大小。\
