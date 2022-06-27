@@ -167,7 +167,7 @@ or
 ```
 screen -r [host.tty]
 ```
-**screen Options:**\
+**screen Common Settings:**\
 -4             Resolve hostnames only to IPv4 addresses.\
 -6             Resolve hostnames only to IPv6 addresses.\
 -a             Force all capabilities into each window's termcap.\
