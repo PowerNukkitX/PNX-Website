@@ -142,3 +142,4 @@ pnx libs -u
 ```
 pnx
 ```
+## How do I get PNX to run for a long time on a Linux host?
