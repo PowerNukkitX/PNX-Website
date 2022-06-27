@@ -145,3 +145,20 @@ pnx libs -u
 ```
 pnx
 ```
+## 如何让PNX在Linux机器上长久运行？
+使用screen指令,详细步骤：
+1. 在命令框输入下述指令,检查是否安装screen
+```
+which screen
+```
+2. 在命令框输入下述指令,安装screen
+**注意: 根据主机系统而定** 
+### CentOS
+```
+yum install screen
+```
+---
+### Ubuntu
+```
+apt-get install screen
+```
