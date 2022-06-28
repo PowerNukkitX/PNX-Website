@@ -28,7 +28,7 @@ Choose the right software deployment for your conditions
 4. Find the folder where your PNX.exe is located on the disk
 ----
 **Example** :\
-My PNX.exe is in the **F disk** \ desktop\pnx-CLI folder
+My PNX.exe is in the **F:**\desktop\pnx-CLI folder
 ```
 F:\Desktop\pnx-CLI
 ```
@@ -142,3 +142,41 @@ pnx libs -u
 ```
 pnx
 ```
+## How do I get PNX to run for a long time on a Linux host?
+### To use the screen command, proceed in detail:
+1. Type the following command in the command box to check if screen is installed
+```
+which screen
+```
+2. Enter the following command in the command box to install screen\
+**Note: Depends on the host system**
+### CentOS
+```
+yum install screen
+```
+---
+### Ubuntu
+```
+apt-get install screen
+```
+3. Create the screen program
+```
+screen [-opts] [cmd [args]]
+```
+or
+```
+screen -r [host.tty]
+```
+**screen Common Settings:**\
+-A -[r|R]      Adapt all windows to the new display width & height.\
+-d (-r)        Detach the elsewhere running screen (and reattach here).\
+-h lines       Set the size of the scrollback history buffer.\
+-ls [match]    or\
+-list          Do nothing, just list our SockDir [on possible matches].\
+-r [session]   Reattach to a detached screen process.\
+-R             Reattach if possible, otherwise start a new session.\
+-s shell       Shell to execute rather than $SHELL.\
+-S sockname    Name this session <pid>.sockname instead of <pid>.<tty>.<host>.\
+-v             Print "Screen version 4.06.02 (GNU) 23-Oct-17".\
+-wipe [match]  Do nothing, just clean up SockDir [on possible matches].\
+-x             Attach to a not detached screen. (Multi display mode).\
