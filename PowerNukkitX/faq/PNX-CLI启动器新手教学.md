@@ -66,11 +66,11 @@ pnx comp check
 ```
 pnx comp install=graaljit
 ```
-3. 再次检测GraalJit是否安装
+3. 再次检测GraalJit是否安装成功
 ```
 pnx comp check 
 ```
-完成安装后,会获得GraalVM 社区版的高性能\
+完成安装后,将会提高你JVM运行速度\
 8. 在命令框输入下述指令安装JVM(如果已安装则跳过)
 ```
 pnx jvm install=GraalVM  
@@ -141,11 +141,11 @@ pnx comp check
 ```
 pnx comp install=graaljit
 ```
-3. 再次检测GraalJit是否安装
+3. 再次检测GraalJit是否安装成功
 ```
 pnx comp check 
 ```
-完成安装后,会获得GraalVM 社区版的高性能\
+完成安装后,将会提高你JVM运行速度\
 8. 输入下述指令安装JVM(如果已安装则跳过)
 ```
 pnx jvm install=GraalVM  
