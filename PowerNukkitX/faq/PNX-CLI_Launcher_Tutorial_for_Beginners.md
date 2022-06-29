@@ -57,6 +57,20 @@ Choose any of the following JVMs to install on your computer
 1. GraalVM (349MB)
 2. AdoptOpenJDK (41.1MB)
 - Recommended: These two JVMs make PowerNukkitX faster for JavaScript or Java applications
+##### GraalJit Instant Compiler Installation Steps
+1. First check if GraalJit is installed
+```
+pnx comp check 
+```
+2. If not installed then enter the following command in the command box
+```
+pnx comp install=graaljit
+```
+3. Check again if GraalJit is installed successfully
+```
+pnx comp check 
+```
+Once installed, it will improve the speed of your JVM\
 8. Enter the following command in the command box to install the JVM (skip installation)
 ```
 pnx jvm install=GraalVM  
@@ -117,6 +131,20 @@ Choose any of the following JVMs to install on your computer
 1. GraalVM (349MB)
 2. AdoptOpenJDK (41.1MB)
 - Recommended: These two JVMs make PowerNukkitX faster for JavaScript or Java applications
+##### GraalJit Instant Compiler Installation Steps
+1. First check if GraalJit is installed
+```
+pnx comp check 
+```
+2. If not installed then enter the following command in the command box
+```
+pnx comp install=graaljit
+```
+3. Check again if GraalJit is installed successfully
+```
+pnx comp check 
+```
+Once installed, it will improve the speed of your JVM\
 8. Enter the following command in the command box to install the JVM (skip installation)
 ```
 pnx jvm install=GraalVM  
