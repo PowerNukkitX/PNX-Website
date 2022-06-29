@@ -56,7 +56,7 @@ pnx jvm remote
 Choose any of the following JVMs to install on your computer
 1. GraalVM (349MB)
 2. AdoptOpenJDK (41.1MB)
-- It is highly recommended to use GraalVM JAVA. this will make your PowerNukkitX faster in Java and JavaScript
+- Recommended: These two JVMs make PowerNukkitX faster for JavaScript or Java applications
 8. Enter the following command in the command box to install the JVM (skip installation)
 ```
 pnx jvm install=GraalVM  
@@ -116,7 +116,7 @@ pnx jvm remote
 Choose any of the following JVMs to install on your computer
 1. GraalVM (349MB)
 2. AdoptOpenJDK (41.1MB)
-- It is highly recommended to use GraalVM JAVA. this will make your PowerNukkitX faster in Java and JavaScript
+- Recommended: These two JVMs make PowerNukkitX faster for JavaScript or Java applications
 8. Enter the following command in the command box to install the JVM (skip installation)
 ```
 pnx jvm install=GraalVM  
@@ -179,4 +179,4 @@ screen -r [host.tty]
 -S sockname    Name this session <pid>.sockname instead of <pid>.<tty>.<host>.\
 -v             Print "Screen version 4.06.02 (GNU) 23-Oct-17".\
 -wipe [match]  Do nothing, just clean up SockDir [on possible matches].\
--x             Attach to a not detached screen. (Multi display mode).\
+-x             Attach to a not detached screen. (Multi display mode).
