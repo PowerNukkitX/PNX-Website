@@ -60,7 +60,7 @@ pnx jvm remote
 ```
 pnx comp  
 ```
-即可安装Graal即时编译器
+  即可安装Graal即时编译器
 8. 在命令框输入下述指令安装JVM(跳过安装)
 ```
 pnx jvm install=GraalVM  
@@ -125,7 +125,7 @@ pnx jvm remote
 ```
 pnx comp  
 ```
-即可安装Graal即时编译器
+  即可安装Graal即时编译器
 8. 输入下述指令安装JVM(跳过安装)
 ```
 pnx jvm install=GraalVM  
