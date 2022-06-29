@@ -28,7 +28,7 @@ PNX-CLI提供了3个场景部署的项目
 4. 找到你PNX.exe在磁盘的那个文件夹那个位置
 ----
 **例** :\
-我的 PNX.exe 在 **F磁盘**\桌面\pnx-CLI文件夹里
+我的 PNX.exe 在 **F:**\桌面\pnx-CLI 文件夹里
 ```
 F:\桌面\pnx-CLI
 ```
@@ -145,3 +145,40 @@ pnx libs -u
 ```
 pnx
 ```
+## 如何让PNX在Linux主机上长久运行？
+### 使用screen指令,详细步骤：
+1. 在命令框输入下述指令,检查是否安装screen
+```
+which screen
+```
+2. 在命令框输入下述指令,安装screen\
+**注意: 根据主机系统而定** 
+### CentOS
+```
+yum install screen
+```
+---
+### Ubuntu
+```
+apt-get install screen
+```
+3. 创建screen程序
+```
+screen [-opts] [cmd [args]]
+```
+或者
+```
+screen -r [host.tty]
+```
+**screen 常用设置参数**\
+-A 　将所有的视窗都调整为目前终端机的大小。\
+-d <作业名称> 　将指定的screen作业离线。\
+-h <行数> 　指定视窗的缓冲区行数。\
+-r <作业名称> 　恢复离线的screen作业。\
+-R 　先试图恢复离线的作业。若找不到离线的作业，即建立新的screen作业。\
+-s 　指定建立新视窗时，所要执行的shell。\
+-S <作业名称> 　指定screen作业的名称。\
+-v 　显示版本信息。\
+-x 　恢复之前离线的screen作业。\
+-ls或--list 　显示目前所有的screen作业。\
+-wipe 　检查目前所有的screen作业，并删除已经无法使用的screen作业。
