@@ -56,7 +56,21 @@ pnx jvm remote
 Choose any of the following JVMs to install on your computer
 1. GraalVM (349MB)
 2. AdoptOpenJDK (41.1MB)
-- It is highly recommended to use GraalVM JAVA. this will make your PowerNukkitX faster in Java and JavaScript
+- Recommended: These two JVMs make PowerNukkitX faster for JavaScript or Java applications
+##### GraalJit Instant Compiler Installation Steps
+1. First check if GraalJit is installed
+```
+pnx comp check 
+```
+2. If not installed then enter the following command in the command box
+```
+pnx comp install=graaljit
+```
+3. Check again if GraalJit is installed successfully
+```
+pnx comp check 
+```
+Once installed, it will improve the speed of your JVM\
 8. Enter the following command in the command box to install the JVM (skip installation)
 ```
 pnx jvm install=GraalVM  
@@ -116,7 +130,21 @@ pnx jvm remote
 Choose any of the following JVMs to install on your computer
 1. GraalVM (349MB)
 2. AdoptOpenJDK (41.1MB)
-- It is highly recommended to use GraalVM JAVA. this will make your PowerNukkitX faster in Java and JavaScript
+- Recommended: These two JVMs make PowerNukkitX faster for JavaScript or Java applications
+##### GraalJit Instant Compiler Installation Steps
+1. First check if GraalJit is installed
+```
+pnx comp check 
+```
+2. If not installed then enter the following command in the command box
+```
+pnx comp install=graaljit
+```
+3. Check again if GraalJit is installed successfully
+```
+pnx comp check 
+```
+Once installed, it will improve the speed of your JVM\
 8. Enter the following command in the command box to install the JVM (skip installation)
 ```
 pnx jvm install=GraalVM  
@@ -179,4 +207,4 @@ screen -r [host.tty]
 -S sockname    Name this session <pid>.sockname instead of <pid>.<tty>.<host>.\
 -v             Print "Screen version 4.06.02 (GNU) 23-Oct-17".\
 -wipe [match]  Do nothing, just clean up SockDir [on possible matches].\
--x             Attach to a not detached screen. (Multi display mode).\
+-x             Attach to a not detached screen. (Multi display mode).

@@ -56,8 +56,22 @@ pnx jvm remote
 选择以下任意一款JVM安装到你计算机
 1. GraalVM (349MB)
 2. AdoptOpenJDK (41.1MB)
-- 强烈推荐使用 GraalVM JAVA 这能让你的PowerNukkitX在处理Java与JavaScript速度更快！
-8. 在命令框输入下述指令安装JVM(跳过安装)
+- 推荐: 以上两款JVM可让PowerNukkitX处理JavaScript或Java程序速度更快 
+##### GraalJit即时编译器安装步骤
+1. 首先检测GraalJit是否安装
+```
+pnx comp check 
+```
+2. 如果未安装则在命令框输入下述指令
+```
+pnx comp install=graaljit
+```
+3. 再次检测GraalJit是否安装成功
+```
+pnx comp check 
+```
+完成安装后,将会提高你JVM运行速度\
+8. 在命令框输入下述指令安装JVM(如果已安装则跳过)
 ```
 pnx jvm install=GraalVM  
 ```
@@ -117,8 +131,22 @@ pnx jvm remote
 选择以下任意一款JVM安装到你计算机
 1. GraalVM (349MB)
 2. AdoptOpenJDK (41.1MB)
-- 强烈推荐使用 GraalVM JAVA 这能让你的PowerNukkitX在处理Java与JavaScript速度更快！
-8. 输入下述指令安装JVM(跳过安装)
+- 推荐: 以上两款JVM可让PowerNukkitX处理JavaScript或Java程序速度更快
+##### GraalJit即时编译器安装步骤
+1. 首先检测GraalJit是否安装
+```
+pnx comp check 
+```
+2. 如果未安装则在命令框输入下述指令
+```
+pnx comp install=graaljit
+```
+3. 再次检测GraalJit是否安装成功
+```
+pnx comp check 
+```
+完成安装后,将会提高你JVM运行速度\
+8. 输入下述指令安装JVM(如果已安装则跳过)
 ```
 pnx jvm install=GraalVM  
 ```
