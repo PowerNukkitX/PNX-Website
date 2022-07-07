@@ -1,7 +1,7 @@
 {
   "catalogue": {
     "priority": {
-
+      "配置开发环境.md": 100
     }
   },
   "title": {
@@ -9,8 +9,7 @@
   },
   "multiLanguage": [
     {
-      "zh-cn": "配置开发环境.md",
-      "en-us": "配置开发环境.md"
+      "zh-cn": "配置开发环境.md"
     }
   ]
 }
