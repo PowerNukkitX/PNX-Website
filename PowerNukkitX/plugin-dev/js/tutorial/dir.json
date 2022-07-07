@@ -1,0 +1,16 @@
+{
+  "catalogue": {
+    "priority": {
+
+    }
+  },
+  "title": {
+    "配置开发环境.md": "配置开发环境"
+  },
+  "multiLanguage": [
+    {
+      "zh-cn": "配置开发环境.md",
+      "en-us": "配置开发环境.md"
+    }
+  ]
+}

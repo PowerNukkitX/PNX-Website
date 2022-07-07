@@ -17,7 +17,11 @@
     },
     "概述_en-us.md": "Summary",
     "模块_en-us.md": "Modules",
-    "插件格式_en-us.md": "Plugin Format"
+    "插件格式_en-us.md": "Plugin Format",
+    "tutorial": {
+      "zh-cn": "教程",
+      "en-us": "Tutorial"
+    }
   },
   "multiLanguage": [
     {
