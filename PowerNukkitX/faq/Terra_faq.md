@@ -22,20 +22,12 @@ worlds:
    generator: terra:default
 ```
 
-Then, restart the server, and now you can try the terra terrain generator.  
-
-## Why black biomes
-
-Because Terra will mark unfinished biomes with black concrete blocks.    
-![](%relativePrefix%image/common/terra_faq/Terra_Black_min.png)   
-If you do not want these black biomes to appear, you can use the config pack provided by us without the unfinished biomes.[Download](https://assets.powernukkitx.cn/stable/default.zip)  
-Once downloaded, please replace `./terra/packs/default.zip` with the default config pack. Restart the server to complete the changes.
+Then, restart the server, and now you can try the terra terrain generator.
 
 ## Why terra doesn't work
 
 - If your world was previously using something other than the terra generator, terra won't work. Consider using a new world.  
-- If you are using a branch that does not include Terra (the size of terra branch is 35MB), you need to replace the server core.  
-
+- Please check that you have configured Terra correctly, otherwise it won't work.
 ## Too much memory used  
 
 Sorry for the excessive memory usage, but due to the complexity of the terra algorithm and the high level of customization, it is inevitable that about 300MB of memory is used at startup. We have done our best to optimize it.  

@@ -22,19 +22,12 @@ worlds:
    generator: terra:default
 ```
 
-然后，重新启动服务器，即可体验terra地形生成器。  
-
-## 黑色生物群系  
-
-因为Terra会将未完成的生物群系用黑色混凝土方块标注，所以会有这些黑色生物群系。  
-![](%relativePrefix%image/common/terra_faq/Terra_Black_min.png)   
-如果不希望它们出现，可以使用PNX提供的没有未完成的生物群系的配置包。[下载PNX配置包](https://assets.powernukkitx.cn/stable/default.zip)  
-下载完成后，请使用默认配置包替换掉`./terra/packs/default.zip`。重新启动服务器即可完成更改。  
+然后，重新启动服务器，即可体验terra地形生成器。
 
 ## 为什么设置不生效  
 
 - 如果您的世界先前使用的不是terra生成器，那么设置不会生效，您需要使用一个新的地图。  
-- 如果您的使用的分支不包含terra生成器（terra分支核心文件大小为35MB），您需要更换服务端核心。  
+- 请检查您是否正确配置了Terra，否则不会生效
 
 ## 占用的内存太多  
 
