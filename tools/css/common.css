@@ -1,0 +1,172 @@
+/*3f51b5*/
+
+.icon-image {
+    width: 48px;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+.icon-title {
+    font-weight: bold;
+    margin-top: -12px;
+    min-width: 33px;
+}
+
+.icon-title .icon-title-main {
+    padding-bottom: 4px;
+    border-bottom: 4px solid white;
+}
+
+.icon-title .icon-title-space {
+    width: 1px;
+}
+
+.icon-title .icon-title-sup {
+    font-size: 16px;
+    position: absolute;
+    margin-top: -3px;
+    margin-left: 1px;
+}
+
+.v-space-md {
+    height: 32px;
+}
+
+@media (min-width: 600px) {
+    .h-space-md {
+        width: 48px;
+    }
+}
+
+@media (max-width: 600px) {
+    .h-space-md {
+        width: 8px;
+    }
+}
+
+.copyright {
+    width: fit-content;
+    font-size: 8px;
+}
+
+.logo-title {
+    font-weight: bold;
+    font-size: max(6vw, 40px);
+    margin: calc(3vw) 0 12px 32px;
+}
+
+.logo-description {
+    font-size: max(3vw, 18px);
+    margin: calc(3vw) 0 12px 32px;
+}
+
+@media (min-width: 600px) {
+    .logo-description {
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo-title {
+        margin: 16px 0 0 0;
+        text-align: center;
+    }
+
+    .logo-description {
+        margin: 16px 0 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+}
+
+.logo-icon {
+    width: 95%;
+    padding-top: 2.5%;
+    padding-left: 2.5%;
+}
+
+#logo-dyn-description {
+    text-align: center;
+}
+
+#logo-dyn-description:after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: max(3vw, 18px);
+    transform: translate(2px, 2px);
+    animation: blink 1.2s infinite steps(1, start);
+}
+
+@keyframes blink {
+    0%, 100% {
+        background-color: #000;
+    }
+    50% {
+        background-color: transparent;
+    }
+}
+
+.link-btn-box {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.card-bottom-gap {
+    margin-bottom: 16px;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content-title {
+    text-align: center;
+    display: block!important;
+    margin-right: auto!important;
+    margin-left: auto!important;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media (min-width: 600px) {
+    .content-title {
+        font-weight: bold;
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    .content-title {
+        font-weight: bold;
+        font-size: 24px;
+    }
+}
+
+.fit {
+    width: fit-content;
+}
+
+.parent-width {
+    width: 100%;
+}
+
+.switch-language-text {
+    margin: 18px 0 8px 0;
+}
+
+.padding-chip {
+    margin: 2px 4px 2px 4px;
+}
+
+.icon-no-radius {
+    border-radius: 0;
+}
