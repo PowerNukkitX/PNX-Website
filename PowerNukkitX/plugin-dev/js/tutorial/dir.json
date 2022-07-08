@@ -1,7 +1,8 @@
 {
   "catalogue": {
     "priority": {
-      "配置开发环境.md": 100
+      "配置开发环境.md": 100,
+      "HelloWorld.md": 99
     }
   },
   "title": {

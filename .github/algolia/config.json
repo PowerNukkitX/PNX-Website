@@ -8,7 +8,9 @@
     ".footer",
     "ul.deprecated",
     ".switch-language-text",
-    "mdui-appbar"
+    "mdui-appbar",
+    ".mdui-appbar",
+    ".unnecessary"
   ],
   "selectors": {
     "lvl0": {
