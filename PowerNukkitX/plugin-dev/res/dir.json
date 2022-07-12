@@ -1,16 +1,20 @@
 {
   "catalogue": {
     "priority": {
-
     }
   },
   "title": {
-    "物品方块ID_en-us.md": "IDs"
+    "物品方块ID_en-us.md": "IDs",
+    "事件对照表_en-us.md": "Event Table"
   },
   "multiLanguage": [
     {
       "zh-cn": "物品方块ID.md",
       "en-us": "物品方块ID_en-us.md"
+    },
+    {
+      "zh-cn": "事件对照表.md",
+      "en-us": "事件对照表_en-us.md"
     }
   ]
 }

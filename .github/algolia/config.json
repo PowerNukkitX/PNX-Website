@@ -22,7 +22,7 @@
     "lvl3": "h4",
     "lvl4": "h5",
     "lvl5": "h6",
-    "text": "p, li, td, code"
+    "text": "p, li, td, code.language-properties, code.language-yaml"
   },
   "custom_settings": {
     "attributesForFaceting": [

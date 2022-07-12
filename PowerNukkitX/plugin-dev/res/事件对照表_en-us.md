@@ -1,0 +1,213 @@
+# Event Table  
+
+## Event list  
+
+- [cn.nukkit.event.Event](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/Event.html)  Collectively, all events
+- [cn.nukkit.event.block.AnvilDamageEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/AnvilDamageEvent.html)  Anvil receives damage (durability reduced)
+- [cn.nukkit.event.server.BatchPacketsEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/server/BatchPacketsEvent.html)  Send packets in batches
+- [cn.nukkit.event.block.BellRingEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BellRingEvent.html)  Ring the bell
+- [cn.nukkit.event.block.BigDripleafTiltChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BigDripleafTiltChangeEvent.html)  Change of falling state of large drooping leaf
+- [cn.nukkit.event.block.BlockBreakEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BlockBreakEvent.html)  The block is broken
+- [cn.nukkit.event.block.BlockBurnEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BlockBurnEvent.html)  Block burned
+- [cn.nukkit.event.block.BlockEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BlockEvent.html)  Collectively, all block events
+- [cn.nukkit.event.block.BlockExplodeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BlockExplodeEvent.html)  The block was blown up
+- [cn.nukkit.event.block.BlockExplosionPrimeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BlockExplosionPrimeEvent.html)  Block explosion
+- [cn.nukkit.event.block.BlockFadeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BlockFadeEvent.html)  Block disappears (leaves wither, etc.)
+- [cn.nukkit.event.block.BlockFallEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BlockFallEvent.html)  Block falling (sand, gravel, anvil, etc.)
+- [cn.nukkit.event.block.BlockFormEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BlockFormEvent.html)  Block formation
+- [cn.nukkit.event.block.BlockFromToEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BlockFromToEvent.html)  Block movement
+- [cn.nukkit.event.block.BlockGrowEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BlockGrowEvent.html)  Block growth
+- [cn.nukkit.event.block.BlockHarvestEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BlockHarvestEvent.html)  Block is harvested
+- [cn.nukkit.event.block.BlockIgniteEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BlockIgniteEvent.html)  The block is ignited
+- [cn.nukkit.event.block.BlockPistonChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BlockPistonChangeEvent.html)  Piston state change
+- [cn.nukkit.event.block.BlockPistonEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BlockPistonEvent.html)  Piston event (abandoned)
+- [cn.nukkit.event.block.BlockPlaceEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BlockPlaceEvent.html)  Block is prevented
+- [cn.nukkit.event.block.BlockRedstoneEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BlockRedstoneEvent.html)  Red stone state change
+- [cn.nukkit.event.block.BlockSpreadEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BlockSpreadEvent.html)  Block spread
+- [cn.nukkit.event.blockstate.BlockStateRepairEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/blockstate/BlockStateRepairEvent.html)  Bad blockstate fixed
+- [cn.nukkit.event.blockstate.BlockStateRepairFinishEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/blockstate/BlockStateRepairFinishEvent.html)  Bad blockstate completed repair
+- [cn.nukkit.event.block.BlockUpdateEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/BlockUpdateEvent.html)  Block update
+- [cn.nukkit.event.inventory.BrewEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/BrewEvent.html)  Brewing table work
+- [cn.nukkit.event.inventory.CampfireSmeltEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/CampfireSmeltEvent.html)  Campfire work
+- [cn.nukkit.event.block.CauldronFilledByDrippingLiquidEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/CauldronFilledByDrippingLiquidEvent.html)  The medicine refining pot is filled with water dripping from the dripping stone cone
+- [cn.nukkit.event.level.ChunkEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/level/ChunkEvent.html)  Collectively, block events
+- [cn.nukkit.event.level.ChunkLoadEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/level/ChunkLoadEvent.html)  Block loading
+- [cn.nukkit.event.level.ChunkPopulateEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/level/ChunkPopulateEvent.html)  The populate phase of block generation is completed
+- [cn.nukkit.event.level.ChunkUnloadEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/level/ChunkUnloadEvent.html)  Block unloading
+- [cn.nukkit.event.command.CommandBlockExecuteEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/command/CommandBlockExecuteEvent.html)  Command block execute command
+- [cn.nukkit.event.block.ComposterEmptyEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/ComposterEmptyEvent.html)  Compost bucket empty
+- [cn.nukkit.event.block.ComposterFillEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/ComposterFillEvent.html)  Fill compost bucket
+- [cn.nukkit.event.block.ConduitActivateEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/ConduitActivateEvent.html)  Surge core activation
+- [cn.nukkit.event.block.ConduitDeactivateEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/ConduitDeactivateEvent.html)  Surge core stop
+- [cn.nukkit.event.inventory.CraftItemEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/CraftItemEvent.html)  Synthetic item
+- [cn.nukkit.event.entity.CreatureSpawnEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/CreatureSpawnEvent.html)  Biogenesis
+- [cn.nukkit.event.entity.CreeperPowerEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/CreeperPowerEvent.html)  Coolie is afraid of charging
+- [cn.nukkit.event.server.DataPacketReceiveEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/server/DataPacketReceiveEvent.html)  Receive packets from clients
+- [cn.nukkit.event.server.DataPacketSendEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/server/DataPacketSendEvent.html)  Send packets to clients
+- [cn.nukkit.event.block.DoorToggleEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/DoorToggleEvent.html)  Open and close the door
+- [cn.nukkit.event.inventory.EnchantItemEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/EnchantItemEvent.html)  Enchant item
+- [cn.nukkit.event.entity.EntityArmorChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityArmorChangeEvent.html)  Entity replacement armor
+- [cn.nukkit.event.entity.EntityBlockChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityBlockChangeEvent.html)  Entity replacement block
+- [cn.nukkit.event.entity.EntityCombustByBlockEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityCombustByBlockEvent.html)  Entity ignited by block
+- [cn.nukkit.event.entity.EntityCombustByEntityEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityCombustByEntityEvent.html)  Entity is ignited by another entity
+- [cn.nukkit.event.entity.EntityCombustEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityCombustEvent.html)  General term of entity ignition event
+- [cn.nukkit.event.entity.EntityDamageBlockedEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityDamageBlockedEvent.html)  Entity is blocked by shield
+- [cn.nukkit.event.entity.EntityDamageByBlockEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityDamageByBlockEvent.html)  Entity is damaged by block damage
+- [cn.nukkit.event.entity.EntityDamageByChildEntityEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityDamageByChildEntityEvent.html)  Entity is injured by young entity damage
+- [cn.nukkit.event.entity.EntityDamageByEntityEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityDamageByEntityEvent.html)  Entity is damage by another entity
+- [cn.nukkit.event.entity.EntityDamageEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityDamageEvent.html)  A general term for events in which entity are damage
+- [cn.nukkit.event.entity.EntityDeathEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityDeathEvent.html)  Death of entity
+- [cn.nukkit.event.entity.EntityDespawnEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityDespawnEvent.html)  Entity disappears (unloaded or dead)
+- [cn.nukkit.event.entity.EntityEffectRemoveEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityEffectRemoveEvent.html)  Entity remove potion effect
+- [cn.nukkit.event.entity.EntityEffectUpdateEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityEffectUpdateEvent.html)  Entity potion effect update
+- [cn.nukkit.event.vehicle.EntityEnterVehicleEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/EntityEnterVehicleEvent.html)  Player enters the vehicle
+- [cn.nukkit.event.entity.EntityEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityEvent.html)  Collectively, all entity events
+- [cn.nukkit.event.vehicle.EntityExitVehicleEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/EntityExitVehicleEvent.html)  Player exits the vehicle
+- [cn.nukkit.event.entity.EntityExplodeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityExplodeEvent.html)  Entity explosion
+- [cn.nukkit.event.entity.EntityExplosionPrimeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityExplosionPrimeEvent.html)  Entity starts to explode
+- [cn.nukkit.event.entity.EntityFallEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityFallEvent.html)  Entity falling
+- [cn.nukkit.event.entity.EntityInteractEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityInteractEvent.html)  Entity interacts with other entity or block
+- [cn.nukkit.event.entity.EntityInventoryChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityInventoryChangeEvent.html)  Entity inventory change
+- [cn.nukkit.event.entity.EntityLevelChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityLevelChangeEvent.html)  Entity level change
+- [cn.nukkit.event.entity.EntityMotionEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityMotionEvent.html)  Entity motion
+- [cn.nukkit.event.entity.EntityMoveByPistonEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityMoveByPistonEvent.html)  The entity is pushed by the piston
+- [cn.nukkit.event.entity.EntityPortalEnterEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityPortalEnterEvent.html)  Entity enters the portal
+- [cn.nukkit.event.entity.EntityRegainHealthEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityRegainHealthEvent.html)  Entity reincarnation
+- [cn.nukkit.event.entity.EntityShootBowEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityShootBowEvent.html)  Entity uses bow to shoot arrows
+- [cn.nukkit.event.entity.EntityShootCrossbowEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityShootCrossbowEvent.html)  Entity uses crossbow archery
+- [cn.nukkit.event.entity.EntitySpawnEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntitySpawnEvent.html)  Entity generation
+- [cn.nukkit.event.entity.EntityTeleportEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityTeleportEvent.html)  Entity transmission
+- [cn.nukkit.event.entity.EntityVehicleEnterEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityVehicleEnterEvent.html)  Entity entry vehicle
+- [cn.nukkit.event.entity.EntityVehicleExitEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/EntityVehicleExitEvent.html)  Entity exiting vehicle
+- [cn.nukkit.event.entity.ExplosionPrimeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/ExplosionPrimeEvent.html)  Entity explosion
+- [cn.nukkit.event.inventory.FurnaceBurnEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/FurnaceBurnEvent.html)  Furnace combustion
+- [cn.nukkit.event.inventory.FurnaceSmeltEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/FurnaceSmeltEvent.html)  Furnace synthesis
+- [cn.nukkit.event.inventory.GrindstoneEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/GrindstoneEvent.html)  Stone cutter synthesis
+- [cn.nukkit.event.inventory.InventoryClickEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/InventoryClickEvent.html)  Player clicks on the inventory
+- [cn.nukkit.event.inventory.InventoryCloseEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/InventoryCloseEvent.html)  Player closes inventory
+- [cn.nukkit.event.inventory.InventoryEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/InventoryEvent.html)  A general term for events in the inventory
+- [cn.nukkit.event.inventory.InventoryMoveItemEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/InventoryMoveItemEvent.html)  Player moves item in inventory
+- [cn.nukkit.event.inventory.InventoryOpenEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/InventoryOpenEvent.html)  Player opens inventory
+- [cn.nukkit.event.inventory.InventoryPickupArrowEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/InventoryPickupArrowEvent.html)  Inventory pick up arrow
+- [cn.nukkit.event.inventory.InventoryPickupItemEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/InventoryPickupItemEvent.html)  Inventory pick up item
+- [cn.nukkit.event.inventory.InventoryPickupTridentEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/InventoryPickupTridentEvent.html)  Pick up Trident in inventory
+- [cn.nukkit.event.inventory.InventoryTransactionEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/InventoryTransactionEvent.html)  Inventory item moved
+- [cn.nukkit.event.entity.ItemDespawnEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/ItemDespawnEvent.html)  Item entity disappears (for reasons such as too long)
+- [cn.nukkit.event.block.ItemFrameDropItemEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/ItemFrameDropItemEvent.html)  The item in the item display box falls out as a entity
+- [cn.nukkit.event.entity.ItemSpawnEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/ItemSpawnEvent.html)  Item entity generation
+- [cn.nukkit.event.block.LeavesDecayEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/LeavesDecayEvent.html)  Leaf rot
+- [cn.nukkit.event.block.LecternDropBookEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/LecternDropBookEvent.html)  Books falling out of the platform are entity
+- [cn.nukkit.event.block.LecternPageChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/LecternPageChangeEvent.html)  Podium change page
+- [cn.nukkit.event.block.LecternPlaceBookEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/LecternPlaceBookEvent.html)  Books are placed on the platform
+- [cn.nukkit.event.level.LevelEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/level/LevelEvent.html)  General term of world events
+- [cn.nukkit.event.level.LevelInitEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/level/LevelInitEvent.html)  World initialization
+- [cn.nukkit.event.level.LevelLoadEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/level/LevelLoadEvent.html)  World load
+- [cn.nukkit.event.level.LevelSaveEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/level/LevelSaveEvent.html)  World preservation
+- [cn.nukkit.event.level.LevelUnloadEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/level/LevelUnloadEvent.html)  World uninstall
+- [cn.nukkit.event.weather.LightningStrikeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/weather/LightningStrikeEvent.html)  Thunder
+- [cn.nukkit.event.block.LiquidFlowEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/LiquidFlowEvent.html)  Fluid flow
+- [cn.nukkit.event.player.PlayerAchievementAwardedEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerAchievementAwardedEvent.html)  Player gains achievements
+- [cn.nukkit.event.player.PlayerAnimationEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerAnimationEvent.html)  Player plays animation or expression
+- [cn.nukkit.event.player.PlayerAsyncPreLoginEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerAsyncPreLoginEvent.html)  Player login asynchronously
+- [cn.nukkit.event.player.PlayerBedEnterEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerBedEnterEvent.html)  Player goes to bed
+- [cn.nukkit.event.player.PlayerBedLeaveEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerBedLeaveEvent.html)  Player gets out of bed
+- [cn.nukkit.event.player.PlayerBlockPickEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerBlockPickEvent.html)  Player picks up block
+- [cn.nukkit.event.player.PlayerBucketEmptyEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerBucketEmptyEvent.html)  Player empties the bucket
+- [cn.nukkit.event.player.PlayerBucketFillEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerBucketFillEvent.html)  Player fills the bucket
+- [cn.nukkit.event.player.PlayerChangeSkinEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerChangeSkinEvent.html)  Player changes skin
+- [cn.nukkit.event.player.PlayerChatEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerChatEvent.html)  Player chat
+- [cn.nukkit.event.player.PlayerChunkRequestEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerChunkRequestEvent.html)  Client requests a block data
+- [cn.nukkit.event.player.PlayerCommandPreprocessEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerCommandPreprocessEvent.html)  Player command processing
+- [cn.nukkit.event.player.PlayerCreationEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerCreationEvent.html)  Player creation
+- [cn.nukkit.event.server.PlayerDataSerializeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/server/PlayerDataSerializeEvent.html)  Serialize player data
+- [cn.nukkit.event.player.PlayerDeathEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerDeathEvent.html)  Player dies
+- [cn.nukkit.event.player.PlayerDialogRespondedEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerDialogRespondedEvent.html)  Player response dialog box
+- [cn.nukkit.event.player.PlayerDropItemEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerDropItemEvent.html)  Player throws out item
+- [cn.nukkit.event.player.PlayerEatFoodEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerEatFoodEvent.html)  Player eats
+- [cn.nukkit.event.player.PlayerEditBookEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerEditBookEvent.html)  Player edits books
+- [cn.nukkit.event.player.PlayerEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerEvent.html)  All player worlds collectively
+- [cn.nukkit.event.player.PlayerExperienceChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerExperienceChangeEvent.html)  Player experience value change
+- [cn.nukkit.event.player.PlayerFishEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerFishEvent.html)  Player fishing
+- [cn.nukkit.event.player.PlayerFoodLevelChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerFoodLevelChangeEvent.html)  Player hunger value changes
+- [cn.nukkit.event.player.PlayerFormRespondedEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerFormRespondedEvent.html)  Player response form
+- [cn.nukkit.event.player.PlayerFreezeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerFreezeEvent.html)  Player is frozen (light snow)
+- [cn.nukkit.event.player.PlayerGameModeChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerGameModeChangeEvent.html)  Player switches game mode
+- [cn.nukkit.event.player.PlayerGlassBottleFillEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerGlassBottleFillEvent.html)  Player fills the glass bottle
+- [cn.nukkit.event.player.PlayerInteractEntityEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerInteractEntityEvent.html)  Player interacts with entity
+- [cn.nukkit.event.player.PlayerInteractEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerInteractEvent.html)  Player interacts with block (long press air, right click stand-alone, left click damage, right click air, etc.)
+- [cn.nukkit.event.player.PlayerInvalidMoveEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerInvalidMoveEvent.html)  Player moves illegally
+- [cn.nukkit.event.player.PlayerItemConsumeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerItemConsumeEvent.html)  Player consumes item (eating, drinking potions, etc.)
+- [cn.nukkit.event.player.PlayerItemHeldEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerItemHeldEvent.html)  Player picks up item (change handheld item)
+- [cn.nukkit.event.player.PlayerJoinEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerJoinEvent.html)  Player enters the game
+- [cn.nukkit.event.player.PlayerJumpEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerJumpEvent.html)  Player jumps
+- [cn.nukkit.event.player.PlayerKickEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerKickEvent.html)  Player is kicked out of the game
+- [cn.nukkit.event.player.PlayerLocallyInitializedEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerLocallyInitializedEvent.html)  The client is loaded when player enters the server
+- [cn.nukkit.event.player.PlayerLoginEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerLoginEvent.html)  Player login
+- [cn.nukkit.event.player.PlayerMapInfoRequestEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerMapInfoRequestEvent.html)  Player requests map (item) data
+- [cn.nukkit.event.player.PlayerMessageEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerMessageEvent.html)  Player send messages (chat or command)
+- [cn.nukkit.event.player.PlayerMouseOverEntityEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerMouseOverEntityEvent.html)  Player mouse on entity
+- [cn.nukkit.event.player.PlayerMoveEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerMoveEvent.html)  Player Mobile
+- [cn.nukkit.event.player.PlayerPreLoginEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerPreLoginEvent.html)  Player pre login
+- [cn.nukkit.event.player.PlayerQuitEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerQuitEvent.html)  Player exit
+- [cn.nukkit.event.player.PlayerRespawnEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerRespawnEvent.html)  Player rebirth
+- [cn.nukkit.event.player.PlayerServerSettingsRequestEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerServerSettingsRequestEvent.html)  Player requests server settings on the setup page
+- [cn.nukkit.event.player.PlayerSettingsRespondedEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerSettingsRespondedEvent.html)  Player responds to server settings on the settings page
+- [cn.nukkit.event.player.PlayerShowCreditsEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerShowCreditsEvent.html)  Player requests to display the information of another player
+- [cn.nukkit.event.player.PlayerTeleportEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerTeleportEvent.html)  Player Teleport
+- [cn.nukkit.event.player.PlayerToggleFlightEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerToggleFlightEvent.html)  Player switches flight status
+- [cn.nukkit.event.player.PlayerToggleGlideEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerToggleGlideEvent.html)  Player switches glide status
+- [cn.nukkit.event.player.PlayerToggleSneakEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerToggleSneakEvent.html)  Player switches stealth status
+- [cn.nukkit.event.player.PlayerToggleSpinAttackEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerToggleSpinAttackEvent.html)  Player switches the rotation attack form
+- [cn.nukkit.event.player.PlayerToggleSprintEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerToggleSprintEvent.html)  Player switches sprint status
+- [cn.nukkit.event.player.PlayerToggleSwimEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/player/PlayerToggleSwimEvent.html)  Player switches swimming status
+- [cn.nukkit.event.inventory.PlayerTypingAnvilInventoryEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/PlayerTypingAnvilInventoryEvent.html)  Player is typing on the anvil inventory
+- [cn.nukkit.event.plugin.PluginDisableEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/plugin/PluginDisableEvent.html)  Plugin uninstall
+- [cn.nukkit.event.plugin.PluginEnableEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/plugin/PluginEnableEvent.html)  Plugin startup
+- [cn.nukkit.event.plugin.PluginEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/plugin/PluginEvent.html)  A general term for player events
+- [cn.nukkit.event.potion.PotionApplyEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/potion/PotionApplyEvent.html)  Entity is added with potion effect
+- [cn.nukkit.event.potion.PotionCollideEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/potion/PotionCollideEvent.html)  Potion effect conflict
+- [cn.nukkit.event.potion.PotionEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/potion/PotionEvent.html)  General term of potion effect events
+- [cn.nukkit.event.entity.ProjectileHitEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/ProjectileHitEvent.html)  Projectile concentration entity
+- [cn.nukkit.event.entity.ProjectileLaunchEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/entity/ProjectileLaunchEvent.html)  The projectile was launched
+- [cn.nukkit.event.server.QueryRegenerateEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/server/QueryRegenerateEvent.html)  MotdInformation regeneration
+- [cn.nukkit.event.redstone.RedstoneUpdateEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/redstone/RedstoneUpdateEvent.html)  Redstone renewal
+- [cn.nukkit.event.server.RemoteServerCommandEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/server/RemoteServerCommandEvent.html)  Remote rcon command
+- [cn.nukkit.event.inventory.RepairItemEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/RepairItemEvent.html)  Item is repaired
+- [cn.nukkit.event.command.ScoreboardEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/command/ScoreboardEvent.html)  A general term for scoreboard events
+- [cn.nukkit.event.command.ScoreboardObjectiveChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/command/ScoreboardObjectiveChangeEvent.html)  Scoreboard objective object change
+- [cn.nukkit.event.command.ScoreboardScoreChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/command/ScoreboardScoreChangeEvent.html)  Scoreboard score change
+- [cn.nukkit.event.server.ServerCommandEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/server/ServerCommandEvent.html)  Server commands (console)
+- [cn.nukkit.event.server.ServerEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/server/ServerEvent.html)  Collectively, server events
+- [cn.nukkit.event.server.ServerStopEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/server/ServerStopEvent.html)  Server stop
+- [cn.nukkit.event.block.SignChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/SignChangeEvent.html)  Text change of notice board
+- [cn.nukkit.event.block.SignColorChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/SignColorChangeEvent.html)  Color change of notice board
+- [cn.nukkit.event.block.SignGlowEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/SignGlowEvent.html)  Brightness change of notice board (luminous ink bag)
+- [cn.nukkit.event.inventory.SmithingTableEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/SmithingTableEvent.html)  Forging table synthesis
+- [cn.nukkit.event.level.SpawnChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/level/SpawnChangeEvent.html)  Rebirth point change
+- [cn.nukkit.event.inventory.StartBrewEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/StartBrewEvent.html)  Brewing table starts brewing
+- [cn.nukkit.event.level.StructureGrowEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/level/StructureGrowEvent.html)  Structural growth (seedlings grow into trees, etc.)
+- [cn.nukkit.event.level.ThunderChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/level/ThunderChangeEvent.html)  Thunderstorm change
+- [cn.nukkit.event.block.TurtleEggHatchEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/TurtleEggHatchEvent.html)  Hatching of turtle eggs completed
+- [cn.nukkit.event.vehicle.VehicleCreateEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/vehicle/VehicleCreateEvent.html)  Vehicle created
+- [cn.nukkit.event.vehicle.VehicleDamageByEntityEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/vehicle/VehicleDamageByEntityEvent.html)  Vehicle attacked by entity
+- [cn.nukkit.event.vehicle.VehicleDamageEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/vehicle/VehicleDamageEvent.html)  A general term for vehicle damage events
+- [cn.nukkit.event.vehicle.VehicleDestroyByEntityEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/vehicle/VehicleDestroyByEntityEvent.html)  Vehicle destroyed by entity
+- [cn.nukkit.event.vehicle.VehicleDestroyEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/vehicle/VehicleDestroyEvent.html)  A general term for the destruction of vehicles
+- [cn.nukkit.event.vehicle.VehicleEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/vehicle/VehicleEvent.html)  General term of vehicle events
+- [cn.nukkit.event.vehicle.VehicleMoveEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/vehicle/VehicleMoveEvent.html)  Vehicle movement
+- [cn.nukkit.event.vehicle.VehicleUpdateEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/vehicle/VehicleUpdateEvent.html)  Vehicle update
+- [cn.nukkit.event.block.WaterFrostEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/WaterFrostEvent.html)  Water freezes to ice
+- [cn.nukkit.event.level.WeatherChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/level/WeatherChangeEvent.html)  Weather change
+- [cn.nukkit.event.level.WeatherEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/level/WeatherEvent.html)  General term of weather events
+
+## If an event does not exist
+
+Usually, the events you want to find exist in the above list. Please make good use of the search function to find patiently.
+
+If you are sure you cannot find it, please consider the following points：
+
+- Whether the event you are looking for is a derivative or variant of an event, for example, right-click the block event is`PlayerInteractEvent`You only need to listen to this event and judge`getAction()`The return value of the function
+- Whether the event you are looking for is provided by a plugin. If so, you can directly listen to the complete class name of the event of the corresponding plugin
+- Do you really need relevant events for your purpose? Can you use timed polling, delay detection and other methods to replace them
+
+If the above steps are considered, pls give us feedback at [PNX issue](https://github.com/PowerNukkitX/PowerNukkitX/issues) .
