@@ -3,6 +3,17 @@
 PNX-CLI启动器 [点击前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)
 ## PNX-CLI启动器是什么？
 它能在你的主机上快捷部署PowerNukkitX服务器,更少的占用,更方便的管理
+## 安装PNX-CLI注意事项！
+1. 目录文件夹不能有空格否则无数正常运行！
+2. 你必需在PNX_CLI安装包目录文件夹下进行以下安装！
+3. 你如果安装使用下述指令安装失败
+```
+pnx sys-install
+```
+输入以下指令再次尝试
+```
+.\pnx sys-install
+```
 ## 如何设置PNX-CLI参数？
 创建**pnx-cli-config.ini**文件
 输入下述文本:
