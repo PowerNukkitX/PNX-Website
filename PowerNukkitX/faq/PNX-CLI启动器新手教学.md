@@ -10,10 +10,15 @@ PNX-CLI启动器 [点击前往下载](https://github.com/PowerNukkitX/PNX-CLI/re
 ```
 pnx sys-install
 ```
-  请输入下述指令再次尝试
+### Linux系统输入下述指令再次尝试
+```
+./pnx sys-install
+```
+### Windows PowerShell系统输入下述指令再次尝试
 ```
 .\pnx sys-install
 ```
+
 ## 如何设置PNX-CLI参数？
 创建**pnx-cli-config.ini**文件
 输入下述文本:
@@ -82,7 +87,7 @@ pnx comp install=graaljit
 pnx comp check 
 ```
 完成安装后,将会提高你JVM运行速度\
-8. 在命令框输入下述指令安装JVM(如果已安装则跳过)
+8. 在命令框输入下述指令安装JVM(**如果已安装则跳过**)
 ```
 pnx jvm install=GraalVM  
 ```
@@ -127,7 +132,7 @@ pnx sys-install
 ```
 pnx -h
 ```
-如果提示权限不足使用下述指令提权 [如果有权限跳过步骤]
+如果提示权限不足使用下述指令提权 [**如果有权限跳过步骤**]
 ```
 chmod 777 pnx
 ```
@@ -157,7 +162,7 @@ pnx comp install=graaljit
 pnx comp check 
 ```
 完成安装后,将会提高你JVM运行速度\
-8. 输入下述指令安装JVM(如果已安装则跳过)
+8. 输入下述指令安装JVM(**如果已安装则跳过**)
 ```
 pnx jvm install=GraalVM  
 ```
