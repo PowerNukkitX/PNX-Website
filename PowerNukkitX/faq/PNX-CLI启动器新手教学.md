@@ -10,7 +10,7 @@ PNX-CLI启动器 [点击前往下载](https://github.com/PowerNukkitX/PNX-CLI/re
 ```
 pnx sys-install
 ```
-输入以下指令再次尝试
+  请输入下述指令再次尝试
 ```
 .\pnx sys-install
 ```
