@@ -3,6 +3,21 @@
 PNX-CLI Launcher [Download](https://github.com/PowerNukkitX/PNX-CLI/releases)
 ## What is the PNX-CLI starter?
 It allows you to quickly deploy PowerNukkitX servers on your host, with less footprint and easier management.
+## Notes on the installation of the PNX-CLI!
+1. No spaces in the directory folder or it won't work!
+2. You must install the following in the PNX_CLI installation package folder!
+3. The installation is not valid if the following command is entered
+```
+pnx sys-install
+```
+Linux Try again by entering the following command
+```
+./pnx sys-install
+```
+Windows PowerShell Try again by entering the following command
+```
+.\pnx sys-install
+```
 ## How do I set the PNX-CLI parameters?
 Create the pnx-cli-config.ini file and enter the following text:
 ```
@@ -71,7 +86,7 @@ pnx comp install=graaljit
 pnx comp check 
 ```
 Once installed, it will improve the speed of your JVM\
-8. Enter the following command in the command box to install the JVM (skip installation)
+8. Enter the following command in the command box to install the JVM (**skip installation**)
 ```
 pnx jvm install=GraalVM  
 ```
@@ -115,7 +130,7 @@ pnx sys-install
 ```
 pnx -h
 ```
-If prompted for insufficient privileges use the following command to raise privileges [skip step if privileges are available]
+If prompted for insufficient privileges use the following command to raise privileges [**skip step if privileges are available**]
 ```
 chmod 777 pnx
 ```
@@ -145,7 +160,7 @@ pnx comp install=graaljit
 pnx comp check 
 ```
 Once installed, it will improve the speed of your JVM\
-8. Enter the following command in the command box to install the JVM (skip installation)
+8. Enter the following command in the command box to install the JVM (**skip installation**)
 ```
 pnx jvm install=GraalVM  
 ```
