@@ -3,6 +3,17 @@
 PNX-CLI Launcher [Download](https://github.com/PowerNukkitX/PNX-CLI/releases)
 ## What is the PNX-CLI starter?
 It allows you to quickly deploy PowerNukkitX servers on your host, with less footprint and easier management.
+## Notes on the installation of the PNX-CLI!
+1. There must be no spaces in the directory folder or it will not work properly!
+2. You must install the following in the PNX_CLI installation package folder!
+3. Your installation will fail if you install using the following command
+```
+pnx sys-install
+```
+Please try again by entering the following command
+```
+./pnx sys-install
+```
 ## How do I set the PNX-CLI parameters?
 Create the pnx-cli-config.ini file and enter the following text:
 ```
