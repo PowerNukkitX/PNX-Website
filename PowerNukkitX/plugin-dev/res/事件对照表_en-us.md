@@ -86,7 +86,7 @@
 - [cn.nukkit.event.inventory.InventoryClickEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/InventoryClickEvent.html)  Player clicks on the inventory
 - [cn.nukkit.event.inventory.InventoryCloseEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/InventoryCloseEvent.html)  Player closes inventory
 - [cn.nukkit.event.inventory.InventoryEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/InventoryEvent.html)  A general term for events in the inventory
-- [cn.nukkit.event.inventory.InventoryMoveItemEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/InventoryMoveItemEvent.html)  Player moves item in inventory
+- [cn.nukkit.event.inventory.InventoryMoveItemEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/InventoryMoveItemEvent.html)  Not a player moves item in inventory
 - [cn.nukkit.event.inventory.InventoryOpenEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/InventoryOpenEvent.html)  Player opens inventory
 - [cn.nukkit.event.inventory.InventoryPickupArrowEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/InventoryPickupArrowEvent.html)  Inventory pick up arrow
 - [cn.nukkit.event.inventory.InventoryPickupItemEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/inventory/InventoryPickupItemEvent.html)  Inventory pick up item
