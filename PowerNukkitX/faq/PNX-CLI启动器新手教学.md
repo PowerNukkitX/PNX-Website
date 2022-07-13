@@ -6,7 +6,7 @@ PNX-CLI启动器 [点击前往下载](https://github.com/PowerNukkitX/PNX-CLI/re
 ## 安装PNX-CLI注意事项！
 1. 目录文件夹不能有空格否则无数正常运行！
 2. 你必需在PNX_CLI安装包目录文件夹下进行以下安装！
-3. 你如果安装使用下述指令安装失败
+3. 你如果使用下述指令安装失败
 ```
 pnx sys-install
 ```
