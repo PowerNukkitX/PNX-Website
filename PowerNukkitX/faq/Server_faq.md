@@ -49,3 +49,10 @@ Check the corresponding system PID number to end the process using the following
 ```
 kill -9 PID
 ```
+
+## java.lang.NoClassDefFoundError: org/objectweb/asm/Type
+If you are using pnx-cli,please use the following command to update dependent libraries.
+```
+pnx libs update
+```
+If you are using shaded core,please download the latest core in [github action](https://github.com/PowerNukkitX/PowerNukkitX/actions).
