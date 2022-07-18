@@ -51,7 +51,7 @@ kill -9 PID
 ```
 
 ## java.lang.NoClassDefFoundError: org/objectweb/asm/Type
-If you are using pnx-cli,please use the following commod to update dependent libraries.
+If you are using pnx-cli,please use the following command to update dependent libraries.
 ```
 pnx libs update
 ```
