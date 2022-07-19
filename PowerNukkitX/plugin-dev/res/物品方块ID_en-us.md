@@ -1,6 +1,6 @@
 # IDs of Blocks and Items    
 
-Here is the ID list used by PowerNukkitX in protocol `1.19.0 (527)`.    
+Here is the ID list used by PowerNukkitX in protocol `1.19.10 (534)`.    
 
 ```properties
 -499=minecraft:mangrove_double_slab

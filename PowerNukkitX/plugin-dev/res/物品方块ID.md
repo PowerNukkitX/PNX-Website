@@ -1,6 +1,6 @@
 # 物品方块ID  
 
-此页面列举了PowerNukkitX在`1.19.0 (527)`协议中使用的内部物品ID  
+此页面列举了PowerNukkitX在`1.19.10 (534)`协议中使用的内部物品ID  
 
 ```properties
 -499=minecraft:mangrove_double_slab
