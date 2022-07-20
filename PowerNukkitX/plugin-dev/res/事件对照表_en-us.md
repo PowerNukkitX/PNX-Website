@@ -178,6 +178,7 @@
 - [cn.nukkit.event.command.ScoreboardScoreChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/command/ScoreboardScoreChangeEvent.html)  Scoreboard score change
 - [cn.nukkit.event.server.ServerCommandEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/server/ServerCommandEvent.html)  Server commands (console)
 - [cn.nukkit.event.server.ServerEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/server/ServerEvent.html)  Collectively, server events
+- [cn.nukkit.event.server.ServerStartedEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/server/ServerStartedEvent.html)  Server started
 - [cn.nukkit.event.server.ServerStopEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/server/ServerStopEvent.html)  Server stop
 - [cn.nukkit.event.block.SignChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/SignChangeEvent.html)  Text change of notice board
 - [cn.nukkit.event.block.SignColorChangeEvent](https://javadoc.io/doc/cn.powernukkitx/powernukkitx/latest/cn/nukkit/event/block/SignColorChangeEvent.html)  Color change of notice board
