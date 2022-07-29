@@ -5,7 +5,8 @@
       "PowerNukkitX_en-us.md": 999,
       "bootstrap": -100,
       "faq": -999,
-      "plugin-dev": -1000
+      "plugin-dev": -1000,
+      "entity-ai": -1001
     }
   },
   "title": {
@@ -19,6 +20,10 @@
     "plugin-dev": {
       "zh-cn": "插件开发",
       "en-us": "Plugin Development"
+    },
+    "entity-ai": {
+      "zh-cn": "生物AI",
+      "en-us": "Entity AI"
     }
   },
   "multiLanguage": [
