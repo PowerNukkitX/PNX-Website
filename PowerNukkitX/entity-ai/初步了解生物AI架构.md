@@ -11,7 +11,7 @@ PNX提供了一个完整的，高性能的，可扩展性强的，易上手的�
 测试机器硬件参数如下 (不同配置的机器实测结果可能不同)：
 
 #### CPU:
-![CPU INFO](%relativePrefix%image/entity-ai/cpu-info.png)
+![CPU INFO](%relativePrefix%image/common/entity-ai/cpu-info.png)  
 
 #### RAM:
 ![RAM INFO](%relativePrefix%image/common/entity-ai/ram-info.png)  
