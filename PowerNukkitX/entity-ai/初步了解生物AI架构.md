@@ -11,14 +11,14 @@ PNX提供了一个完整的，高性能的，可扩展性强的，易上手的�
 测试机器硬件参数如下 (不同配置的机器实测结果可能不同)：
 
 #### CPU:
-![CPU INFO](./image/common/entity-ai/cpu-info.png)  
+![CPU INFO](././image/common/entity-ai/cpu-info.png)  
 
 #### RAM:
-![RAM INFO](./image/common/entity-ai/ram-info.png)  
+![RAM INFO](././image/common/entity-ai/ram-info.png)  
 
 我们使用超平坦进行测试，测试方法为比较相同羊数量的情况下的TPS（PNX中的羊AI拥有原版所有行为）。相同条件下与BDS的性能比较如下：
 
-![PNX VS BDS](./image/common/entity-ai/pnx-vs-bds.png)
+![PNX VS BDS](././image/common/entity-ai/pnx-vs-bds.png)
 
 实测PNX在超平坦条件下可以在承载高达2600只羊的情况下以20TPS的速率运行（事实上在这个数量下客户端已经非常卡顿了）
 
@@ -26,7 +26,7 @@ PNX提供了一个完整的，高性能的，可扩展性强的，易上手的�
 
 整个架构位于包`cn.nukkit.entity.ai`下：
 
-![ENTITY-AI-PKG](./image/common/entity-ai/entity-ai-pkg.png)
+![ENTITY-AI-PKG](././image/common/entity-ai/entity-ai-pkg.png)
 
 在开始分析源码之前，笔者想先简单阐述下整个架构的设计思路
 
