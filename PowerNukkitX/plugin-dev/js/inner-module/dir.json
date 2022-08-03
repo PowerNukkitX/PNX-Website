@@ -14,6 +14,10 @@
       "zh-cn": "concurrent模块"
     },
     "concurrent_en-us.md": "concurrent",
+    "jvm.md": {
+      "zh-cn": "jvm模块"
+    },
+    "jvm_en-us.md": "jvm",
     "plugin-id.md": {
       "zh-cn": "plugin-id模块"
     },
@@ -35,6 +39,10 @@
     {
       "zh-cn": "concurrent.md",
       "en-us": "concurrent_en-us.md"
+    },
+    {
+      "zh-cn": "jvm.md",
+      "en-us": "jvm_en-us.md"
     }
   ]
 }
