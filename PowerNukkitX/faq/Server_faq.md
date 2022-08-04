@@ -56,3 +56,16 @@ If you are using pnx-cli,please use the following command to update dependent li
 pnx libs update
 ```
 If you are using shaded core,please download the latest core in [github action](https://github.com/PowerNukkitX/PowerNukkitX/actions).
+
+## All players are offline at the same time
+
+This may be caused by the following reasons:  
+
+- Some players join with cheat clients and broadcast broken data packets
+- There is a plug-in blocking on the main thread for a long time
+- Debugger, third-party launcher, antivirus software block PNX operation
+- You click the console (the title of the console window starts with "selected"), which leads to entering the debugging mode, and the operation of the server is suspended
+- Your server performance is poor, and other high occupancy programs are opened at the same time. The system suspends the operation of PNX to ensure the operation of other foreground programs
+- Your server or service provider has been attacked by network, such as DDOS
+
+Please check the above reasons first. If you really can't solve it, you can turn to QQ group or Discord server for help.  
