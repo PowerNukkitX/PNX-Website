@@ -11,11 +11,11 @@ PNX-CLI启动器 【:earth_asia:[前往下载](https://github.com/PowerNukkitX/P
 了解如何设置启动参数 【:earth_asia:[点击前往](https://github.com/PowerNukkitX/PowerNukkitX)】
 
 ## :exclamation:安装PNX-CLI注意事项！
-  :one:**目录文件夹不能有空格否则无法正常运行！**
+​    :one:**目录文件夹不能有空格否则无法正常运行！**
 
-  :two:**你必需在PNX_CLI安装包目录文件夹下进行以下安装！**
+​    :two:**你必需在PNX_CLI安装包目录文件夹下进行以下安装！**
 
-  :three:**你如果使用下述指令安装失败**
+​    :three:**你如果使用下述指令安装失败**
 
 ### :computer:Linux 输入下述指令尝试
 ```
@@ -76,7 +76,8 @@ PNX-CLI提供了3个场景部署的项目
 
 ----
 5. 在命令框输入下述指令安装PNX快速部署工具,安装完毕后,无论在命令框哪里都能使用PNX-CLI相关指令
-**注意：安装完成后需要重启CMD或者PowerShell**
+
+  **:warning:注意：安装完成后需要重启CMD或者PowerShell**
 ```
 pnx sys-install
 ```
@@ -160,12 +161,12 @@ pnx libs -u
 ```
 11. 双击PNX.exe启动服务器
 
-    **注意：你需要安装相关VC运行库**
+    **:warning:注意：你需要安装相关VC运行库**
 
 ### :tea:基于PNX-CLI-Linux-x86(Arm)安装PNX服务器相关步骤
 1. 下载PNX-CLI-Linux-x86(Arm).zip压缩包 【:earth_asia:[前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)】
 2. 下载完成后,输入下述指令\
-**注意:/xxx/xxx 代表你PNX-CLI-Linux-x86(Arm).zip所在文件夹目录**
+**:warning:注意:/xxx/xxx 代表你PNX-CLI-Linux-x86(Arm).zip所在文件夹目录**
 ```
 cd /xxx/xxx
 ```
@@ -174,7 +175,7 @@ cd /xxx/xxx
 unzip PNX-CLI-Linux-x86(Arm).zip
 ```
 4. 在命令框输入下述指令安装PNX快速部署工具,安装完毕后,无论在命令框哪里都能使用PNX-CLI相关指令
-**注意：安装完成后需要重启命令终端**
+**:warning:注意：安装完成后需要重启命令终端**
 ```
 pnx sys-install
 ```
@@ -275,7 +276,7 @@ pnx start
 which screen
 ```
 2. 在命令框输入下述指令,安装screen
-**注意: 根据主机系统而定** 
+**:warning:注意: 需要根据主机系统而定** 
 
 ###### CentOS
 
