@@ -26,7 +26,8 @@
           href="https://cdnjs.cloudflare.com/ajax/libs/mdui/1.0.2/css/mdui.min.css"
           crossorigin="anonymous"/>
     <!--  DocSearch CSS  -->
-    <link rel="stylesheet" href="https://unpkg.com/@docsearch/css@3"/>
+    <!--suppress HtmlUnknownTarget -->
+    <link rel="stylesheet" href="%relativePrefix%css/docsearch.css"/>
     <!--  Prism.js代码高亮  -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/line-numbers/prism-line-numbers.min.css"
@@ -40,7 +41,8 @@
     window.languageLinks = JSON.parse(`%languageFiles%`)
 </script>
 <!-- DocSearch搜索库 -->
-<script src="https://unpkg.com/@docsearch/js@3"></script>
+<!--suppress HtmlUnknownTarget -->
+<script src="%relativePrefix%js/docsearch.min.js"></script>
 <!-- PNX文档JS库 -->
 <!--suppress HtmlUnknownTarget -->
 <script src="%relativePrefix%js/doc.min.js"></script>

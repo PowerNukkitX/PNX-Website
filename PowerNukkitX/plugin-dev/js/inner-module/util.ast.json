@@ -1,0 +1,3216 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                580,
+                620
+            ],
+            "filename": "util.js",
+            "lineno": 13,
+            "columnno": 6,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000039",
+                "name": "JPrimitiveBoolean",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "JPrimitiveBoolean",
+        "longname": "JPrimitiveBoolean",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                629,
+                661
+            ],
+            "filename": "util.js",
+            "lineno": 14,
+            "columnno": 6,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000047",
+                "name": "JPrimitiveInt",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "JPrimitiveInt",
+        "longname": "JPrimitiveInt",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                670,
+                722
+            ],
+            "filename": "util.js",
+            "lineno": 15,
+            "columnno": 6,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000055",
+                "name": "jsPlugin",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "jsPlugin",
+        "longname": "jsPlugin",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\r\n * 创造物品栏分类\r\n */",
+        "meta": {
+            "range": [
+                749,
+                1132
+            ],
+            "filename": "util.js",
+            "lineno": 20,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000064",
+                "name": "exports.CreativeInventoryType",
+                "type": "ClassDeclaration"
+            }
+        },
+        "classdesc": "创造物品栏分类",
+        "name": "CreativeInventoryType",
+        "longname": "CreativeInventoryType",
+        "kind": "class",
+        "scope": "global",
+        "undocumented": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                756,
+                1132
+            ],
+            "filename": "util.js",
+            "lineno": 20,
+            "columnno": 7,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000065",
+                "name": "CreativeInventoryType",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "typeId"
+                ]
+            }
+        },
+        "undocumented": true,
+        "name": "CreativeInventoryType",
+        "longname": "CreativeInventoryType",
+        "kind": "class",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                791,
+                841
+            ],
+            "filename": "util.js",
+            "lineno": 21,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000068",
+                "name": "CONSTRUCTOR",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "CONSTRUCTOR",
+        "longname": "CreativeInventoryType#CONSTRUCTOR",
+        "kind": "member",
+        "memberof": "CreativeInventoryType",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                847,
+                892
+            ],
+            "filename": "util.js",
+            "lineno": 22,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000072",
+                "name": "NATURE",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "NATURE",
+        "longname": "CreativeInventoryType#NATURE",
+        "kind": "member",
+        "memberof": "CreativeInventoryType",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                898,
+                946
+            ],
+            "filename": "util.js",
+            "lineno": 23,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000076",
+                "name": "EQUIPMENT",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "EQUIPMENT",
+        "longname": "CreativeInventoryType#EQUIPMENT",
+        "kind": "member",
+        "memberof": "CreativeInventoryType",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                952,
+                995
+            ],
+            "filename": "util.js",
+            "lineno": 24,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000080",
+                "name": "ITEM",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "ITEM",
+        "longname": "CreativeInventoryType#ITEM",
+        "kind": "member",
+        "memberof": "CreativeInventoryType",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\r\n     * @private\r\n     * @param typeId 创造物品栏分类ID\r\n     */",
+        "meta": {
+            "range": [
+                1070,
+                1129
+            ],
+            "filename": "util.js",
+            "lineno": 30,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000084",
+                "name": "exports.CreativeInventoryType",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "typeId"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "access": "private",
+        "params": [
+            {
+                "description": "创造物品栏分类ID",
+                "name": "typeId"
+            }
+        ],
+        "name": "CreativeInventoryType",
+        "longname": "CreativeInventoryType#CreativeInventoryType",
+        "kind": "class",
+        "memberof": "CreativeInventoryType",
+        "scope": "instance",
+        "undocumented": true
+    },
+    {
+        "comment": "/**\r\n * 创造物品栏分类\r\n */",
+        "meta": {
+            "range": [
+                749,
+                1132
+            ],
+            "filename": "util.js",
+            "lineno": 20,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000064",
+                "name": "exports.CreativeInventoryType",
+                "type": "ClassDeclaration"
+            }
+        },
+        "name": "CreativeInventoryType",
+        "longname": "CreativeInventoryType",
+        "kind": "class",
+        "classdesc": "创造物品栏分类",
+        "scope": "global",
+        "access": "private",
+        "memberof": "CreativeInventoryType",
+        "params": [
+            {
+                "description": "创造物品栏分类ID",
+                "name": "typeId"
+            }
+        ]
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1101,
+                1121
+            ],
+            "filename": "util.js",
+            "lineno": 31,
+            "columnno": 8,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000090",
+                "name": "this.typeId",
+                "type": "Identifier",
+                "value": "typeId",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "typeId",
+        "longname": "CreativeInventoryType#typeId",
+        "kind": "member",
+        "memberof": "CreativeInventoryType",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\r\n * 工具种类\r\n */",
+        "meta": {
+            "range": [
+                1155,
+                1737
+            ],
+            "filename": "util.js",
+            "lineno": 38,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000095",
+                "name": "exports.ToolType",
+                "type": "ClassDeclaration"
+            }
+        },
+        "classdesc": "工具种类",
+        "name": "ToolType",
+        "longname": "ToolType",
+        "kind": "class",
+        "scope": "global",
+        "undocumented": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1162,
+                1737
+            ],
+            "filename": "util.js",
+            "lineno": 38,
+            "columnno": 7,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000096",
+                "name": "ToolType",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "typeId"
+                ]
+            }
+        },
+        "undocumented": true,
+        "name": "ToolType",
+        "longname": "ToolType",
+        "kind": "class",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1184,
+                1237
+            ],
+            "filename": "util.js",
+            "lineno": 39,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000099",
+                "name": "NONE",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "NONE",
+        "longname": "ToolType#NONE",
+        "kind": "member",
+        "memberof": "ToolType",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1243,
+                1298
+            ],
+            "filename": "util.js",
+            "lineno": 40,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000105",
+                "name": "SWORD",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "SWORD",
+        "longname": "ToolType#SWORD",
+        "kind": "member",
+        "memberof": "ToolType",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1304,
+                1361
+            ],
+            "filename": "util.js",
+            "lineno": 41,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000111",
+                "name": "SHOVEL",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "SHOVEL",
+        "longname": "ToolType#SHOVEL",
+        "kind": "member",
+        "memberof": "ToolType",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1367,
+                1426
+            ],
+            "filename": "util.js",
+            "lineno": 42,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000117",
+                "name": "PICKAXE",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "PICKAXE",
+        "longname": "ToolType#PICKAXE",
+        "kind": "member",
+        "memberof": "ToolType",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1432,
+                1483
+            ],
+            "filename": "util.js",
+            "lineno": 43,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000123",
+                "name": "AXE",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "AXE",
+        "longname": "ToolType#AXE",
+        "kind": "member",
+        "memberof": "ToolType",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1489,
+                1540
+            ],
+            "filename": "util.js",
+            "lineno": 44,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000129",
+                "name": "HOE",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "HOE",
+        "longname": "ToolType#HOE",
+        "kind": "member",
+        "memberof": "ToolType",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1546,
+                1603
+            ],
+            "filename": "util.js",
+            "lineno": 45,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000135",
+                "name": "SHEARS",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "SHEARS",
+        "longname": "ToolType#SHEARS",
+        "kind": "member",
+        "memberof": "ToolType",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\r\n     * @private\r\n     * @param typeId 工具种类ID\r\n     */",
+        "meta": {
+            "range": [
+                1675,
+                1734
+            ],
+            "filename": "util.js",
+            "lineno": 51,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000141",
+                "name": "exports.ToolType",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "typeId"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "access": "private",
+        "params": [
+            {
+                "description": "工具种类ID",
+                "name": "typeId"
+            }
+        ],
+        "name": "ToolType",
+        "longname": "ToolType#ToolType",
+        "kind": "class",
+        "memberof": "ToolType",
+        "scope": "instance",
+        "undocumented": true
+    },
+    {
+        "comment": "/**\r\n * 工具种类\r\n */",
+        "meta": {
+            "range": [
+                1155,
+                1737
+            ],
+            "filename": "util.js",
+            "lineno": 38,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000095",
+                "name": "exports.ToolType",
+                "type": "ClassDeclaration"
+            }
+        },
+        "name": "ToolType",
+        "longname": "ToolType",
+        "kind": "class",
+        "classdesc": "工具种类",
+        "scope": "global",
+        "access": "private",
+        "memberof": "ToolType",
+        "params": [
+            {
+                "description": "工具种类ID",
+                "name": "typeId"
+            }
+        ]
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1706,
+                1726
+            ],
+            "filename": "util.js",
+            "lineno": 52,
+            "columnno": 8,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000147",
+                "name": "this.typeId",
+                "type": "Identifier",
+                "value": "typeId",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "typeId",
+        "longname": "ToolType#typeId",
+        "kind": "member",
+        "memberof": "ToolType",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\r\n * 工具分级\r\n */",
+        "meta": {
+            "range": [
+                1760,
+                2293
+            ],
+            "filename": "util.js",
+            "lineno": 59,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000152",
+                "name": "exports.ToolTier",
+                "type": "ClassDeclaration"
+            }
+        },
+        "classdesc": "工具分级",
+        "name": "ToolTier",
+        "longname": "ToolTier",
+        "kind": "class",
+        "scope": "global",
+        "undocumented": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1767,
+                2293
+            ],
+            "filename": "util.js",
+            "lineno": 59,
+            "columnno": 7,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000153",
+                "name": "ToolTier",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "tierId"
+                ]
+            }
+        },
+        "undocumented": true,
+        "name": "ToolTier",
+        "longname": "ToolTier",
+        "kind": "class",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1789,
+                1846
+            ],
+            "filename": "util.js",
+            "lineno": 60,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000156",
+                "name": "WOODEN",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "WOODEN",
+        "longname": "ToolTier#WOODEN",
+        "kind": "member",
+        "memberof": "ToolTier",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1852,
+                1905
+            ],
+            "filename": "util.js",
+            "lineno": 61,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000162",
+                "name": "GOLD",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "GOLD",
+        "longname": "ToolTier#GOLD",
+        "kind": "member",
+        "memberof": "ToolTier",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1911,
+                1966
+            ],
+            "filename": "util.js",
+            "lineno": 62,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000168",
+                "name": "STONE",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "STONE",
+        "longname": "ToolTier#STONE",
+        "kind": "member",
+        "memberof": "ToolTier",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1972,
+                2025
+            ],
+            "filename": "util.js",
+            "lineno": 63,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000174",
+                "name": "IRON",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "IRON",
+        "longname": "ToolTier#IRON",
+        "kind": "member",
+        "memberof": "ToolTier",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2031,
+                2090
+            ],
+            "filename": "util.js",
+            "lineno": 64,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000180",
+                "name": "DIAMOND",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "DIAMOND",
+        "longname": "ToolTier#DIAMOND",
+        "kind": "member",
+        "memberof": "ToolTier",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2096,
+                2159
+            ],
+            "filename": "util.js",
+            "lineno": 65,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000186",
+                "name": "NETHERITE",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "NETHERITE",
+        "longname": "ToolTier#NETHERITE",
+        "kind": "member",
+        "memberof": "ToolTier",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\r\n     * @private\r\n     * @param tierId 工具分级ID\r\n     */",
+        "meta": {
+            "range": [
+                2231,
+                2290
+            ],
+            "filename": "util.js",
+            "lineno": 71,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000192",
+                "name": "exports.ToolTier",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "tierId"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "access": "private",
+        "params": [
+            {
+                "description": "工具分级ID",
+                "name": "tierId"
+            }
+        ],
+        "name": "ToolTier",
+        "longname": "ToolTier#ToolTier",
+        "kind": "class",
+        "memberof": "ToolTier",
+        "scope": "instance",
+        "undocumented": true
+    },
+    {
+        "comment": "/**\r\n * 工具分级\r\n */",
+        "meta": {
+            "range": [
+                1760,
+                2293
+            ],
+            "filename": "util.js",
+            "lineno": 59,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000152",
+                "name": "exports.ToolTier",
+                "type": "ClassDeclaration"
+            }
+        },
+        "name": "ToolTier",
+        "longname": "ToolTier",
+        "kind": "class",
+        "classdesc": "工具分级",
+        "scope": "global",
+        "access": "private",
+        "memberof": "ToolTier",
+        "params": [
+            {
+                "description": "工具分级ID",
+                "name": "tierId"
+            }
+        ]
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2262,
+                2282
+            ],
+            "filename": "util.js",
+            "lineno": 72,
+            "columnno": 8,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000198",
+                "name": "this.tierId",
+                "type": "Identifier",
+                "value": "tierId",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "tierId",
+        "longname": "ToolTier#tierId",
+        "kind": "member",
+        "memberof": "ToolTier",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\r\n * 防具种类\r\n */",
+        "meta": {
+            "range": [
+                2316,
+                2635
+            ],
+            "filename": "util.js",
+            "lineno": 79,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000203",
+                "name": "exports.ArmorType",
+                "type": "ClassDeclaration"
+            }
+        },
+        "classdesc": "防具种类",
+        "name": "ArmorType",
+        "longname": "ArmorType",
+        "kind": "class",
+        "scope": "global",
+        "undocumented": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2323,
+                2635
+            ],
+            "filename": "util.js",
+            "lineno": 79,
+            "columnno": 7,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000204",
+                "name": "ArmorType",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "typeId"
+                ]
+            }
+        },
+        "undocumented": true,
+        "name": "ArmorType",
+        "longname": "ArmorType",
+        "kind": "class",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2346,
+                2379
+            ],
+            "filename": "util.js",
+            "lineno": 80,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000207",
+                "name": "HELMET",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "HELMET",
+        "longname": "ArmorType#HELMET",
+        "kind": "member",
+        "memberof": "ArmorType",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2385,
+                2422
+            ],
+            "filename": "util.js",
+            "lineno": 81,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000211",
+                "name": "CHESTPLATE",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "CHESTPLATE",
+        "longname": "ArmorType#CHESTPLATE",
+        "kind": "member",
+        "memberof": "ArmorType",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2428,
+                2463
+            ],
+            "filename": "util.js",
+            "lineno": 82,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000215",
+                "name": "LEGGINGS",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "LEGGINGS",
+        "longname": "ArmorType#LEGGINGS",
+        "kind": "member",
+        "memberof": "ArmorType",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2469,
+                2501
+            ],
+            "filename": "util.js",
+            "lineno": 83,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000219",
+                "name": "BOOTS",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "BOOTS",
+        "longname": "ArmorType#BOOTS",
+        "kind": "member",
+        "memberof": "ArmorType",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\r\n     * @private\r\n     * @param typeId 防具种类ID\r\n     */",
+        "meta": {
+            "range": [
+                2573,
+                2632
+            ],
+            "filename": "util.js",
+            "lineno": 89,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000223",
+                "name": "exports.ArmorType",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "typeId"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "access": "private",
+        "params": [
+            {
+                "description": "防具种类ID",
+                "name": "typeId"
+            }
+        ],
+        "name": "ArmorType",
+        "longname": "ArmorType#ArmorType",
+        "kind": "class",
+        "memberof": "ArmorType",
+        "scope": "instance",
+        "undocumented": true
+    },
+    {
+        "comment": "/**\r\n * 防具种类\r\n */",
+        "meta": {
+            "range": [
+                2316,
+                2635
+            ],
+            "filename": "util.js",
+            "lineno": 79,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000203",
+                "name": "exports.ArmorType",
+                "type": "ClassDeclaration"
+            }
+        },
+        "name": "ArmorType",
+        "longname": "ArmorType",
+        "kind": "class",
+        "classdesc": "防具种类",
+        "scope": "global",
+        "access": "private",
+        "memberof": "ArmorType",
+        "params": [
+            {
+                "description": "防具种类ID",
+                "name": "typeId"
+            }
+        ]
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2604,
+                2624
+            ],
+            "filename": "util.js",
+            "lineno": 90,
+            "columnno": 8,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000229",
+                "name": "this.typeId",
+                "type": "Identifier",
+                "value": "typeId",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "typeId",
+        "longname": "ArmorType#typeId",
+        "kind": "member",
+        "memberof": "ArmorType",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\r\n * 防具分级\r\n */",
+        "meta": {
+            "range": [
+                2658,
+                3269
+            ],
+            "filename": "util.js",
+            "lineno": 97,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000234",
+                "name": "exports.ArmorTier",
+                "type": "ClassDeclaration"
+            }
+        },
+        "classdesc": "防具分级",
+        "name": "ArmorTier",
+        "longname": "ArmorTier",
+        "kind": "class",
+        "scope": "global",
+        "undocumented": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2665,
+                3269
+            ],
+            "filename": "util.js",
+            "lineno": 97,
+            "columnno": 7,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000235",
+                "name": "ArmorTier",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "tierId"
+                ]
+            }
+        },
+        "undocumented": true,
+        "name": "ArmorTier",
+        "longname": "ArmorTier",
+        "kind": "class",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2688,
+                2749
+            ],
+            "filename": "util.js",
+            "lineno": 98,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000238",
+                "name": "LEATHER",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "LEATHER",
+        "longname": "ArmorTier#LEATHER",
+        "kind": "member",
+        "memberof": "ArmorTier",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2755,
+                2812
+            ],
+            "filename": "util.js",
+            "lineno": 99,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000244",
+                "name": "CHAIN",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "CHAIN",
+        "longname": "ArmorTier#CHAIN",
+        "kind": "member",
+        "memberof": "ArmorTier",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2818,
+                2873
+            ],
+            "filename": "util.js",
+            "lineno": 100,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000250",
+                "name": "IRON",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "IRON",
+        "longname": "ArmorTier#IRON",
+        "kind": "member",
+        "memberof": "ArmorTier",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2879,
+                2934
+            ],
+            "filename": "util.js",
+            "lineno": 101,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000256",
+                "name": "GOLD",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "GOLD",
+        "longname": "ArmorTier#GOLD",
+        "kind": "member",
+        "memberof": "ArmorTier",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2940,
+                3001
+            ],
+            "filename": "util.js",
+            "lineno": 102,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000262",
+                "name": "DIAMOND",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "DIAMOND",
+        "longname": "ArmorTier#DIAMOND",
+        "kind": "member",
+        "memberof": "ArmorTier",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3007,
+                3072
+            ],
+            "filename": "util.js",
+            "lineno": 103,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000268",
+                "name": "NETHERITE",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "NETHERITE",
+        "longname": "ArmorTier#NETHERITE",
+        "kind": "member",
+        "memberof": "ArmorTier",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3078,
+                3135
+            ],
+            "filename": "util.js",
+            "lineno": 104,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000274",
+                "name": "OTHER",
+                "type": "ClassProperty"
+            }
+        },
+        "undocumented": true,
+        "name": "OTHER",
+        "longname": "ArmorTier#OTHER",
+        "kind": "member",
+        "memberof": "ArmorTier",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\r\n     * @private\r\n     * @param tierId 防具分级ID\r\n     */",
+        "meta": {
+            "range": [
+                3207,
+                3266
+            ],
+            "filename": "util.js",
+            "lineno": 110,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000280",
+                "name": "exports.ArmorTier",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "tierId"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "access": "private",
+        "params": [
+            {
+                "description": "防具分级ID",
+                "name": "tierId"
+            }
+        ],
+        "name": "ArmorTier",
+        "longname": "ArmorTier#ArmorTier",
+        "kind": "class",
+        "memberof": "ArmorTier",
+        "scope": "instance",
+        "undocumented": true
+    },
+    {
+        "comment": "/**\r\n * 防具分级\r\n */",
+        "meta": {
+            "range": [
+                2658,
+                3269
+            ],
+            "filename": "util.js",
+            "lineno": 97,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000234",
+                "name": "exports.ArmorTier",
+                "type": "ClassDeclaration"
+            }
+        },
+        "name": "ArmorTier",
+        "longname": "ArmorTier",
+        "kind": "class",
+        "classdesc": "防具分级",
+        "scope": "global",
+        "access": "private",
+        "memberof": "ArmorTier",
+        "params": [
+            {
+                "description": "防具分级ID",
+                "name": "tierId"
+            }
+        ]
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3238,
+                3258
+            ],
+            "filename": "util.js",
+            "lineno": 111,
+            "columnno": 8,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000286",
+                "name": "this.tierId",
+                "type": "Identifier",
+                "value": "tierId",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "tierId",
+        "longname": "ArmorTier#tierId",
+        "kind": "member",
+        "memberof": "ArmorTier",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\r\n * 用于操作方块和物品的工具类\r\n */",
+        "meta": {
+            "range": [
+                3301,
+                14088
+            ],
+            "filename": "util.js",
+            "lineno": 118,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000291",
+                "name": "exports.BlockItemUtil",
+                "type": "ClassDeclaration"
+            }
+        },
+        "classdesc": "用于操作方块和物品的工具类",
+        "name": "BlockItemUtil",
+        "longname": "BlockItemUtil",
+        "kind": "class",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3308,
+                14088
+            ],
+            "filename": "util.js",
+            "lineno": 118,
+            "columnno": 7,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000292",
+                "name": "BlockItemUtil",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "BlockItemUtil",
+        "longname": "BlockItemUtil",
+        "kind": "class",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\r\n     * 注册一个简单的自定义物品\r\n     * @param id {string} 物品ID\r\n     * @param name {string} 物品ID\r\n     * @param type {CreativeInventoryType} 创造物品栏分类\r\n     * @param textureName {string} 贴图名称，在材质包中可以指定\r\n     * @param textureSize {number} 贴图大小，单位为像素，如为非正方形则以长边为准\r\n     * @param stackSize {number} 最大堆叠\r\n     * @param canOnOffhand {boolean} 是否可以装备在副手\r\n     */",
+        "meta": {
+            "range": [
+                3690,
+                4801
+            ],
+            "filename": "util.js",
+            "lineno": 129,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000295",
+                "name": "BlockItemUtil.registerSimpleItem",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "id",
+                    "name",
+                    "type",
+                    "textureName",
+                    "textureSize",
+                    "stackSize",
+                    "canOnOffhand"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "注册一个简单的自定义物品",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "物品ID",
+                "name": "id"
+            },
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "物品ID",
+                "name": "name"
+            },
+            {
+                "type": {
+                    "names": [
+                        "CreativeInventoryType"
+                    ]
+                },
+                "description": "创造物品栏分类",
+                "name": "type"
+            },
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "贴图名称，在材质包中可以指定",
+                "name": "textureName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ]
+                },
+                "description": "贴图大小，单位为像素，如为非正方形则以长边为准",
+                "name": "textureSize"
+            },
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ]
+                },
+                "description": "最大堆叠",
+                "name": "stackSize"
+            },
+            {
+                "type": {
+                    "names": [
+                        "boolean"
+                    ]
+                },
+                "description": "是否可以装备在副手",
+                "name": "canOnOffhand"
+            }
+        ],
+        "name": "registerSimpleItem",
+        "longname": "BlockItemUtil.registerSimpleItem",
+        "kind": "function",
+        "memberof": "BlockItemUtil",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3800,
+                3901
+            ],
+            "filename": "util.js",
+            "lineno": 130,
+            "columnno": 14,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000307",
+                "name": "jClassBuilder",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "jClassBuilder",
+        "longname": "<anonymous>~jClassBuilder",
+        "kind": "constant",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3955,
+                4026
+            ],
+            "filename": "util.js",
+            "lineno": 132,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000332",
+                "name": "new",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "new",
+        "longname": "new",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4041,
+                4134
+            ],
+            "filename": "util.js",
+            "lineno": 135,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000340",
+                "name": "constructor",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "constructor",
+        "longname": "constructor",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4149,
+                4218
+            ],
+            "filename": "util.js",
+            "lineno": 138,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000350",
+                "name": "allowOffHand",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "allowOffHand",
+        "longname": "allowOffHand",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4233,
+                4302
+            ],
+            "filename": "util.js",
+            "lineno": 141,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000355",
+                "name": "getMaxStackSize",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "getMaxStackSize",
+        "longname": "getMaxStackSize",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4317,
+                4392
+            ],
+            "filename": "util.js",
+            "lineno": 144,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000360",
+                "name": "getCreativeCategory",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "getCreativeCategory",
+        "longname": "getCreativeCategory",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\r\n     * 注册一个食品物品\r\n     * @param id {string} 物品ID\r\n     * @param name {string} 物品ID\r\n     * @param type {CreativeInventoryType} 创造物品栏分类\r\n     * @param textureName {string} 贴图名称，在材质包中可以指定\r\n     * @param textureSize {number} 贴图大小，单位为像素，如为非正方形则以长边为准\r\n     * @param stackSize {number} 最大堆叠\r\n     * @param canOnOffhand {boolean} 是否可以装备在副手\r\n     * @param consumeTime {number} 食用耗时\r\n     * @param isDrink {boolean} 是否是饮品，为false则为食品，如true则为饮品（药水等）\r\n     * @param canAlwaysEat {boolean} 是否能满饥饿度了还吃\r\n     * @param restoreFood {number} 恢复的饥饿值\r\n     * @param restoreSaturation {number} 恢复的饱食度\r\n     */",
+        "meta": {
+            "range": [
+                5407,
+                7282
+            ],
+            "filename": "util.js",
+            "lineno": 169,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000395",
+                "name": "BlockItemUtil.registerFoodItem",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "id",
+                    "name",
+                    "type",
+                    "textureName",
+                    "textureSize",
+                    "stackSize",
+                    "canOnOffhand",
+                    "consumeTime",
+                    "isDrink",
+                    "canAlwaysEat",
+                    "restoreFood",
+                    "restoreSaturation"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "注册一个食品物品",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "物品ID",
+                "name": "id"
+            },
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "物品ID",
+                "name": "name"
+            },
+            {
+                "type": {
+                    "names": [
+                        "CreativeInventoryType"
+                    ]
+                },
+                "description": "创造物品栏分类",
+                "name": "type"
+            },
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "贴图名称，在材质包中可以指定",
+                "name": "textureName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ]
+                },
+                "description": "贴图大小，单位为像素，如为非正方形则以长边为准",
+                "name": "textureSize"
+            },
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ]
+                },
+                "description": "最大堆叠",
+                "name": "stackSize"
+            },
+            {
+                "type": {
+                    "names": [
+                        "boolean"
+                    ]
+                },
+                "description": "是否可以装备在副手",
+                "name": "canOnOffhand"
+            },
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ]
+                },
+                "description": "食用耗时",
+                "name": "consumeTime"
+            },
+            {
+                "type": {
+                    "names": [
+                        "boolean"
+                    ]
+                },
+                "description": "是否是饮品，为false则为食品，如true则为饮品（药水等）",
+                "name": "isDrink"
+            },
+            {
+                "type": {
+                    "names": [
+                        "boolean"
+                    ]
+                },
+                "description": "是否能满饥饿度了还吃",
+                "name": "canAlwaysEat"
+            },
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ]
+                },
+                "description": "恢复的饥饿值",
+                "name": "restoreFood"
+            },
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ]
+                },
+                "description": "恢复的饱食度",
+                "name": "restoreSaturation"
+            }
+        ],
+        "name": "registerFoodItem",
+        "longname": "BlockItemUtil.registerFoodItem",
+        "kind": "function",
+        "memberof": "BlockItemUtil",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5641,
+                5748
+            ],
+            "filename": "util.js",
+            "lineno": 172,
+            "columnno": 14,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000412",
+                "name": "jClassBuilder",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "jClassBuilder",
+        "longname": "<anonymous>~jClassBuilder",
+        "kind": "constant",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5802,
+                5873
+            ],
+            "filename": "util.js",
+            "lineno": 174,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000443",
+                "name": "new",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "new",
+        "longname": "new",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5888,
+                5981
+            ],
+            "filename": "util.js",
+            "lineno": 177,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000451",
+                "name": "constructor",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "constructor",
+        "longname": "constructor",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5996,
+                6065
+            ],
+            "filename": "util.js",
+            "lineno": 180,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000461",
+                "name": "allowOffHand",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "allowOffHand",
+        "longname": "allowOffHand",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6080,
+                6149
+            ],
+            "filename": "util.js",
+            "lineno": 183,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000466",
+                "name": "getMaxStackSize",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "getMaxStackSize",
+        "longname": "getMaxStackSize",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6164,
+                6239
+            ],
+            "filename": "util.js",
+            "lineno": 186,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000471",
+                "name": "getCreativeCategory",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "getCreativeCategory",
+        "longname": "getCreativeCategory",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6254,
+                6320
+            ],
+            "filename": "util.js",
+            "lineno": 189,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000478",
+                "name": "getEatTick",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "getEatTick",
+        "longname": "getEatTick",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6335,
+                6394
+            ],
+            "filename": "util.js",
+            "lineno": 192,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000483",
+                "name": "isDrink",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "isDrink",
+        "longname": "isDrink",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6409,
+                6478
+            ],
+            "filename": "util.js",
+            "lineno": 195,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000488",
+                "name": "canAlwaysEat",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "canAlwaysEat",
+        "longname": "canAlwaysEat",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7115,
+                7174
+            ],
+            "filename": "util.js",
+            "lineno": 206,
+            "columnno": 14,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000534",
+                "name": "foodNormal",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "foodNormal",
+        "longname": "<anonymous>~foodNormal",
+        "kind": "constant",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\r\n     * 注册一个工具物品\r\n     * @param id {string} 物品ID\r\n     * @param name {string} 物品ID\r\n     * @param type {CreativeInventoryType} 创造物品栏分类\r\n     * @param textureName {string} 贴图名称，在材质包中可以指定\r\n     * @param textureSize {number} 贴图大小，单位为像素，如为非正方形则以长边为准\r\n     * @param stackSize {number} 最大堆叠\r\n     * @param canOnOffhand {boolean} 是否可以装备在副手\r\n     * @param toolType {ToolType} 工具种类\r\n     * @param toolTier {ToolTier} 工具分级\r\n     * @param durability {number} 最大耐久\r\n     * @param damageOnAttackEntity {boolean} 是否因伤害实体而减少耐久\r\n     * @param damageOnBreakBlock {boolean} 是否因破坏方块而减少耐久\r\n     */",
+        "meta": {
+            "range": [
+                7877,
+                11012
+            ],
+            "filename": "util.js",
+            "lineno": 226,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000555",
+                "name": "BlockItemUtil.registerToolItem",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "id",
+                    "name",
+                    "type",
+                    "textureName",
+                    "textureSize",
+                    "stackSize",
+                    "canOnOffhand",
+                    "toolType",
+                    "toolTier",
+                    "durability",
+                    "damageOnAttackEntity",
+                    "damageOnBreakBlock"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "注册一个工具物品",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "物品ID",
+                "name": "id"
+            },
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "物品ID",
+                "name": "name"
+            },
+            {
+                "type": {
+                    "names": [
+                        "CreativeInventoryType"
+                    ]
+                },
+                "description": "创造物品栏分类",
+                "name": "type"
+            },
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "贴图名称，在材质包中可以指定",
+                "name": "textureName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ]
+                },
+                "description": "贴图大小，单位为像素，如为非正方形则以长边为准",
+                "name": "textureSize"
+            },
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ]
+                },
+                "description": "最大堆叠",
+                "name": "stackSize"
+            },
+            {
+                "type": {
+                    "names": [
+                        "boolean"
+                    ]
+                },
+                "description": "是否可以装备在副手",
+                "name": "canOnOffhand"
+            },
+            {
+                "type": {
+                    "names": [
+                        "ToolType"
+                    ]
+                },
+                "description": "工具种类",
+                "name": "toolType"
+            },
+            {
+                "type": {
+                    "names": [
+                        "ToolTier"
+                    ]
+                },
+                "description": "工具分级",
+                "name": "toolTier"
+            },
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ]
+                },
+                "description": "最大耐久",
+                "name": "durability"
+            },
+            {
+                "type": {
+                    "names": [
+                        "boolean"
+                    ]
+                },
+                "description": "是否因伤害实体而减少耐久",
+                "name": "damageOnAttackEntity"
+            },
+            {
+                "type": {
+                    "names": [
+                        "boolean"
+                    ]
+                },
+                "description": "是否因破坏方块而减少耐久",
+                "name": "damageOnBreakBlock"
+            }
+        ],
+        "name": "registerToolItem",
+        "longname": "BlockItemUtil.registerToolItem",
+        "kind": "function",
+        "memberof": "BlockItemUtil",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8117,
+                8222
+            ],
+            "filename": "util.js",
+            "lineno": 229,
+            "columnno": 14,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000572",
+                "name": "jClassBuilder",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "jClassBuilder",
+        "longname": "<anonymous>~jClassBuilder",
+        "kind": "constant",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8239,
+                9137
+            ],
+            "filename": "util.js",
+            "lineno": 230,
+            "columnno": 14,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000584",
+                "name": "delegate",
+                "type": "ObjectExpression",
+                "value": "{\"new\":\"\",\"constructor\":\"\",\"allowOffHand\":\"\",\"getMaxStackSize\":\"\",\"getCreativeCategory\":\"\",\"getTier\":\"\",\"getMaxDurability\":\"\",\"noDamageOnAttack\":\"\",\"noDamageOnBreak\":\"\"}"
+            }
+        },
+        "undocumented": true,
+        "name": "delegate",
+        "longname": "<anonymous>~delegate",
+        "kind": "constant",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8265,
+                8336
+            ],
+            "filename": "util.js",
+            "lineno": 231,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000587",
+                "name": "new",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "new",
+        "longname": "<anonymous>~delegate.new",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8351,
+                8444
+            ],
+            "filename": "util.js",
+            "lineno": 234,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000595",
+                "name": "constructor",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "constructor",
+        "longname": "<anonymous>~delegate.constructor",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8459,
+                8528
+            ],
+            "filename": "util.js",
+            "lineno": 237,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000605",
+                "name": "allowOffHand",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "allowOffHand",
+        "longname": "<anonymous>~delegate.allowOffHand",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8543,
+                8612
+            ],
+            "filename": "util.js",
+            "lineno": 240,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000610",
+                "name": "getMaxStackSize",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "getMaxStackSize",
+        "longname": "<anonymous>~delegate.getMaxStackSize",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8627,
+                8702
+            ],
+            "filename": "util.js",
+            "lineno": 243,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000615",
+                "name": "getCreativeCategory",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "getCreativeCategory",
+        "longname": "<anonymous>~delegate.getCreativeCategory",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8717,
+                8784
+            ],
+            "filename": "util.js",
+            "lineno": 246,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000622",
+                "name": "getTier",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "getTier",
+        "longname": "<anonymous>~delegate.getTier",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8799,
+                8870
+            ],
+            "filename": "util.js",
+            "lineno": 249,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000629",
+                "name": "getMaxDurability",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "getMaxDurability",
+        "longname": "<anonymous>~delegate.getMaxDurability",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8885,
+                9000
+            ],
+            "filename": "util.js",
+            "lineno": 252,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000634",
+                "name": "noDamageOnAttack",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "noDamageOnAttack",
+        "longname": "<anonymous>~delegate.noDamageOnAttack",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9015,
+                9126
+            ],
+            "filename": "util.js",
+            "lineno": 256,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000644",
+                "name": "noDamageOnBreak",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "noDamageOnBreak",
+        "longname": "<anonymous>~delegate.noDamageOnBreak",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9630,
+                9657
+            ],
+            "filename": "util.js",
+            "lineno": 268,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000699",
+                "name": "delegate.isAxe",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "<anonymous>",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isAxe",
+        "longname": "<anonymous>~delegate.isAxe",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9800,
+                9827
+            ],
+            "filename": "util.js",
+            "lineno": 271,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000721",
+                "name": "delegate.isHoe",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "<anonymous>",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isHoe",
+        "longname": "<anonymous>~delegate.isHoe",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9982,
+                10013
+            ],
+            "filename": "util.js",
+            "lineno": 274,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000743",
+                "name": "delegate.isPickaxe",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "<anonymous>",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isPickaxe",
+        "longname": "<anonymous>~delegate.isPickaxe",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10165,
+                10195
+            ],
+            "filename": "util.js",
+            "lineno": 277,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000765",
+                "name": "delegate.isShovel",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "<anonymous>",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isShovel",
+        "longname": "<anonymous>~delegate.isShovel",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10344,
+                10373
+            ],
+            "filename": "util.js",
+            "lineno": 280,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000787",
+                "name": "delegate.isSword",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "<anonymous>",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isSword",
+        "longname": "<anonymous>~delegate.isSword",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10525,
+                10555
+            ],
+            "filename": "util.js",
+            "lineno": 283,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000809",
+                "name": "delegate.isShears",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "<anonymous>",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isShears",
+        "longname": "<anonymous>~delegate.isShears",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\r\n     * 注册一个防具自定义物品\r\n     * @param id {string} 物品ID\r\n     * @param name {string} 物品ID\r\n     * @param type {CreativeInventoryType} 创造物品栏分类\r\n     * @param textureName {string} 贴图名称，在材质包中可以指定\r\n     * @param textureSize {number} 贴图大小，单位为像素，如为非正方形则以长边为准\r\n     * @param stackSize {number} 最大堆叠\r\n     * @param canOnOffhand {boolean} 是否可以装备在副手\r\n     * @param armorType {ArmorType} 防具种类\r\n     * @param armorTier {ArmorTier} 防具等级\r\n     * @param durability {number} 防具耐久\r\n     * @param armorPoint {number} 防具提供的盔甲点数\r\n     */",
+        "meta": {
+            "range": [
+                11543,
+                14085
+            ],
+            "filename": "util.js",
+            "lineno": 307,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000854",
+                "name": "BlockItemUtil.registerArmorItem",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "id",
+                    "name",
+                    "type",
+                    "textureName",
+                    "textureSize",
+                    "stackSize",
+                    "canOnOffhand",
+                    "armorType",
+                    "armorTier",
+                    "durability",
+                    "armorPoint"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "注册一个防具自定义物品",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "物品ID",
+                "name": "id"
+            },
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "物品ID",
+                "name": "name"
+            },
+            {
+                "type": {
+                    "names": [
+                        "CreativeInventoryType"
+                    ]
+                },
+                "description": "创造物品栏分类",
+                "name": "type"
+            },
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "贴图名称，在材质包中可以指定",
+                "name": "textureName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ]
+                },
+                "description": "贴图大小，单位为像素，如为非正方形则以长边为准",
+                "name": "textureSize"
+            },
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ]
+                },
+                "description": "最大堆叠",
+                "name": "stackSize"
+            },
+            {
+                "type": {
+                    "names": [
+                        "boolean"
+                    ]
+                },
+                "description": "是否可以装备在副手",
+                "name": "canOnOffhand"
+            },
+            {
+                "type": {
+                    "names": [
+                        "ArmorType"
+                    ]
+                },
+                "description": "防具种类",
+                "name": "armorType"
+            },
+            {
+                "type": {
+                    "names": [
+                        "ArmorTier"
+                    ]
+                },
+                "description": "防具等级",
+                "name": "armorTier"
+            },
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ]
+                },
+                "description": "防具耐久",
+                "name": "durability"
+            },
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ]
+                },
+                "description": "防具提供的盔甲点数",
+                "name": "armorPoint"
+            }
+        ],
+        "name": "registerArmorItem",
+        "longname": "BlockItemUtil.registerArmorItem",
+        "kind": "function",
+        "memberof": "BlockItemUtil",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11758,
+                11864
+            ],
+            "filename": "util.js",
+            "lineno": 310,
+            "columnno": 14,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000870",
+                "name": "jClassBuilder",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "jClassBuilder",
+        "longname": "<anonymous>~jClassBuilder",
+        "kind": "constant",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11881,
+                12607
+            ],
+            "filename": "util.js",
+            "lineno": 311,
+            "columnno": 14,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000882",
+                "name": "delegate",
+                "type": "ObjectExpression",
+                "value": "{\"new\":\"\",\"constructor\":\"\",\"allowOffHand\":\"\",\"getMaxStackSize\":\"\",\"getCreativeCategory\":\"\",\"getTier\":\"\",\"getMaxDurability\":\"\",\"getArmorPoint\":\"\"}"
+            }
+        },
+        "undocumented": true,
+        "name": "delegate",
+        "longname": "<anonymous>~delegate",
+        "kind": "constant",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11907,
+                11978
+            ],
+            "filename": "util.js",
+            "lineno": 312,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000885",
+                "name": "new",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "new",
+        "longname": "<anonymous>~delegate.new",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11993,
+                12086
+            ],
+            "filename": "util.js",
+            "lineno": 315,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000893",
+                "name": "constructor",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "constructor",
+        "longname": "<anonymous>~delegate.constructor",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12101,
+                12170
+            ],
+            "filename": "util.js",
+            "lineno": 318,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000903",
+                "name": "allowOffHand",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "allowOffHand",
+        "longname": "<anonymous>~delegate.allowOffHand",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12185,
+                12254
+            ],
+            "filename": "util.js",
+            "lineno": 321,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000908",
+                "name": "getMaxStackSize",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "getMaxStackSize",
+        "longname": "<anonymous>~delegate.getMaxStackSize",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12269,
+                12344
+            ],
+            "filename": "util.js",
+            "lineno": 324,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000913",
+                "name": "getCreativeCategory",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "getCreativeCategory",
+        "longname": "<anonymous>~delegate.getCreativeCategory",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12359,
+                12427
+            ],
+            "filename": "util.js",
+            "lineno": 327,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000920",
+                "name": "getTier",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "getTier",
+        "longname": "<anonymous>~delegate.getTier",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12442,
+                12513
+            ],
+            "filename": "util.js",
+            "lineno": 330,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000927",
+                "name": "getMaxDurability",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "getMaxDurability",
+        "longname": "<anonymous>~delegate.getMaxDurability",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12528,
+                12596
+            ],
+            "filename": "util.js",
+            "lineno": 333,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000932",
+                "name": "getArmorPoint",
+                "type": "FunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "getArmorPoint",
+        "longname": "<anonymous>~delegate.getArmorPoint",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13121,
+                13151
+            ],
+            "filename": "util.js",
+            "lineno": 343,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000986",
+                "name": "delegate.isHelmet",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "<anonymous>",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isHelmet",
+        "longname": "<anonymous>~delegate.isHelmet",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13317,
+                13351
+            ],
+            "filename": "util.js",
+            "lineno": 346,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100001008",
+                "name": "delegate.isChestplate",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "<anonymous>",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isChestplate",
+        "longname": "<anonymous>~delegate.isChestplate",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13511,
+                13543
+            ],
+            "filename": "util.js",
+            "lineno": 349,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100001030",
+                "name": "delegate.isLeggings",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "<anonymous>",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isLeggings",
+        "longname": "<anonymous>~delegate.isLeggings",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13694,
+                13723
+            ],
+            "filename": "util.js",
+            "lineno": 352,
+            "columnno": 12,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100001052",
+                "name": "delegate.isBoots",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "<anonymous>",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isBoots",
+        "longname": "<anonymous>~delegate.isBoots",
+        "kind": "function",
+        "memberof": "<anonymous>~delegate",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module\\util.js"
+        ]
+    }
+]
