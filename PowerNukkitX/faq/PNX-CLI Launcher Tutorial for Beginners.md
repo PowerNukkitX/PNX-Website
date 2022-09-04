@@ -297,14 +297,17 @@ pnx
 ```
 which screen
 ```
-2. Enter the following command in the command box to install screen\
-**:warning:Note: Depends on the host system**
-### 🎯CentOS
+2. Enter the following command in the command box to install screen
+
+  **:warning:Note: Depends on the host system**
+
+###### 🎯CentOS
+
 ```
 yum install screen
 ```
----
-### 🎯Ubuntu
+###### 🎯Ubuntu
+
 ```
 apt-get install screen
 ```
