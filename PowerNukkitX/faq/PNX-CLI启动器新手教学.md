@@ -1,4 +1,9 @@
+
+
+
+
 # PNX-CLI启动器新手教学
+
 ## :question:如何下载PNX-CLI启动器？
 PNX-CLI启动器 【:earth_asia:[前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)】
 ## :question:PNX-CLI启动器是什么？
@@ -8,9 +13,48 @@ PNX-CLI启动器 【:earth_asia:[前往下载](https://github.com/PowerNukkitX/P
 
 ## :question:不使用PNX-CLI如何启动服务器？
 
-了解如何设置启动参数 【:earth_asia:[点击前往](https://github.com/PowerNukkitX/PowerNukkitX)】
+:one:从【:earth_asia:[release](https://github.com/PowerNukkitX/PowerNukkitX/releases)】下载libs.tar.gz和powernukkitx.jar
+
+:two:将libs.tar.gz中的libs文件夹解压到和powernukkitx.jar同一路径下
+
+:three:运行以下命令
+
+##### :computer:Windows版本
+
+```
+java -Dfile.encoding=UTF-8 ^
+-Djansi.passthrough=true ^
+-Dterminal.ansi=true ^
+-XX:+UnlockExperimentalVMOptions ^
+-XX:+UseG1GC ^
+-XX:+UseStringDeduplication ^
+-XX:+EnableJVMCI ^
+--module-path=.\libs\graal-sdk-22.2.0.jar;.\libs\truffle-api-22.2.0.jar; ^
+--add-opens java.base/java.lang=ALL-UNNAMED ^
+--add-opens java.base/java.io=ALL-UNNAMED ^
+-cp .\powernukkitx.jar;.\libs\* ^
+cn.nukkit.Nukkit
+```
+
+##### :computer:Linux版本
+
+```
+java -Dfile.encoding=UTF-8 \
+-Djansi.passthrough=true \
+-Dterminal.ansi=true \
+-XX:+UnlockExperimentalVMOptions \
+-XX:+UseG1GC \
+-XX:+UseStringDeduplication \
+-XX:+EnableJVMCI \
+--module-path=./libs/truffle-api-22.2.0.jar:./libs/graal-sdk-22.2.0.jar: \
+--add-opens java.base/java.lang=ALL-UNNAMED \
+--add-opens java.base/java.io=ALL-UNNAMED \
+-cp ./powernukkitx.jar:./libs/* \
+cn.nukkit.Nukkit
+```
 
 ## :exclamation:安装PNX-CLI注意事项！
+
 ​    :one:**目录文件夹不能有空格否则无法正常运行！**
 
 ​    :two:**你必需在PNX_CLI安装包目录文件夹下进行以下安装！**
@@ -72,6 +116,7 @@ PNX-CLI提供了3个场景部署的项目
 > C:\Users\ASUS>F: CD F:\桌面\pnx-CLI
 
 > **F:\桌面\pnx-CLI**
+>
 > 这是你**PNX.exe**所在文件夹目录下
 
 ----
@@ -277,16 +322,14 @@ which screen
 ```
 2. 在命令框输入下述指令,安装screen
 
-  
-
   **:warning:注意: 需要根据主机系统而定** 
 
-###### CentOS
+###### 🎯CentOS
 
 ```
 yum install screen
 ```
-###### Ubuntu
+###### 🎯Ubuntu
 
 ```
 apt-get install screen
