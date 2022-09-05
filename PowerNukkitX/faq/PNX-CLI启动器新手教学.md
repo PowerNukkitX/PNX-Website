@@ -4,22 +4,22 @@
 
 # PNX-CLI启动器新手教学
 
-## :question:如何下载PNX-CLI启动器？
-PNX-CLI启动器 【:earth_asia:[前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)】
-## :question:PNX-CLI启动器是什么？
+## 如何下载PNX-CLI启动器？
+PNX-CLI启动器 【[前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)】
+## PNX-CLI启动器是什么？
 能在你的主机上快速部署**PowerNukkitX**服务器
 
-**:star2:优势: 更少的占用,更高效的管理**
+**优势: 更少的占用,更高效的管理**
 
-## :question:不使用PNX-CLI如何启动服务器？
+## 使用PNX-CLI如何启动服务器？
 
-:one:从【:earth_asia:[release](https://github.com/PowerNukkitX/PowerNukkitX/releases)】下载libs.tar.gz和powernukkitx.jar
+1. 从【[release](https://github.com/PowerNukkitX/PowerNukkitX/releases)】下载libs.tar.gz和powernukkitx.jar
 
-:two:将libs.tar.gz中的libs文件夹解压到和powernukkitx.jar同一路径下
+2. 将libs.tar.gz中的libs文件夹解压到和powernukkitx.jar同一路径下
 
-:three:运行以下命令
+3. 运行以下命令
 
-##### :computer:Windows版本
+##### Windows版本
 
 ```
 java -Dfile.encoding=UTF-8 ^
@@ -36,7 +36,7 @@ java -Dfile.encoding=UTF-8 ^
 cn.nukkit.Nukkit
 ```
 
-##### :computer:Linux版本
+##### Linux版本
 
 ```
 java -Dfile.encoding=UTF-8 \
@@ -53,31 +53,31 @@ java -Dfile.encoding=UTF-8 \
 cn.nukkit.Nukkit
 ```
 
-## :exclamation:安装PNX-CLI注意事项！
+## 安装PNX-CLI注意事项！
 
-​    :one:**目录文件夹不能有空格否则无法正常运行！**
+​    1. **目录文件夹不能有空格否则无法正常运行！**
 
-​    :two:**你必需在PNX_CLI安装包目录文件夹下进行以下安装！**
+​    2. **你必需在PNX_CLI安装包目录文件夹下进行以下安装！**
 
-​    :three:**你如果使用下述指令安装失败**
+​    3. **你如果使用下述指令安装失败**
 
-### :computer:Linux 输入下述指令尝试
+### Linux 输入下述指令尝试
 ```
 ./pnx sys-install
 ```
-### :computer:Windows PowerShell 输入下述指令尝试
+### Windows PowerShell 输入下述指令尝试
 
 ```
 .\pnx sys-install
 ```
 
-### :computer:Windows CMD 输入下述指令尝试
+### Windows CMD 输入下述指令尝试
 
 ```
 pnx sys-install
 ```
 
-## :question:如何设置PNX-CLI参数？
+## 如何设置PNX-CLI参数？
 
 创建**pnx-cli-config.ini**文件
 输入下述文本:
@@ -90,7 +90,7 @@ preferredJVM=GraalVM
 ##JVM所在位置
 jvmPath=D:\jdk\java17\bin
 ```
-## :question:PNX-CLI启动器如何安装？
+## PNX-CLI启动器如何安装？
 PNX-CLI提供了3个场景部署的项目
 - PNX-CLI-Linux-arm
 
@@ -99,13 +99,13 @@ PNX-CLI提供了3个场景部署的项目
 - PNX-CLI-Windows-x86
 
   结合自身条件选择合适的软件部署
-### :tea:基于PNX-CLI-Windows-x86 安装PNX服务器相关步骤
-1. 下载PNX-CLI-Windows-x86.zip压缩包 【:earth_asia:[前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)】
+### 基于PNX-CLI-Windows-x86 安装PNX服务器相关步骤
+1. 下载PNX-CLI-Windows-x86.zip压缩包 【[前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)】
 2. 使用ZIP解压PNX-CLI-Windows-x86.zip压缩包
 3. Win+R键打开运行窗口，在运行窗口里输入cmd打开Windows自带的命令窗口
 4. 找到你PNX.exe在磁盘的那个文件夹那个位置
 ----
-**:briefcase:例子:**
+**例子:**
 
 > **PNX.exe** 在 **F:**\桌面\pnx-CLI 文件夹里
 
@@ -122,7 +122,7 @@ PNX-CLI提供了3个场景部署的项目
 ----
 5. 在命令框输入下述指令安装PNX快速部署工具,安装完毕后,无论在命令框哪里都能使用PNX-CLI相关指令
 
-  **:warning:注意：安装完成后需要重启CMD或者PowerShell**
+  **注意：安装完成后需要重启CMD或者PowerShell**
 ```
 pnx sys-install
 ```
@@ -166,7 +166,7 @@ pnx jvm install=OracleJDK
 
 **下载过程需等待一段时间**
 
-### :computer:GraalJIT即时编译器安装步骤
+### GraalJIT即时编译器安装步骤
 
 1. 首先检测GraalJIT是否安装
 
@@ -206,12 +206,12 @@ pnx libs -u
 ```
 11. 双击PNX.exe启动服务器
 
-    **:warning:注意：你需要安装相关VC运行库**
+    **注意：你需要安装相关VC运行库**
 
 ### :tea:基于PNX-CLI-Linux-x86(Arm)安装PNX服务器相关步骤
-1. 下载PNX-CLI-Linux-x86(Arm).zip压缩包 【:earth_asia:[前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)】
+1. 下载PNX-CLI-Linux-x86(Arm).zip压缩包 【[前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)】
 2. 下载完成后,输入下述指令\
-**:warning:注意:/xxx/xxx 代表你PNX-CLI-Linux-x86(Arm).zip所在文件夹目录**
+**注意:/xxx/xxx 代表你PNX-CLI-Linux-x86(Arm).zip所在文件夹目录**
 ```
 cd /xxx/xxx
 ```
@@ -220,7 +220,7 @@ cd /xxx/xxx
 unzip PNX-CLI-Linux-x86(Arm).zip
 ```
 4. 在命令框输入下述指令安装PNX快速部署工具,安装完毕后,无论在命令框哪里都能使用PNX-CLI相关指令
-**:warning:注意：安装完成后需要重启命令终端**
+**注意：安装完成后需要重启命令终端**
 ```
 pnx sys-install
 ```
@@ -272,7 +272,7 @@ pnx jvm install=OracleJDK
 
 **下载过程需等待一段时间**
 
-### :computer:GraalJIT即时编译器安装步骤
+### GraalJIT即时编译器安装步骤
 
 1. 首先检测GraalJIT是否安装
 
@@ -312,7 +312,7 @@ pnx libs -u
 ```
 pnx start
 ```
-#### :question:如何让PNX在Linux主机上长久运行？
+#### 如何让PNX在Linux主机上长久运行？
 
 ##### 使用screen指令,详细步骤：
 
@@ -322,14 +322,14 @@ which screen
 ```
 2. 在命令框输入下述指令,安装screen
 
-  **:warning:注意: 需要根据主机系统而定** 
+  **注意: 需要根据主机系统而定** 
 
-###### 🎯CentOS
+###### CentOS
 
 ```
 yum install screen
 ```
-###### 🎯Ubuntu
+###### Ubuntu
 
 ```
 apt-get install screen
