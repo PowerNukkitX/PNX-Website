@@ -11,48 +11,6 @@ PNX-CLI启动器 【[前往下载](https://github.com/PowerNukkitX/PNX-CLI/relea
 
 **优势: 更少的占用,更高效的管理**
 
-## 使用PNX-CLI如何启动服务器？
-
-1. 从【[release](https://github.com/PowerNukkitX/PowerNukkitX/releases)】下载libs.tar.gz和powernukkitx.jar
-
-2. 将libs.tar.gz中的libs文件夹解压到和powernukkitx.jar同一路径下
-
-3. 运行以下命令
-
-##### Windows版本
-
-```
-java -Dfile.encoding=UTF-8 ^
--Djansi.passthrough=true ^
--Dterminal.ansi=true ^
--XX:+UnlockExperimentalVMOptions ^
--XX:+UseG1GC ^
--XX:+UseStringDeduplication ^
--XX:+EnableJVMCI ^
---module-path=.\libs\graal-sdk-22.2.0.jar;.\libs\truffle-api-22.2.0.jar; ^
---add-opens java.base/java.lang=ALL-UNNAMED ^
---add-opens java.base/java.io=ALL-UNNAMED ^
--cp .\powernukkitx.jar;.\libs\* ^
-cn.nukkit.Nukkit
-```
-
-##### Linux版本
-
-```
-java -Dfile.encoding=UTF-8 \
--Djansi.passthrough=true \
--Dterminal.ansi=true \
--XX:+UnlockExperimentalVMOptions \
--XX:+UseG1GC \
--XX:+UseStringDeduplication \
--XX:+EnableJVMCI \
---module-path=./libs/truffle-api-22.2.0.jar:./libs/graal-sdk-22.2.0.jar: \
---add-opens java.base/java.lang=ALL-UNNAMED \
---add-opens java.base/java.io=ALL-UNNAMED \
--cp ./powernukkitx.jar:./libs/* \
-cn.nukkit.Nukkit
-```
-
 ## 安装PNX-CLI注意事项！
 
 ​    1. **目录文件夹不能有空格否则无法正常运行！**
@@ -208,7 +166,7 @@ pnx libs -u
 
     **注意：你需要安装相关VC运行库**
 
-### :tea:基于PNX-CLI-Linux-x86(Arm)安装PNX服务器相关步骤
+### 基于PNX-CLI-Linux-x86(Arm)安装PNX服务器相关步骤
 1. 下载PNX-CLI-Linux-x86(Arm).zip压缩包 【[前往下载](https://github.com/PowerNukkitX/PNX-CLI/releases)】
 2. 下载完成后,输入下述指令\
 **注意:/xxx/xxx 代表你PNX-CLI-Linux-x86(Arm).zip所在文件夹目录**

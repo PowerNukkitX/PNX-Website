@@ -4,48 +4,6 @@ PNX-CLI Launcher 【[Download](https://github.com/PowerNukkitX/PNX-CLI/releases)
 ## What is the PNX-CLI starter?
 It allows you to quickly deploy **PowerNukkitX** servers on your host, with less footprint and easier management.
 
-## How to start the server without using PNX-CLI?
-
-1. Download libs.tar.gz and powernukkitx.jar from 【[release](https://github.com/PowerNukkitX/PowerNukkitX/releases)】
-
-2. Extract the libs folder in libs.tar.gz to the same path as powernukkitx.jar
-
-3. Run the following command
-
-##### Windows
-
-```
-java -Dfile.encoding=UTF-8 ^
--Djansi.passthrough=true ^
--Dterminal.ansi=true ^
--XX:+UnlockExperimentalVMOptions ^
--XX:+UseG1GC ^
--XX:+UseStringDeduplication ^
--XX:+EnableJVMCI ^
---module-path=.\libs\graal-sdk-22.2.0.jar;.\libs\truffle-api-22.2.0.jar; ^
---add-opens java.base/java.lang=ALL-UNNAMED ^
---add-opens java.base/java.io=ALL-UNNAMED ^
--cp .\powernukkitx.jar;.\libs\* ^
-cn.nukkit.Nukkit
-```
-
-##### Linux
-
-```
-java -Dfile.encoding=UTF-8 \
--Djansi.passthrough=true \
--Dterminal.ansi=true \
--XX:+UnlockExperimentalVMOptions \
--XX:+UseG1GC \
--XX:+UseStringDeduplication \
--XX:+EnableJVMCI \
---module-path=./libs/truffle-api-22.2.0.jar:./libs/graal-sdk-22.2.0.jar: \
---add-opens java.base/java.lang=ALL-UNNAMED \
---add-opens java.base/java.io=ALL-UNNAMED \
--cp ./powernukkitx.jar:./libs/* \
-cn.nukkit.Nukkit
-```
-
 ## Notes on the installation of the PNX-CLI!
 1. No spaces in the directory folder or it won't work!
 
