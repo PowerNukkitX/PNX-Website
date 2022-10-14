@@ -235,8 +235,8 @@ async function refreshPNXServers(callback) {
 }
 
 async function refreshAfdianSponsors() {
-    const response = await get("https://api.powernukkitx.cn/get-afdian-sponsor");
-    const data = JSON.parse(response);
+    const response = await get("https://api.powernukkitx.cn/v2/sponsor/afdian");
+    const data = JSON.parse(response).sponsors;
     const bigTemplate = document.getElementById("sponsor-big-template").innerHTML;
     const smallTemplate = document.getElementById("sponsor-small-template").innerHTML;
     let bigHTML = "";
@@ -255,7 +255,7 @@ async function refreshAfdianSponsors() {
     document.getElementById("all-sponsor-box").innerHTML = smallHTML;
 }
 
-get("https://api.powernukkitx.cn/get-github-star").then(response => document.getElementById("pnx-star-count").innerText = response);
+get("https://api.powernukkitx.cn/git/star").then(response => document.getElementById("pnx-star-count").innerText = JSON.parse(response).star);
 refreshAfdianSponsors().then(() => {
 });
 refreshPNXServers(count => document.getElementById("pnx-server-count").innerText = count).then(() => {
