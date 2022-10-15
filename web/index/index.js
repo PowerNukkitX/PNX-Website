@@ -255,7 +255,7 @@ async function refreshAfdianSponsors() {
     document.getElementById("all-sponsor-box").innerHTML = smallHTML;
 }
 
-get("https://api.powernukkitx.cn/git/star").then(response => document.getElementById("pnx-star-count").innerText = JSON.parse(response).star);
+get("https://api.powernukkitx.cn/v2/git/star").then(response => document.getElementById("pnx-star-count").innerText = JSON.parse(response).star);
 refreshAfdianSponsors().then(() => {
 });
 refreshPNXServers(count => document.getElementById("pnx-server-count").innerText = count).then(() => {
