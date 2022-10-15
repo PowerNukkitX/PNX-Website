@@ -241,7 +241,7 @@ async function refreshAfdianSponsors() {
     const smallTemplate = document.getElementById("sponsor-small-template").innerHTML;
     let bigHTML = "";
     let smallHTML = "";
-    for (const each of data) {
+    for (const each of data.sort((a, b) => b.last_pay_time - a.last_pay_time)) {
         if (each.current_plan && each.current_plan.name && each.current_plan.name !== "") {
             bigHTML += bigTemplate.replace("dynamic.user-icon-src", each.user.avatar)
                 .replace("dynamic.user-name", each.user.name)
