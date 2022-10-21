@@ -1,6 +1,8 @@
 # Custom Feature Api migration
 
-All custom feature need to implement the `public CustomItemDefinition getDefinition()` method,which corresponds to `CustomItemDefinition` `CustomBlockDefinition` `CustomEntityDefinition` respectively.These three are all simple builder tool classes.
+All custom feature need to implement the `public CustomItemDefinition getDefinition()` method,which corresponds to `CustomItemDefinition`,
+`CustomBlockDefinition`, 
+`CustomEntityDefinition` respectively.These three are all simple builder tool classes.
 
 ## Api Removed
 

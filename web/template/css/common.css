@@ -26,6 +26,10 @@
     margin-left: 1px;
 }
 
+.category-super-div {
+    overflow-x: scroll;
+}
+
 p.category-title {
     font-weight: bold;
 }

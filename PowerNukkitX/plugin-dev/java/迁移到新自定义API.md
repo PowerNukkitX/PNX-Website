@@ -1,6 +1,6 @@
 # 迁移到新自定义API  
 
-所有自定义功能都需要实现`public CustomItemDefinition getDefinition()`方法，该方法分别对应于`CustomItemDefinition``CustomBlockDefinition``CustomEntityDefinition`。这三个都是简单的构建工具类。
+所有自定义功能都需要实现`public CustomItemDefinition getDefinition()`方法，该方法分别对应于`CustomItemDefinition` `CustomBlockDefinition` `CustomEntityDefinition`。这三个都是简单的构建工具类。
 
 ## 已移除或更改的API
 
