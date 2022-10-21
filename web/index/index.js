@@ -59,6 +59,7 @@ $('[translate=yes]').each((index, value) => {
  * @return {string}
  */
 function translate(key) {
+    key = key.trim();
     if (languageId === "zh-cn") {
         const tmp = chn[key];
         return tmp ? tmp : key;
@@ -153,11 +154,14 @@ async function refreshAwesomeList() {
     const response = await get("/data/awesome-list.json");
     const data = JSON.parse(response);
     const template = document.getElementById("awesome-list-item-template").innerHTML;
-    let i = 0;
-    for (const each of data) {
-        if (i++ > 5) {
+
+    for (let i = 0; i < 5; i++) {
+        if (awesomeListIndex >= data.length) {
+            console.log(awesomeListIndex, data.length)
+            moreObj.remove();
             break;
         }
+        const each = data[awesomeListIndex];
         let iconID = "format_list_bulleted";
         switch (each.type) {
             case "news":
@@ -178,11 +182,6 @@ async function refreshAwesomeList() {
         lineObj.classList.add("mdui-divider-inset");
         moreObj.parentNode.insertBefore(lineObj, moreObj);
     }
-
-    if (i < 5) {
-        moreObj.remove();
-    }
-    awesomeListIndex = 0;
 }
 
 get("https://api.powernukkitx.cn/v2/git/star").then(response => document.getElementById("pnx-star-count").innerText = JSON.parse(response).star);
