@@ -1,0 +1,53 @@
+[
+  {
+    "type": "news",
+    "link": "https://github.com/PowerNukkitX/PowerNukkitX/releases/tag/1.19.31-r1",
+    "title": {
+      "zh-cn": "PNX 1.19.31-r1 新版本发布",
+      "en-us": "PNX 1.19.31-r1 released"
+    },
+    "content": {
+      "zh-cn": "1.19.31带来了众多新内容和bug修复",
+      "en-us": "1.19.31 brings many new features and bug fixes"
+    }
+  },
+  {
+    "type": "tips",
+    "link": "https://circle.nullatom.com/d/78-pnx",
+    "imgUrl": "https://circle.nullatom.com/assets/favicon-f54lna0s.png",
+    "title": {
+      "zh-cn": "在Linux上一行命令启动PNX",
+      "en-us": "Start PNX with one line command on Linux"
+    },
+    "content": {
+      "zh-cn": "来自原子圈论坛的用户分享了一种在Linux上一行命令启动PNX的方法",
+      "en-us": "A user from AtomCircle forum shared a way to start PNX with one line command on Linux"
+    }
+  },
+  {
+    "type": "tips",
+    "link": "https://www.minebbs.com/resources/powernukkitx-windows.4746/",
+    "imgUrl": "https://www.minebbs.com/data/assets/logo/faviconlan.png",
+    "title": {
+      "zh-cn": "在Windows上一键启动PNX",
+      "en-us": "Start PNX with one click on Windows"
+    },
+    "content": {
+      "zh-cn": "来自MineBBS的用户分享了自制的PNX开服包",
+      "en-us": "A user from MineBBS shared the self-made PNX startup package"
+    }
+  },
+  {
+    "type": "tips",
+    "link": "https://klpbbs.com/thread-65628-1-1.html",
+    "imgUrl": "https://klpbbs.com/favicon.ico",
+    "title": {
+      "zh-cn": "在你的安卓手机上运行PNX",
+      "en-us": "Run PNX on your Android smartphone"
+    },
+    "content": {
+      "zh-cn": "来自KLPBBS的用户分享了他在安卓手机上运行PNX的心得",
+      "en-us": "A user from KLPBBS shared his experience of running PNX on his Android smartphone"
+    }
+  }
+]
