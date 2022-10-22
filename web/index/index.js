@@ -156,11 +156,6 @@ async function refreshAwesomeList() {
     const template = document.getElementById("awesome-list-item-template").innerHTML;
 
     for (let i = 0; i < 5; i++) {
-        if (awesomeListIndex >= data.length) {
-            console.log(awesomeListIndex, data.length)
-            moreObj.remove();
-            break;
-        }
         const each = data[awesomeListIndex];
         let iconID = "format_list_bulleted";
         switch (each.type) {
@@ -181,6 +176,10 @@ async function refreshAwesomeList() {
         const lineObj = document.createElement("LI");
         lineObj.classList.add("mdui-divider-inset");
         moreObj.parentNode.insertBefore(lineObj, moreObj);
+        if (awesomeListIndex >= data.length) {
+            moreObj.remove();
+            break;
+        }
     }
 }
 
