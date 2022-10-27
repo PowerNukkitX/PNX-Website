@@ -113,18 +113,31 @@ function get(url) {
 }
 
 async function refreshPNXServers(callback) {
-    const response = await get("https://bstats.org/api/v1/plugins/10277/charts/nukkit_version/data");
-    const data = JSON.parse(response);
+    let response = await get("https://bstats.org/api/v1/plugins/10277/charts/nukkit_version/data");
+    let data = JSON.parse(response);
     let count = 0;
     for (const each of data) {
         if (each.name.indexOf("PNX") !== -1) {
             count += each.y;
         }
     }
+    response = await get("https://bstats.org/api/v1/plugins/16708/charts/servers/data");
+    data = JSON.parse(response);
+    count += data[data.length - 1][1];
     if (callback) {
         callback(count);
     }
 }
+
+async function refreshPNXPlayers(callback) {
+    const response = await get("https://bstats.org/api/v1/plugins/16708/charts/players/data");
+    const data = JSON.parse(response);
+    const count = data[data.length - 1][1];
+    if (callback) {
+        callback(count);
+    }
+}
+
 
 async function refreshAfdianSponsors() {
     const response = await get("https://api.powernukkitx.cn/v2/sponsor/afdian");
@@ -188,6 +201,8 @@ refreshAfdianSponsors().then(() => {
 });
 refreshPNXServers(count => document.getElementById("pnx-server-count").innerText = count).then(() => {
 });
+refreshPNXPlayers(count => document.getElementById("pnx-player-count").innerText = count).then(() => {
+});
 refreshAwesomeList().then(() => {
 });
 
@@ -199,7 +214,7 @@ const egg_title2 = "Just an egg :D"
 const egg_content = `
 🏡 WebSite: https://www.powernukkitx.cn
 📌 GitHub:  https://github.com/powernukkitx
-📖 Doc文档: https://doc.powernukkitx.cn
+📖 Document: https://doc.powernukkitx.cn
 ----------------------------------------
 🎉 Congratulations on finding this egg!
 🔧 Web Version: 1.0

@@ -175,7 +175,7 @@
     </div>
     <div class="mdui-row v-space-md"></div>
     <div class="mdui-row flex-row">
-        <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4">
+        <div class="mdui-col-xs-12 mdui-col-sm-4 mdui-col-md-3">
             <div class="mdui-card card-bottom-gap">
                 <div class="mdui-card-primary">
                     <div class="mdui-card-primary-title"><span id="pnx-server-count">...</span><span translate="yes">text.servers</span>
@@ -184,16 +184,31 @@
                 </div>
             </div>
         </div>
-        <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4">
+        <div class="mdui-col-xs-12 mdui-col-sm-4 mdui-col-md-3">
             <div class="mdui-card card-bottom-gap">
                 <div class="mdui-card-primary">
-                    <div class="mdui-card-primary-title"><span id="pnx-star-count">...</span><span
-                            translate="yes">stars</span>
+                    <div class="mdui-card-primary-title" style="display: flex">
+                        <span id="pnx-player-count">...</span><span translate="yes">text.players</span>
+                        <i class="mdui-btn mdui-btn-icon" mdui-tooltip="{content:translate('text.about-players')}">
+                            <i class="mdui-icon material-icons">help_outline</i>
+                        </i>
+                    </div>
+                    <div class="mdui-card-primary-subtitle" translate="yes">text.playing-on-pnx</div>
+                </div>
+            </div>
+        </div>
+        <div class="mdui-col-xs-12 mdui-col-sm-4 mdui-col-md-3">
+            <div class="mdui-card card-bottom-gap">
+                <div class="mdui-card-primary">
+                    <div class="mdui-card-primary-title"><span id="pnx-star-count">...</span><span translate="yes">stars</span>
                     </div>
                     <div class="mdui-card-primary-subtitle" translate="yes">text.on-github</div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="mdui-row mdui-typo mdui-text-center">
+        <a class="mdui-typo-body-4-opacity" translate="yes" href="https://bstats.org/plugin/server-implementation/PowerNukkitX/16708">text.more-on-BStats</a>
     </div>
     <div class="mdui-row v-space-md"></div>
     <hr/>
