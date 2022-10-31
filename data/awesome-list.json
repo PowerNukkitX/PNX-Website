@@ -1,6 +1,30 @@
 [
   {
     "type": "news",
+    "link": "https://github.com/PowerNukkitX/PowerNukkitX/releases/tag/1.19.40-r2",
+    "title": {
+      "zh-cn": "PNX 1.19.40-r2 新版本发布",
+      "en-us": "PNX 1.19.40-r2 released"
+    },
+    "content": {
+      "zh-cn": "修复崩服bug和其他bug",
+      "en-us": "Fix crash bug and other bugs"
+    }
+  },
+  {
+    "type": "news",
+    "link": "https://github.com/PowerNukkitX/PowerNukkitX/releases/tag/1.19.40-r1",
+    "title": {
+      "zh-cn": "PNX 1.19.40-r1 新版本发布",
+      "en-us": "PNX 1.19.40-r1 released"
+    },
+    "content": {
+      "zh-cn": "支持1.19.40，优化自定义API，修复bug",
+      "en-us": "Support 1.19.40, optimize custom API, fix bugs"
+    }
+  },
+  {
+    "type": "news",
     "link": "https://github.com/CoolLoong/AmethystEquipment",
     "title": {
       "zh-cn": "PNX上的紫水晶装备mod",
