@@ -1,6 +1,5 @@
 # PowerNukkitX  
-
-![PNX Banner](./image/PNX_BANNER.png)  
+[<img alt="PowerNukkitX" width="838" src="https://raw.githubusercontent.com/PowerNukkitX/PowerNukkitX/master/blob/images/PNX_BANNER.png" />](https://www.powernukkitx.com)
 
 <h3 style="width: fit-content;" class="mdui-center">高性能、富原版特性、高拓展性的独立服务端核心</h2>  
 
