@@ -2,7 +2,7 @@
 
 ![PNX Banner](./image/PNX_BANNER.png)  
 
-<h3 style="width: fit-content;" class="mdui-center">高性能、富原版特性、高拓展性的独立服务端核心</h2>  
+<h3 style="width: fit-content;" class="mdui-center">High-performance, more-feature, highly extensible server software</h2> 
 
 
 [![Discord](https://img.shields.io/discord/944227466912870410?style=flat-square)](https://discord.gg/BcPhZCVJHJ)
