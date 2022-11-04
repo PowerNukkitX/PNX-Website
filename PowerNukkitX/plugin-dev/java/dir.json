@@ -7,9 +7,15 @@
     "javadoc.md": {
       "zh-cn": "跳转到JavaDoc",
       "en-us": "Go to JavaDoc"
+    },
+    "迁移到新自定义API_en-us.md": {
+        "en-us": "Migrate to New Custom API"
     }
   },
   "multiLanguage": [
-
+    {
+      "zh-cn": "迁移到新自定义API.md",
+      "en-us": "迁移到新自定义API_en-us.md"
+    }
   ]
 }
