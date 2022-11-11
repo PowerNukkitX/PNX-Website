@@ -1,6 +1,32 @@
 [
   {
     "type": "news",
+    "link": "https://github.com/SoBadFish/FishMagicItem",
+    "imgUrl": "https://avatars.githubusercontent.com/u/83235042",
+    "title": {
+      "zh-cn": "PNX专属的RPG魔法物品插件",
+      "en-us": "RPG magic-item plugin for PNX"
+    },
+    "content": {
+      "zh-cn": "社区开发者SoBadFish开发了一款PNX专属的RPG魔法物品插件",
+      "en-us": "Community developer SoBadFish developed a RPG magic-item plugin for PNX"
+    }
+  },
+  {
+    "type": "tips",
+    "link": "https://klpbbs.com/thread-69550-1-1.html",
+    "imgUrl": "https://klpbbs.com/favicon.ico",
+    "title": {
+      "zh-cn": "在安卓手机上通过Termux直接运行PNX",
+      "en-us": "Run PNX on Android phone directly using Termux"
+    },
+    "content": {
+      "zh-cn": "来自KLPBBS的用户分享了如何使用Termux在安卓手机上直接运行PNX的方式",
+      "en-us": "A user from KLPBBS shared how to run PNX directly on Android phone using Termux"
+    }
+  },
+  {
+    "type": "news",
     "link": "https://github.com/PowerNukkitX/PowerNukkitX/releases/tag/1.19.40-r2",
     "title": {
       "zh-cn": "PNX 1.19.40-r2 新版本发布",

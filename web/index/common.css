@@ -119,6 +119,7 @@
 
 .card-bottom-gap {
     margin-bottom: 16px;
+    height: calc(100% - 16px);
 }
 
 .flex-row {
