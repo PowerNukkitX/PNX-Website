@@ -2,7 +2,7 @@
 
 ## 什么是terra  
 
-Terra是一个第三方[开源](https://github.com/PolyhedralDev/Terra)地形生成器，pnx在terra分支中整合了Terra，您可以在pnx中使用terra生成史诗般的地图。  
+Terra是一个第三方[开源](https://github.com/PolyhedralDev/Terra)地形生成器，pnx整合了Terra作为nk系服务器地形生成问题的一个解决方案，您可以在pnx中使用terra生成史诗般的地图。  
 
 
 ## 启动Terra  
