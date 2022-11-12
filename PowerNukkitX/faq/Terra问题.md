@@ -24,6 +24,32 @@ worlds:
 
 然后，重新启动服务器，即可体验terra地形生成器。
 
+## 使用第三方Terra地形配置包
+
+Terra允许你通过使用不同的配置包获得全新的地形
+
+你可在此站点查看目前可用的配置包（不全）： [Community Packs](https://terra.polydev.org/config/community-packs.html)
+
+接下来我们以[ReimagEND](https://github.com/justaureus/ReimagEND)配置包为例，其配置包文件名称为"ReimagEND.zip"
+
+我们想要在末地(the_end)应用此配置包，需要在nukkit.yml中设置以下内容:
+```yaml
+worlds:
+  the_end:
+   seed: 填写你想要的种子
+   generator: terra:ReimagEND
+```
+
+请注意在PNX中，配置包选中语法与原版terra不同，格式为：
+
+terra:配置包文件名称（不带后缀）
+
+例如在此示例中，配置包文件名为ReimagEND.zip，于是我们需要将生成器设置为terra:ReimagEND才能选中此配置包
+
+设置成功后，在末地中你应该能看到ReimagEND配置包带来的全新地形：
+
+![REIMAGEND](%relativePrefix%image/common/terra_faq/ReimagEND.png)
+
 ## 为什么设置不生效  
 
 - 如果您的世界先前使用的不是terra生成器，那么设置不会生效，您需要使用一个新的地图。  
