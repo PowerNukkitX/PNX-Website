@@ -1,0 +1,115 @@
+[
+  {
+    "type": "news",
+    "link": "https://github.com/SoBadFish/FishMagicItem",
+    "imgUrl": "https://avatars.githubusercontent.com/u/83235042",
+    "title": {
+      "zh-cn": "PNX专属的RPG魔法物品插件",
+      "en-us": "RPG magic-item plugin for PNX"
+    },
+    "content": {
+      "zh-cn": "社区开发者SoBadFish开发了一款PNX专属的RPG魔法物品插件",
+      "en-us": "Community developer SoBadFish developed a RPG magic-item plugin for PNX"
+    }
+  },
+  {
+    "type": "tips",
+    "link": "https://klpbbs.com/thread-69550-1-1.html",
+    "imgUrl": "https://klpbbs.com/favicon.ico",
+    "title": {
+      "zh-cn": "在安卓手机上通过Termux直接运行PNX",
+      "en-us": "Run PNX on Android phone directly using Termux"
+    },
+    "content": {
+      "zh-cn": "来自KLPBBS的用户分享了如何使用Termux在安卓手机上直接运行PNX的方式",
+      "en-us": "A user from KLPBBS shared how to run PNX directly on Android phone using Termux"
+    }
+  },
+  {
+    "type": "news",
+    "link": "https://github.com/PowerNukkitX/PowerNukkitX/releases/tag/1.19.40-r2",
+    "title": {
+      "zh-cn": "PNX 1.19.40-r2 新版本发布",
+      "en-us": "PNX 1.19.40-r2 released"
+    },
+    "content": {
+      "zh-cn": "修复崩服bug和其他bug",
+      "en-us": "Fix crash bug and other bugs"
+    }
+  },
+  {
+    "type": "news",
+    "link": "https://github.com/PowerNukkitX/PowerNukkitX/releases/tag/1.19.40-r1",
+    "title": {
+      "zh-cn": "PNX 1.19.40-r1 新版本发布",
+      "en-us": "PNX 1.19.40-r1 released"
+    },
+    "content": {
+      "zh-cn": "支持1.19.40，优化自定义API，修复bug",
+      "en-us": "Support 1.19.40, optimize custom API, fix bugs"
+    }
+  },
+  {
+    "type": "news",
+    "link": "https://github.com/CoolLoong/AmethystEquipment",
+    "title": {
+      "zh-cn": "PNX上的紫水晶装备mod",
+      "en-us": "Amethyst Equipment mod for PNX"
+    },
+    "content": {
+      "zh-cn": "为你的PNX服务器添加紫水晶盔甲、工具和紫水晶矛！",
+      "en-us": "Add amethyst armor, tools and amethyst spear to your PNX server!"
+    }
+  },
+  {
+    "type": "news",
+    "link": "https://github.com/PowerNukkitX/PowerNukkitX/releases/tag/1.19.31-r1",
+    "title": {
+      "zh-cn": "PNX 1.19.31-r1 新版本发布",
+      "en-us": "PNX 1.19.31-r1 released"
+    },
+    "content": {
+      "zh-cn": "自定义API更新，移动更流畅，修复众多bug",
+      "en-us": "Custom API updated, smoother movement, fixed many bugs"
+    }
+  },
+  {
+    "type": "tips",
+    "link": "https://circle.nullatom.com/d/78-pnx",
+    "imgUrl": "https://circle.nullatom.com/assets/favicon-f54lna0s.png",
+    "title": {
+      "zh-cn": "在Linux上一行命令启动PNX",
+      "en-us": "Start PNX with one line command on Linux"
+    },
+    "content": {
+      "zh-cn": "来自原子圈论坛的用户分享了一种在Linux上一行命令启动PNX的方法",
+      "en-us": "A user from AtomCircle forum shared a way to start PNX with one line command on Linux"
+    }
+  },
+  {
+    "type": "tips",
+    "link": "https://www.minebbs.com/resources/powernukkitx-windows.4746/",
+    "imgUrl": "https://www.minebbs.com/data/assets/logo/faviconlan.png",
+    "title": {
+      "zh-cn": "在Windows上一键启动PNX",
+      "en-us": "Start PNX with one click on Windows"
+    },
+    "content": {
+      "zh-cn": "来自MineBBS的用户分享了自制的PNX开服包",
+      "en-us": "A user from MineBBS shared the self-made PNX startup package"
+    }
+  },
+  {
+    "type": "tips",
+    "link": "https://klpbbs.com/thread-65628-1-1.html",
+    "imgUrl": "https://klpbbs.com/favicon.ico",
+    "title": {
+      "zh-cn": "在你的安卓手机上运行PNX",
+      "en-us": "Run PNX on your Android smartphone"
+    },
+    "content": {
+      "zh-cn": "来自KLPBBS的用户分享了他在安卓手机上运行PNX的心得",
+      "en-us": "A user from KLPBBS shared his experience of running PNX on his Android smartphone"
+    }
+  }
+]

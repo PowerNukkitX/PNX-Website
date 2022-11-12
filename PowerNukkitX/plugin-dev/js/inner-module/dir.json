@@ -4,9 +4,13 @@
       "plugin-id.md": 99,
       "powernukkitx.md": 98,
       "concurrent.md": 97,
+      "jvm.md": 96,
+      "util.md": 95,
       "plugin-id_en-us.md": 99,
       "powernukkitx_en-us.md": 98,
-      "concurrent_en-us.md": 97
+      "concurrent_en-us.md": 97,
+      "jvm_en-us.md": 96,
+      "util_en-us.md": 95
     }
   },
   "title": {
@@ -14,6 +18,14 @@
       "zh-cn": "concurrent模块"
     },
     "concurrent_en-us.md": "concurrent",
+    "jvm.md": {
+      "zh-cn": "jvm模块"
+    },
+    "jvm_en-us.md": "jvm",
+    "util.md": {
+      "zh-cn": "util模块"
+    },
+    "util_en-us.md": "util",
     "plugin-id.md": {
       "zh-cn": "plugin-id模块"
     },
@@ -35,6 +47,14 @@
     {
       "zh-cn": "concurrent.md",
       "en-us": "concurrent_en-us.md"
+    },
+    {
+      "zh-cn": "jvm.md",
+      "en-us": "jvm_en-us.md"
+    },
+    {
+      "zh-cn": "util.md",
+      "en-us": "util_en-us.md"
     }
   ]
 }

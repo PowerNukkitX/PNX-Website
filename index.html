@@ -3,7 +3,7 @@
 <!--suppress ES6ConvertVarToLetConst -->
 <script>
     var _hmt = _hmt || [];
-    (function() {
+    (function () {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?7f37dd4b818e3b908b5844e5cd197a3a";
         var s = document.getElementsByTagName("script")[0];
@@ -175,7 +175,7 @@
     </div>
     <div class="mdui-row v-space-md"></div>
     <div class="mdui-row flex-row">
-        <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4">
+        <div class="mdui-col-xs-12 mdui-col-sm-4 mdui-col-md-3">
             <div class="mdui-card card-bottom-gap">
                 <div class="mdui-card-primary">
                     <div class="mdui-card-primary-title"><span id="pnx-server-count">...</span><span translate="yes">text.servers</span>
@@ -184,16 +184,31 @@
                 </div>
             </div>
         </div>
-        <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4">
+        <div class="mdui-col-xs-12 mdui-col-sm-4 mdui-col-md-3">
             <div class="mdui-card card-bottom-gap">
                 <div class="mdui-card-primary">
-                    <div class="mdui-card-primary-title"><span id="pnx-star-count">...</span><span
-                            translate="yes">stars</span>
+                    <div class="mdui-card-primary-title" style="display: flex">
+                        <span id="pnx-player-count">...</span><span translate="yes">text.players</span>
+                        <i class="mdui-btn mdui-btn-icon" mdui-tooltip="{content:translate('text.about-players')}">
+                            <i class="mdui-icon material-icons">help_outline</i>
+                        </i>
+                    </div>
+                    <div class="mdui-card-primary-subtitle" translate="yes">text.playing-on-pnx</div>
+                </div>
+            </div>
+        </div>
+        <div class="mdui-col-xs-12 mdui-col-sm-4 mdui-col-md-3">
+            <div class="mdui-card card-bottom-gap">
+                <div class="mdui-card-primary">
+                    <div class="mdui-card-primary-title"><span id="pnx-star-count">...</span><span translate="yes">stars</span>
                     </div>
                     <div class="mdui-card-primary-subtitle" translate="yes">text.on-github</div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="mdui-row mdui-typo mdui-text-center">
+        <a class="mdui-typo-body-4-opacity" translate="yes" target="_blank" href="https://bstats.org/plugin/server-implementation/PowerNukkitX/16708">text.more-on-BStats</a>
     </div>
     <div class="mdui-row v-space-md"></div>
     <hr/>
@@ -231,11 +246,42 @@
     <div id="all-sponsor-box" class="mdui-row flex-row"></div>
     <div class="mdui-row v-space-md"></div>
     <hr/>
+    <!--  Awesome PNX  -->
+    <div class="mdui-row v-space-md"></div>
+    <div class="mdui-row">
+        <h2 class="content-title" translate="yes">text.awesome-pnx</h2>
+    </div>
+    <div class="mdui-row v-space-md"></div>
+    <span id="awesome-list-item-template" style="display: none">
+        <li class="mdui-list-item mdui-ripple">
+            dynamic.icon
+            <a class="mdui-list-item-content" target="_blank" href="dynamic.link">
+                <div class="mdui-list-item-title mdui-list-item-one-line">dynamic.title</div>
+                <div class="mdui-list-item-text mdui-list-item-one-line">dynamic.content</div>
+            </a>
+        </li>
+    </span>
+    <div class="mdui-row">
+        <div class="mdui-col-xs-12 mdui-col-sm-10 mdui-col-offset-sm-1 mdui-col-md-8 mdui-col-offset-md-2">
+            <ul id="awesome-list" class="mdui-list">
+                <li class="mdui-list-item mdui-ripple" id="awesome-list-more">
+                    <i class="mdui-list-item-avatar mdui-icon material-icons">more_horiz</i>
+                    <div class="mdui-list-item-content" onclick="refreshAwesomeList()">
+                        <div class="mdui-list-item-title mdui-list-item-one-line" translate="yes">pnx.awesome.more</div>
+                        <div class="mdui-list-item-text mdui-list-item-one-line" translate="yes">pnx.awesome.click-to-see-more</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="mdui-row v-space-md"></div>
+    <hr/>
     <div class="mdui-row v-space-md"></div>
 </div>
 <!-- MDUI Material设计库 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mdui/1.0.2/js/mdui.min.js" crossorigin="anonymous"></script>
 <!-- PNX主页 JS库 -->
+<script src="/web/index/text.min.js"></script>
 <script src="/web/index/index.min.js"></script>
 </body>
 </html>

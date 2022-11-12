@@ -1,0 +1,1005 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                652,
+                704
+            ],
+            "filename": "jvm.js",
+            "lineno": 13,
+            "columnno": 6,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000039",
+                "name": "jsPlugin",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "jsPlugin",
+        "longname": "jsPlugin",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                712,
+                751
+            ],
+            "filename": "jvm.js",
+            "lineno": 14,
+            "columnno": 6,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000049",
+                "name": "jvmManager",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "jvmManager",
+        "longname": "jvmManager",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * 获取当前使用的JVM的版本\n * @return {string}\n */",
+        "meta": {
+            "range": [
+                799,
+                873
+            ],
+            "filename": "jvm.js",
+            "lineno": 20,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000054",
+                "name": "exports.getJVMVersion",
+                "type": "FunctionDeclaration",
+                "paramnames": []
+            }
+        },
+        "description": "获取当前使用的JVM的版本",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                }
+            }
+        ],
+        "name": "getJVMVersion",
+        "longname": "getJVMVersion",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                806,
+                873
+            ],
+            "filename": "jvm.js",
+            "lineno": 20,
+            "columnno": 7,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000055",
+                "name": "getJVMVersion",
+                "type": "FunctionDeclaration",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "getJVMVersion",
+        "longname": "getJVMVersion",
+        "kind": "function",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * 获取当前使用的JVM中的JIT的版本\n * @return {string}\n */",
+        "meta": {
+            "range": [
+                925,
+                999
+            ],
+            "filename": "jvm.js",
+            "lineno": 28,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000063",
+                "name": "exports.getJITVersion",
+                "type": "FunctionDeclaration",
+                "paramnames": []
+            }
+        },
+        "description": "获取当前使用的JVM中的JIT的版本",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                }
+            }
+        ],
+        "name": "getJITVersion",
+        "longname": "getJITVersion",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                932,
+                999
+            ],
+            "filename": "jvm.js",
+            "lineno": 28,
+            "columnno": 7,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000064",
+                "name": "getJITVersion",
+                "type": "FunctionDeclaration",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "getJITVersion",
+        "longname": "getJITVersion",
+        "kind": "function",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * 强制执行彻底的垃圾回收以释放内存，可能导致服务器短时卡顿\n */",
+        "meta": {
+            "range": [
+                1041,
+                1086
+            ],
+            "filename": "jvm.js",
+            "lineno": 35,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000072",
+                "name": "exports.gc",
+                "type": "FunctionDeclaration",
+                "paramnames": []
+            }
+        },
+        "description": "强制执行彻底的垃圾回收以释放内存，可能导致服务器短时卡顿",
+        "name": "gc",
+        "longname": "gc",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1048,
+                1086
+            ],
+            "filename": "jvm.js",
+            "lineno": 35,
+            "columnno": 7,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000073",
+                "name": "gc",
+                "type": "FunctionDeclaration",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "gc",
+        "longname": "gc",
+        "kind": "function",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * 从指定路径动态加载jar包\n * @param jarPath {string} jar包路径\n */",
+        "meta": {
+            "range": [
+                1147,
+                1230
+            ],
+            "filename": "jvm.js",
+            "lineno": 43,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000081",
+                "name": "exports.loadJar",
+                "type": "FunctionDeclaration",
+                "paramnames": [
+                    "jarPath"
+                ]
+            }
+        },
+        "description": "从指定路径动态加载jar包",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "jar包路径",
+                "name": "jarPath"
+            }
+        ],
+        "name": "loadJar",
+        "longname": "loadJar",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1154,
+                1230
+            ],
+            "filename": "jvm.js",
+            "lineno": 43,
+            "columnno": 7,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000082",
+                "name": "loadJar",
+                "type": "FunctionDeclaration",
+                "paramnames": [
+                    "jarPath"
+                ]
+            }
+        },
+        "undocumented": true,
+        "name": "loadJar",
+        "longname": "loadJar",
+        "kind": "function",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * @external JavaClass\n */",
+        "meta": {
+            "filename": "jvm.js",
+            "lineno": 47,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {}
+        },
+        "kind": "external",
+        "name": "JavaClass",
+        "longname": "external:JavaClass",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1264,
+                5362
+            ],
+            "filename": "jvm.js",
+            "lineno": 51,
+            "columnno": 0,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000095",
+                "name": "exports.JavaClassBuilder",
+                "type": "ClassDeclaration"
+            }
+        },
+        "undocumented": true,
+        "name": "JavaClassBuilder",
+        "longname": "JavaClassBuilder",
+        "kind": "class",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1271,
+                5362
+            ],
+            "filename": "jvm.js",
+            "lineno": 51,
+            "columnno": 7,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000096",
+                "name": "JavaClassBuilder",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "className",
+                    "extendClass"
+                ]
+            }
+        },
+        "undocumented": true,
+        "name": "JavaClassBuilder",
+        "longname": "JavaClassBuilder",
+        "kind": "class",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * 构造一个Java类生成器，用于在JS中对Java类进行相关操作\n     * @param className {string} 将要创建的Java类的名称\n     * @param {string|JavaClass} [extendClass] 此Java类继承的父Java类的名称，如不写默认为java.lang.Object\n     */",
+        "meta": {
+            "range": [
+                1491,
+                1755
+            ],
+            "filename": "jvm.js",
+            "lineno": 57,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000099",
+                "name": "exports.JavaClassBuilder",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "className",
+                    "extendClass"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "构造一个Java类生成器，用于在JS中对Java类进行相关操作",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "将要创建的Java类的名称",
+                "name": "className"
+            },
+            {
+                "type": {
+                    "names": [
+                        "string",
+                        "JavaClass"
+                    ]
+                },
+                "optional": true,
+                "description": "此Java类继承的父Java类的名称，如不写默认为java.lang.Object",
+                "name": "extendClass"
+            }
+        ],
+        "name": "JavaClassBuilder",
+        "longname": "JavaClassBuilder#JavaClassBuilder",
+        "kind": "class",
+        "memberof": "JavaClassBuilder",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1537,
+                1585
+            ],
+            "filename": "jvm.js",
+            "lineno": 58,
+            "columnno": 8,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000106",
+                "name": "this._classBuilder",
+                "type": "NewExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "_classBuilder",
+        "longname": "JavaClassBuilder#_classBuilder",
+        "kind": "member",
+        "memberof": "JavaClassBuilder",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * @return {JClassBuilder}\n     */",
+        "meta": {
+            "range": [
+                1808,
+                1870
+            ],
+            "filename": "jvm.js",
+            "lineno": 68,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000136",
+                "name": "JavaClassBuilder#jClassBuilder",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "JClassBuilder"
+                    ]
+                }
+            }
+        ],
+        "name": "jClassBuilder",
+        "longname": "JavaClassBuilder#jClassBuilder",
+        "kind": "member",
+        "memberof": "JavaClassBuilder",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @private\n     * @param type {string|JavaClass} java类对象或者其名称字符串\n     * @return {JType}\n     */",
+        "meta": {
+            "range": [
+                1985,
+                2153
+            ],
+            "filename": "jvm.js",
+            "lineno": 77,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000144",
+                "name": "JavaClassBuilder#_toJType",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "type"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "access": "private",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string",
+                        "JavaClass"
+                    ]
+                },
+                "description": "java类对象或者其名称字符串",
+                "name": "type"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "JType"
+                    ]
+                }
+            }
+        ],
+        "name": "_toJType",
+        "longname": "JavaClassBuilder#_toJType",
+        "kind": "function",
+        "memberof": "JavaClassBuilder",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * 添加一个实现了的接口\n     * @param interfaceClass {string|JavaClass} java类对象或者其名称字符串\n     * @return {JavaClassBuilder} this\n     */",
+        "meta": {
+            "range": [
+                2296,
+                2434
+            ],
+            "filename": "jvm.js",
+            "lineno": 90,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000168",
+                "name": "JavaClassBuilder#addJavaInterface",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "interfaceClass"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "添加一个实现了的接口",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string",
+                        "JavaClass"
+                    ]
+                },
+                "description": "java类对象或者其名称字符串",
+                "name": "interfaceClass"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "JavaClassBuilder"
+                    ]
+                },
+                "description": "this"
+            }
+        ],
+        "name": "addJavaInterface",
+        "longname": "JavaClassBuilder#addJavaInterface",
+        "kind": "function",
+        "memberof": "JavaClassBuilder",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * 让此代理对象代理新建的java类中的所有操作\n     * @param delegateObj {any} 代理对象\n     * @return {JavaClassBuilder} this\n     */",
+        "meta": {
+            "range": [
+                2562,
+                2670
+            ],
+            "filename": "jvm.js",
+            "lineno": 100,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000187",
+                "name": "JavaClassBuilder#setJSDelegate",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "delegateObj"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "让此代理对象代理新建的java类中的所有操作",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "any"
+                    ]
+                },
+                "description": "代理对象",
+                "name": "delegateObj"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "JavaClassBuilder"
+                    ]
+                },
+                "description": "this"
+            }
+        ],
+        "name": "setJSDelegate",
+        "longname": "JavaClassBuilder#setJSDelegate",
+        "kind": "function",
+        "memberof": "JavaClassBuilder",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * 向新生成的Java类中添加一个构造函数\n     * @param superDelegateName {string} super代理名，即delegateObj中的一个函数的名称，返回值数组将会用作调用父super构造函数的参数\n     * @param constructorDelegateName {string} 构造函数代理名，即delegateObj中的一个函数的名称，参数为java对象自身加上所有argTypes中的参数\n     * @param superTypes {Array<string|JavaClass>} 要传递给super父构造函数的所有参数类型\n     * @param argTypes {...(string|JavaClass)} 构造函数的所有参数类型\n     * @return {JavaClassBuilder} this\n     */",
+        "meta": {
+            "range": [
+                3092,
+                3421
+            ],
+            "filename": "jvm.js",
+            "lineno": 113,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000202",
+                "name": "JavaClassBuilder#addJavaConstructor",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "superDelegateName",
+                    "constructorDelegateName",
+                    "superTypes",
+                    "argTypes"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "向新生成的Java类中添加一个构造函数",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "super代理名，即delegateObj中的一个函数的名称，返回值数组将会用作调用父super构造函数的参数",
+                "name": "superDelegateName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "构造函数代理名，即delegateObj中的一个函数的名称，参数为java对象自身加上所有argTypes中的参数",
+                "name": "constructorDelegateName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Array.<(string|JavaClass)>"
+                    ]
+                },
+                "description": "要传递给super父构造函数的所有参数类型",
+                "name": "superTypes"
+            },
+            {
+                "type": {
+                    "names": [
+                        "string",
+                        "JavaClass"
+                    ]
+                },
+                "variable": true,
+                "description": "构造函数的所有参数类型",
+                "name": "argTypes"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "JavaClassBuilder"
+                    ]
+                },
+                "description": "this"
+            }
+        ],
+        "name": "addJavaConstructor",
+        "longname": "JavaClassBuilder#addJavaConstructor",
+        "kind": "function",
+        "memberof": "JavaClassBuilder",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * 向新生成的Java类中添加新方法\n     * @param methodName {string} 方法名\n     * @param delegateName {string} 代理名，即delegateObj中的一个函数的名称，参数为java对象自身加上所有argTypes中的参数\n     * @param returnType {string|JavaClass} 方法返回类型\n     * @param argTypes {...(string|JavaClass)} 方法参数类型\n     * @return {JavaClassBuilder} this\n     */",
+        "meta": {
+            "range": [
+                3739,
+                4005
+            ],
+            "filename": "jvm.js",
+            "lineno": 127,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000249",
+                "name": "JavaClassBuilder#addJavaMethod",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "methodName",
+                    "delegateName",
+                    "returnType",
+                    "argTypes"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "向新生成的Java类中添加新方法",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "方法名",
+                "name": "methodName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "代理名，即delegateObj中的一个函数的名称，参数为java对象自身加上所有argTypes中的参数",
+                "name": "delegateName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "string",
+                        "JavaClass"
+                    ]
+                },
+                "description": "方法返回类型",
+                "name": "returnType"
+            },
+            {
+                "type": {
+                    "names": [
+                        "string",
+                        "JavaClass"
+                    ]
+                },
+                "variable": true,
+                "description": "方法参数类型",
+                "name": "argTypes"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "JavaClassBuilder"
+                    ]
+                },
+                "description": "this"
+            }
+        ],
+        "name": "addJavaMethod",
+        "longname": "JavaClassBuilder#addJavaMethod",
+        "kind": "function",
+        "memberof": "JavaClassBuilder",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * 允许访问父类中的方法，添加后可以使用“__super__父类方法名”来调用父类中的方法，即使它是protected的也可以\n     * @param methodName {string} 父类中的方法名\n     * @param returnType {string|JavaClass} 方法返回类型\n     * @param argTypes {...(string|JavaClass)} 方法参数类型\n     * @return {JavaClassBuilder} this\n     */",
+        "meta": {
+            "range": [
+                4282,
+                4535
+            ],
+            "filename": "jvm.js",
+            "lineno": 140,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000290",
+                "name": "JavaClassBuilder#addJavaSuperMethod",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "methodName",
+                    "returnType",
+                    "argTypes"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "允许访问父类中的方法，添加后可以使用“__super__父类方法名”来调用父类中的方法，即使它是protected的也可以",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "父类中的方法名",
+                "name": "methodName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "string",
+                        "JavaClass"
+                    ]
+                },
+                "description": "方法返回类型",
+                "name": "returnType"
+            },
+            {
+                "type": {
+                    "names": [
+                        "string",
+                        "JavaClass"
+                    ]
+                },
+                "variable": true,
+                "description": "方法参数类型",
+                "name": "argTypes"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "JavaClassBuilder"
+                    ]
+                },
+                "description": "this"
+            }
+        ],
+        "name": "addJavaSuperMethod",
+        "longname": "JavaClassBuilder#addJavaSuperMethod",
+        "kind": "function",
+        "memberof": "JavaClassBuilder",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * 允许访问并设置父类中的protected字段\n     * @param fieldName {string} 父类中的字段名\n     * @param type {string|JavaClass} 字段类型，可以是java类对象或其名称字符串\n     * @return {JavaClassBuilder} this\n     */",
+        "meta": {
+            "range": [
+                4728,
+                4902
+            ],
+            "filename": "jvm.js",
+            "lineno": 152,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000329",
+                "name": "JavaClassBuilder#addJavaSuperField",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "fieldName",
+                    "type"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "允许访问并设置父类中的protected字段",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "父类中的字段名",
+                "name": "fieldName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "string",
+                        "JavaClass"
+                    ]
+                },
+                "description": "字段类型，可以是java类对象或其名称字符串",
+                "name": "type"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "JavaClassBuilder"
+                    ]
+                },
+                "description": "this"
+            }
+        ],
+        "name": "addJavaSuperField",
+        "longname": "JavaClassBuilder#addJavaSuperField",
+        "kind": "function",
+        "memberof": "JavaClassBuilder",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * 将这个ClassBuilder表示的类进行编译，并返回编译后的JavaClass对象。\n     * 编译速度会很快，通常在0.01秒内完成。\n     * @return {JavaClass} 编译完后的JavaClass对象，可以在Java或者JS中通过new或反射创建。\n     */",
+        "meta": {
+            "range": [
+                5071,
+                5151
+            ],
+            "filename": "jvm.js",
+            "lineno": 162,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000355",
+                "name": "JavaClassBuilder#compileToJavaClass",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "将这个ClassBuilder表示的类进行编译，并返回编译后的JavaClass对象。\n编译速度会很快，通常在0.01秒内完成。",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "JavaClass"
+                    ]
+                },
+                "description": "编译完后的JavaClass对象，可以在Java或者JS中通过new或反射创建。"
+            }
+        ],
+        "name": "compileToJavaClass",
+        "longname": "JavaClassBuilder#compileToJavaClass",
+        "kind": "function",
+        "memberof": "JavaClassBuilder",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * 将这个ClassBuilder表示的类进行编译，并将编译后的字节码储存在指定路径中。\n     * 编译速度会很快，通常在0.01秒内完成。\n     * @param path {string} 保存路径\n     */",
+        "meta": {
+            "range": [
+                5284,
+                5360
+            ],
+            "filename": "jvm.js",
+            "lineno": 171,
+            "columnno": 4,
+            "path": "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module",
+            "code": {
+                "id": "astnode100000366",
+                "name": "JavaClassBuilder#compileToFile",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "path"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "将这个ClassBuilder表示的类进行编译，并将编译后的字节码储存在指定路径中。\n编译速度会很快，通常在0.01秒内完成。",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "description": "保存路径",
+                "name": "path"
+            }
+        ],
+        "name": "compileToFile",
+        "longname": "JavaClassBuilder#compileToFile",
+        "kind": "function",
+        "memberof": "JavaClassBuilder",
+        "scope": "instance"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "D:\\nukkit\\PowerNukkitX\\src\\main\\js\\inner-module\\jvm.js"
+        ]
+    }
+]
