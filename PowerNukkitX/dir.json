@@ -4,6 +4,7 @@
       "PowerNukkitX.md": 999,
       "PowerNukkitX_en-us.md": 999,
       "bootstrap": -100,
+      "config": -998,
       "faq": -999,
       "plugin-dev": -1000,
       "entity-ai": -1001
@@ -24,6 +25,10 @@
     "entity-ai": {
       "zh-cn": "生物AI",
       "en-us": "Entity AI"
+    },
+    "config": {
+      "zh-cn": "配置PNX",
+      "en-us": "Configure PNX"
     }
   },
   "multiLanguage": [

@@ -1,0 +1,22 @@
+{
+  "catalogue": {
+    "priority": {
+    }
+  },
+  "title": {
+    "Nukkit.yml配置介绍.md": "nukkit.yml",
+    "Nukkit.yml配置介绍_en-us.md": "nukkit.yml",
+    "Server.properties配置介绍.md": "server.properties",
+    "Server.properties配置介绍_en-us.md": "server.properties"
+  },
+  "multiLanguage": [
+    {
+      "zh-cn": "Nukkit.yml配置介绍.md",
+      "en-us": "Nukkit.yml配置介绍_en-us.md"
+    },
+    {
+      "zh-cn": "Server.properties配置介绍.md",
+      "en-us": "Server.properties配置介绍_en-us.md"
+    }
+  ]
+}

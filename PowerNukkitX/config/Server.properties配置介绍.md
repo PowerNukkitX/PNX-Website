@@ -1,4 +1,4 @@
-# Server.properties　配置介绍
+# Server.properties配置介绍
 ## motd=PowerNukkitX Server
 在服务器在线人数及延迟界面显示的 Motd 文字
 ## sub-motd=https://powernukkitx.cn
@@ -52,7 +52,7 @@
 ## level-type=DEFAULT
 - 主世界地图类型　(DEFAULT　默认)
 - [纯原版生成器](https://github.com/KCodeYT/VanillaGenerator)　(Vanilla　纯原版世界类型)
-- [Terra史诗世界生成器](Terra问题.html)
+- [Terra史诗世界生成器](../faq/Terra问题.html)
 ## allow-nether=on
 是否开启下界世界(OFF关闭　ON开启)
 ## allow-the_end=on

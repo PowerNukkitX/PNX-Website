@@ -39,6 +39,7 @@ Nukkit服务器语言
  - batch-threshold: 256
  - compression-level: 7
  - async-compression: false
+ - zlib-provider: 2 # 详见硬件加速压缩
 
 ## debug:
 debug相关设置
@@ -51,7 +52,7 @@ debug相关设置
 查找服务器卡顿原因
 - enabled: false
 - verbose: false
--　history-interval: 6000
+- history-interval: 6000
 - history-length: 72000
 - bypass-max: false
 - privacy: false
@@ -122,7 +123,7 @@ debug相关设置
 
 ## worlds:　
 生成器世界设置
-  - world: 生成世界名称
-     - seed: 12235 　生成世界种子
-     - generator: terra:default　生成器类型(当前类型：terra史诗世界生成器)
+  - world: # 生成世界名称
+     - seed: 12235 　# 生成世界种子
+     - generator: terra:default　# 生成器类型(当前类型：terra史诗世界生成器)
     
