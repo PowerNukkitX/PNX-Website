@@ -588,4 +588,4 @@ public class MemoryStorage implements IMemoryStorage {
 
 ### 小结
 
-在这一章中我们从源码层面深入了解了AI框架。在下一节中我们将介绍运动控制器(`IController`)和寻路器(`IRouteFinder`)及其使用，并结合所学知识实现一个僵尸攻击玩家的AI!
+本章对架构源码做了简单阐述。在下一节中我们将介绍运动控制器(`IController`)和寻路器(`IRouteFinder`)及其使用，并结以上内容实现一个僵尸攻击玩家的AI!
