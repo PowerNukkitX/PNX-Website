@@ -1,8 +1,4 @@
-# 深入探索
-
-上一节我们初步了解了PNX的生物AI框架，这节我们将在源码层面深入了解PNX生物框架
-
-## 从源码层面分析
+# 源码相关
 
 所有实现了AI的生物都应该继承类`cn.nukkit.entity.EntityIntelligent`
 
