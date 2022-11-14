@@ -160,6 +160,30 @@ async function refreshAfdianSponsors() {
     document.getElementById("all-sponsor-box").innerHTML = smallHTML;
 }
 
+async function refreshPatreonSponsors() {
+    const response = await get("/data/Members.csv");
+    const data = parseCSV(response);
+    const bigTemplate = document.getElementById("sponsor-big-template").innerHTML;
+    const smallTemplate = document.getElementById("sponsor-small-template").innerHTML;
+    const donatingEle = document.getElementById("donating-sponsor-box");
+    const allEle = document.getElementById("all-sponsor-box");
+    let bigHTML = donatingEle.innerHTML;
+    let smallHTML = allEle.innerHTML;
+    for (const each of data.sort((a, b) => new Date(b['Last Charge Date']).getTime() - new Date(a['Last Charge Date']).getTime())) {
+        console.log(each);
+        if (each['Patron Status'].indexOf("Active patron") !== -1) {
+            bigHTML += bigTemplate.replace("dynamic.user-icon-src", "/web/assets/image/avatar/" + each['User ID'] + ".png")
+                .replace("dynamic.user-name", each.Name)
+                .replace("dynamic.user-donation", translate("text.thanks") + translate(each.Tier));
+        } else {
+            smallHTML += smallTemplate.replace("dynamic.user-icon-src", "/web/assets/image/avatar/" + each['User ID'] + ".png")
+                .replace("dynamic.user-name", each.Name);
+        }
+    }
+    donatingEle.innerHTML = bigHTML;
+    allEle.innerHTML = smallHTML;
+}
+
 let awesomeListIndex = 0;
 
 async function refreshAwesomeList() {
@@ -198,6 +222,8 @@ async function refreshAwesomeList() {
 
 get("https://api.powernukkitx.cn/v2/git/star").then(response => document.getElementById("pnx-star-count").innerText = JSON.parse(response).star);
 refreshAfdianSponsors().then(() => {
+    refreshPatreonSponsors().then(() => {
+    });
 });
 refreshPNXServers(count => document.getElementById("pnx-server-count").innerText = count).then(() => {
 });
@@ -205,6 +231,22 @@ refreshPNXPlayers(count => document.getElementById("pnx-player-count").innerText
 });
 refreshAwesomeList().then(() => {
 });
+
+function parseCSV(csvString) {
+    const lines = csvString.split(/[\r\n]+/g);
+    const result = [];
+    const headers = lines[0].split(",");
+    for (let i = 1; i < lines.length; i++) {
+        const obj = {};
+        const currentline = lines[i].split(",");
+        if (currentline.length !== headers.length) continue;
+        for (let j = 0; j < headers.length; j++) {
+            obj[headers[j]] = currentline[j];
+        }
+        result.push(obj);
+    }
+    return result;
+}
 
 /**
  * Hey, don't look, this is really not an egg :P
