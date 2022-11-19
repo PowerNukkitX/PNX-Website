@@ -28,4 +28,4 @@ Example: There are two files in the `resource_packs` folder.
 
 ## 3. Restart the server to make it effective
 
-PowerNukkitX only loads resource at startup_ Packs, so you need to restart it for it to take effect.
+PowerNukkitX will only load the files in `resource_packs` when it starts, so you need to restart it to make it take effect.
