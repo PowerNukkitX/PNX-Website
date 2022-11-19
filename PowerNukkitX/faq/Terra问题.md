@@ -42,7 +42,7 @@ worlds:
 
 请注意在PNX中，配置包选中语法与原版terra不同，格式为：
 
-terra:配置包文件名称（不带后缀）:维度类型(overworld,nether,end)
+`terra:配置包文件名称（不带后缀）:维度类型(overworld,nether,end)`
 
 例如在此示例中，配置包文件名为ReimagEND.zip，于是我们需要将生成器设置为terra:ReimagEND:end才能选中此配置包
 
@@ -58,7 +58,7 @@ terra:配置包文件名称（不带后缀）:维度类型(overworld,nether,end)
 
 设置成功后，在末地中你应该能看到ReimagEND配置包带来的全新地形：
 
-![REIMAGEND](%relativePrefix%image/common/terra_faq/ReimagEND.png)
+![REIMAGEND](%relativePrefix%image/common/terra_faq/ReimagEND-tiny.png)
 
 ## 为什么设置不生效  
 
