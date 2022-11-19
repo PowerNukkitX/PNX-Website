@@ -18,7 +18,7 @@ Some precautions:
 
 ## 2. Configure your key
 
-The file with the same name as the resource package is named with a `.key` extension name (suffix). The content is the 32-key corresponding to the resource package.
+The file with the same name as the resource package is named with a `.key` file extension name. The content is the 32-key corresponding to the resource package.
 
 Example: There are two files in the `resource_packs` folder.
 | file name      | description  |
