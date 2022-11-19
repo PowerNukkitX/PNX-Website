@@ -12,7 +12,7 @@ In some sites not managed by PowerNukkitX ([encryptmypack](https://encryptmypack
 
 Some precautions:
 - Resource package ends with `.mcpack`
-- The root directory of the mcpack file cannot be nested with folders. You must click it to see `manifest.json`
+- The root directory of the mcpack file cannot be nested with folders. The `manifest.json` file must be visible in the root directory of the resource package.
 - **PowerNukkitX itself does not contain any encryption and decryption logic, but only sends 32 keys to the client according to your configuration (this is very important)**
 
 
