@@ -8,7 +8,8 @@
     "Nukkit.yml配置介绍_en-us.md": "nukkit.yml",
     "Server.properties配置介绍.md": "server.properties",
     "Server.properties配置介绍_en-us.md": "server.properties",
-    "反矿透_en-us.md": "Anti-xray"
+    "反矿透_en-us.md": "Anti-xray",
+    "资源包加密.md": "资源包加密"
   },
   "multiLanguage": [
     {
@@ -22,6 +23,10 @@
     {
       "zh-cn": "反矿透.md",
       "en-us": "反矿透_en-us.md"
+    },
+    {
+      "zh-cn": "资源包加密.md",
+      "en-us": "资源包加密_en-us.md"
     }
   ]
 }
