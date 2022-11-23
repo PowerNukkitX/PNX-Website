@@ -19,7 +19,10 @@
     "Server.properties配置介绍.md": "server.properties",
     "Server.properties配置介绍_en-us.md": "server.properties",
     "反矿透_en-us.md": "Anti-xray",
-    "资源包加密.md": "资源包加密"
+    "资源包加密.md": "资源包加密",
+    "资源包加密_en-us.md": "Resource Pack Encryption",
+    "硬件压缩加速.md": "硬件压缩加速",
+    "硬件压缩加速_en-us.md": "Hardware Compression Acceleration"
   },
   "multiLanguage": [
     {
