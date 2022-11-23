@@ -20,7 +20,8 @@ Some precautions:
 
 The file with the same name as the resource package is named with a `.key` file extension name. The content is the 32-key corresponding to the resource package.
 
-Example: There are two files in the `resource_packs` folder.
+Example: There are two files in the `resource_packs` folder.  
+
 | file name      | description  |
 |-----------------|---------------|
 | x1.mcpack         | A resource package named `x1`   |
