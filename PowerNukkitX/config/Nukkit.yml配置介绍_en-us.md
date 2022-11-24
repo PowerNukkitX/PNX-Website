@@ -34,6 +34,10 @@ Nukkit server language
  Number of threads working asynchronously
  If set to auto, the server will try to detect the number of cores of the CPU (at least 4)
 
+## waterdogpe:
+Whether to enable Waterdog PE compatibility. After enabling, you can only enter the server through Waterdog PE.
+The default value is` false`
+
 ## network:
 Network related settings
  - batch-threshold: 256
