@@ -35,7 +35,7 @@ Nukkit server language
  If set to auto, the server will try to detect the number of cores of the CPU (at least 4)
 
 ## waterdogpe:
-Whether to enable Waterdog PE compatibility. After enabling, you can only enter the server through Waterdog PE.
+Whether to open WaterdogPE compatible, after opening it will be compatible with the use_login_extras configuration item in WaterDog, and at the same time turn off the PNX addon api and login timestamp verify.  
 The default value is` false`
 
 ## network:

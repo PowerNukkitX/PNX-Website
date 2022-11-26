@@ -35,7 +35,7 @@ Nukkit服务器语言
  如果设置为auto，服务器将尝试检测CPU的核心数量（至少4个）
 
 ## waterdogpe:  
-是否开启WaterdogPE兼容，开启后只能通过WaterdogPE进入服务器，默认为`false`  
+是否开启WaterdogPE兼容，开启后会兼容WaterDog中的use_login_extras配置项，同时关闭PNX自定义功能及登陆时间戳检测，默认为`false`  
 
 ## network:
 网络相关设置
