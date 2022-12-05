@@ -1,6 +1,30 @@
 [
   {
     "type": "news",
+    "link": "https://github.com/PowerNukkitX/PowerNukkitX/releases/tag/1.19.50-r2",
+    "title": {
+      "zh-cn": "PNX 1.19.50-r2 新版本发布",
+      "en-us": "PNX 1.19.50-r2 released"
+    },
+    "content": {
+      "zh-cn": "修复内存泄漏问题，优化性能并修复bug。",
+      "en-us": "Fix memory leak, optimize performance and fix bugs."
+    }
+  },
+  {
+    "type": "news",
+    "link": "https://github.com/PowerNukkitX/PowerNukkitX/releases/tag/1.19.50-r1",
+    "title": {
+      "zh-cn": "PNX 1.19.50-r1 新版本发布",
+      "en-us": "PNX 1.19.50-r1 released"
+    },
+    "content": {
+      "zh-cn": "支持1.19.50，添加自动内存压缩，优化实体AI性能，修复bug。",
+      "en-us": "Support 1.19.50, add automatic memory compression, optimize entity AI performance, fix bugs."
+    }
+  },
+  {
+    "type": "news",
     "link": "https://github.com/PowerNukkitX/PowerNukkitX/releases/tag/1.19.40-r3",
     "title": {
       "zh-cn": "PNX 1.19.40-r3 新版本发布",
