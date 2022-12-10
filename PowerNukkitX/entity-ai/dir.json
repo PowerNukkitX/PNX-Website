@@ -1,8 +1,7 @@
 {
   "catalogue": {
     "priority": {
-      "初步了解生物AI架构.md": 1,
-      "生物AI架构源码简介.md": 0
+      "01_AI框架概述.md": 0
     }
   },
   "title": {},
