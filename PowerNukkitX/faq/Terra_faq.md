@@ -19,10 +19,46 @@ In file `nukkit.yml`:
 worlds:
   Name of the world:
    seed: Seed of your world
-   generator: terra:default
+   generator: terra:default:overworld
 ```
 
 Then, restart the server, and now you can try the terra terrain generator.
+
+## Use a third-party Terra terrain configuration package
+
+Terra allows you to get completely new terrains by using different configuration packs
+
+You can view the currently available configuration packages (incomplete) at this site: [Community Packs](https://terra.polydev.org/config/community-packs.html)
+
+Next, let's take [Reimag END](https:github.comjustaureus Reimag END) configuration package as an example, the configuration package file name is "Reimag END.zip"
+
+We want to apply this config package in the end, we need to set the following in nukkit.yml:
+```yaml
+worlds:
+  the_end:
+   seed: Seed You Want
+   generator: terra:ReimagEND:end
+```
+
+Please note that in PNX, the configuration package selection syntax is different from the original terra, the format is:
+
+`terra: configuration package file name (without suffix): dimension type (overworld, nether, end)`
+
+For example, in this example, the configuration package file name is Reimag END.zip, so we need to set the generator to terra:Reimag END:end to select this configuration package
+
+Note that we append an "end" parameter at the end, which sets the world type to End.
+
+For different world types, the height limit of the y-axis is different, as follows:
+
+- overworld: -64 - 320
+- nether: 0 - 128
+- end: 0 - 256
+
+For some specific configuration packages, there may be cases where the world height limit is lower than the height required by the configuration package (such as the Tartarus hell package), at this time, the world type can be set to the main world to avoid this problem
+
+After the setup is successful, you should be able to see the new terrain brought by the Reimag END configuration package in the end:
+
+![REIMAGEND](%relativePrefix%image/common/terra_faq/ReimagEND-tiny.png)
 
 ## Why terra doesn't work
 

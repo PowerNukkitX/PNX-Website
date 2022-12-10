@@ -1,6 +1,18 @@
 {
   "catalogue": {
     "priority": {
+      "Server.properties配置介绍.md": 100,
+      "Server.properties配置介绍_en-us.md": 100,
+      "Nukkit.yml配置介绍.md": 99,
+      "Nukkit.yml配置介绍_en-us.md": 99,
+      "反矿透.md": 98,
+      "反矿透_en-us.md": 98,
+      "资源包加密.md": 97,
+      "资源包加密_en-us.md": 97,
+      "硬件压缩加速.md": 96,
+      "硬件压缩加速_en-us.md": 96,
+      "使用WaterDog.md": 95,
+      "使用WaterDog_en-us.md": 95
     }
   },
   "title": {
@@ -8,7 +20,13 @@
     "Nukkit.yml配置介绍_en-us.md": "nukkit.yml",
     "Server.properties配置介绍.md": "server.properties",
     "Server.properties配置介绍_en-us.md": "server.properties",
-    "反矿透_en-us.md": "Anti-xray"
+    "反矿透_en-us.md": "Anti-xray",
+    "资源包加密.md": "资源包加密",
+    "资源包加密_en-us.md": "Resource Pack Encryption",
+    "硬件压缩加速.md": "硬件压缩加速",
+    "硬件压缩加速_en-us.md": "Hardware Compression Acceleration",
+    "使用WaterDog.md": "使用WaterDog",
+    "使用WaterDog_en-us.md": "Use WaterDog in PNX"
   },
   "multiLanguage": [
     {
@@ -22,6 +40,18 @@
     {
       "zh-cn": "反矿透.md",
       "en-us": "反矿透_en-us.md"
+    },
+    {
+      "zh-cn": "资源包加密.md",
+      "en-us": "资源包加密_en-us.md"
+    },
+    {
+      "zh-cn": "硬件压缩加速.md",
+      "en-us": "硬件压缩加速_en-us.md"
+    },
+    {
+      "zh-cn": "使用WaterDog.md",
+      "en-us": "使用WaterDog_en-us.md"
     }
   ]
 }

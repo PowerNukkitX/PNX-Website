@@ -30,9 +30,9 @@ const eng = {
     "text.more-on-BStats":"See more statistics on BStats",
 
     "text.thanks": "Thanks for ",
-    "倾囊相助": "generous sponsorship",
-    "慷慨解囊": "sponsorship",
-    "精神支持": "support",
+    "倾囊相助": "generous support",
+    "慷慨解囊": "awesome support",
+    "精神支持": "spirit support",
     "text.thanks-month-sponsors": "Thanks to sponsors this month",
     "text.thanks-all-sponsors": "Thanks to all sponsors",
 
@@ -95,6 +95,9 @@ const chn = {
     "text.about-players": "此处数据为不完全统计",
     "text.more-on-BStats": "在BStats查看更多统计数据",
 
+    "Spirit support": "精神支持",
+    "Awesome support": "慷慨解囊",
+    "Generous support": "倾囊相助",
     "text.thanks": "感谢您",
     "text.thanks-month-sponsors": "感谢本月赞助者",
     "text.thanks-all-sponsors": "感谢所有赞助者",

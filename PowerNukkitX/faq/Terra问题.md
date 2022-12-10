@@ -2,7 +2,7 @@
 
 ## 什么是terra  
 
-Terra是一个第三方[开源](https://github.com/PolyhedralDev/Terra)地形生成器，pnx在terra分支中整合了Terra，您可以在pnx中使用terra生成史诗般的地图。  
+Terra是一个第三方[开源](https://github.com/PolyhedralDev/Terra)地形生成器，pnx整合了Terra作为nk系服务器地形生成问题的一个解决方案，您可以在pnx中使用terra生成史诗般的地图。  
 
 
 ## 启动Terra  
@@ -19,7 +19,7 @@ use-terra=on
 worlds:
   世界名称:
    seed: 世界种子
-   generator: terra:default
+   generator: terra:default:overworld
 ```
 
 然后，重新启动服务器，即可体验terra地形生成器。
@@ -37,18 +37,28 @@ Terra允许你通过使用不同的配置包获得全新的地形
 worlds:
   the_end:
    seed: 填写你想要的种子
-   generator: terra:ReimagEND
+   generator: terra:ReimagEND:end
 ```
 
 请注意在PNX中，配置包选中语法与原版terra不同，格式为：
 
-terra:配置包文件名称（不带后缀）
+`terra:配置包文件名称（不带后缀）:维度类型(overworld,nether,end)`
 
-例如在此示例中，配置包文件名为ReimagEND.zip，于是我们需要将生成器设置为terra:ReimagEND才能选中此配置包
+例如在此示例中，配置包文件名为ReimagEND.zip，于是我们需要将生成器设置为terra:ReimagEND:end才能选中此配置包
+
+请注意我们在结尾附加了一个"end"参数，此参数的作用是将世界类型设置为末地。
+
+对于不同的世界类型，其y轴限高有所不同，具体如下：
+
+- overworld: -64 - 320
+- nether: 0 - 128
+- end: 0 - 256
+
+对于一些特定的配置包，有可能出现世界限高低于配置包所需高度的情况(例如Tartarus地狱包)，此时可将世界类型设置为主世界来避免此问题
 
 设置成功后，在末地中你应该能看到ReimagEND配置包带来的全新地形：
 
-![REIMAGEND](%relativePrefix%image/common/terra_faq/ReimagEND.png)
+![REIMAGEND](%relativePrefix%image/common/terra_faq/ReimagEND-tiny.png)
 
 ## 为什么设置不生效  
 

@@ -26,6 +26,27 @@
     margin-left: 1px;
 }
 
+@media (min-width: 1024px) {
+    .filled-height {
+        height: calc(100vh - 64px);
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 1024px) {
+    .filled-height {
+        height: calc(100vh - 56px);
+        overflow-y: scroll;
+    }
+}
+
+.mdui-overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 .category-super-div {
     overflow-x: scroll;
 }
