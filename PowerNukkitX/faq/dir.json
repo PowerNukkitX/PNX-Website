@@ -6,7 +6,9 @@
   "title": {
     "Server_faq.md": "Server related",
     "Terra_faq.md": "Terra related",
-    "To_Newcomers.md": "To newcomers"
+    "To_Newcomers.md": "To newcomers",
+    "玩家重生点相关的解释.md": "玩家重生点解释",
+    "Player's spawn point explain.md": "Spawn Point explain"
   },
   "multiLanguage": [
     {
@@ -30,6 +32,10 @@
     },
     {
       "zh-cn": "Server.properties配置介绍.md"
+    },
+    {
+      "zh-cn": "玩家重生点相关的解释.md",
+      "en-us": "Player's spawn point explain.md"
     }
   ]
 }
