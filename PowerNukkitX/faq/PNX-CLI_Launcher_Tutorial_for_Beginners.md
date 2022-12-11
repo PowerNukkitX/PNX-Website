@@ -1,304 +1,52 @@
-# PNX-CLI Launcher Tutorial for Beginners
-## How to download PNX-CLI Launcher？
-PNX-CLI Launcher 【[Download](https://github.com/PowerNukkitX/PNX-CLI/releases)】
-## What is the PNX-CLI starter?
-It allows you to quickly deploy **PowerNukkitX** servers on your host, with less footprint and easier management.
+# PNX-CLI
 
-## Notes on the installation of the PNX-CLI!
-1. No spaces in the directory folder or it won't work!
+PNX-CLI is a command line tool for PNX. It can help you to install and start PNX quickly.
+windows using . \pnx.exe to run.
+linux use . /pnx to run.
+Hereafter abbreviated to pnx.
+## Some common commands
+The sub-list is the parameter body, and the main list is the command body.
+- pnx start
+   - -g&emsp;Generate startup commands
+   - -r&emsp;Start the server in automatic reboot mode
+   - --stdin=xxx&emsp;Read console input from the specified file (xxx input the file address, from pnx-cli current path)
+- pnx server
+   - --latest&emsp;Install the latest version of pnx core
+   - -u&emsp;Install or upgrade PNX server core (manual selection required)
+- pnx libs
+   - -u&emsp;Install or update dependent libraries
+   - -v&emsp;Check if the dependency library is up to date
+- pnx jvm
+   - check&emsp;View the installed JVMs
+   - remote&emsp;Lists all available JVM in the PNX remote repository
+   - install=name&emsp;Install the JVM according to the name.(The name is queried from the command above)
+   - uninstall&emsp;Uninstall the installed JVM according to the entered serial number.
+- pnx comp
+   - -c&emsp;Check for available addons。
+   - -i=name&emsp;Install or repair the addon according to the entered name. (The name is checked from the command above)
+- pnx about&emsp;Information about the PowerNukkitX CLI
 
-2. You must install the following in the PNX_CLI installation package folder!
+## How to use
+1. Download the latest version of PNX CLI from here (https://github.com/PowerNukkitX/PNX-CLI/releases)
+2. It is recommended to download the executable file for the corresponding platform, e.g. for windows download PNX-CLI-Windows-x86.zip  
+   If you do not have your corresponding platform, you can use the jar package to use, use java -jar xxx command to start
+3. Decompress, the following command should be used in the decompress path
 
-3. The installation is not valid if the following command is entered
-
-Windows CMD Try entering the following command
-
+### Linux Enter the following command to try
 ```
-pnx sys-install
-```
-Linux Try entering the following command
-```
-./pnx sys-install
-```
-Windows PowerShell Try entering the following command
-```
-.\pnx sys-install
-```
-## How do I set the PNX-CLI parameters?
-Create the pnx-cli-config.ini file and enter the following text:
-```
-##Simplified Chinese zh-cn English en-us
-language=en-us
-##Select JVM
-preferredJVM=GraalVM
-##JVM Location
-jvmPath=D:\jdk\java17\bin
-```
-## How is the PNX-CLI starter installed?
-PNX-CLI offers 3 scenario deployment projects
-
-- PNX-CLI-Linux-arm
-- PNX-CLI-Linux-x86
-- PNX-CLI-Windows-x86
-Choose the right software deployment for your conditions
-### Steps to install PNX server based on PNX-CLI-Windows-x86
-1. Download the PNX-CLI-Windows-x86.zip archive 【[Download](https://github.com/PowerNukkitX/PNX-CLI/releases)】
-2. Extract the PNX-CLI-Windows-x86.zip archive using ZIP
-3. Win+R to open the Run window, type cmd in the Run window to open the command window that comes with Windows
-4. Find the folder where your PNX.exe is located on the disk
-----
-**Example** :
-
-> My **PNX.exe** is in the **F:**\desktop\pnx-CLI folder
-
-> F:\Desktop\pnx-CLI
-
-> We need to point the command window to the corresponding folder
-
-> C:\Users\ASUS>F: CD F:\Desktop\pnx-CLI
-
-> **F:\Desktop\pnx-CLI**
->
-> This section is under the folder where your PNX.exe is located
-
-----
-5. Enter the following command in the command box to install the PNX Quick Deployment Tool, once installed, you will be able to use the PNX-CLI related commands wherever you are in the command box
-**Note: You will need to restart CMD or PowerShell after the installation is complete**
-```
-pnx sys-install
-```
-6. Enter the following command in the command box to check if your computer is installing the JAVA 17 environment
-```
-pnx jvm check
-```
-7. Enter the following command in the command box to check for an installable JVM【**Skip step 8**】
-```
-pnx jvm remote
-```
-8. Select any of the following JVMs to install on your computer
-
-   > GraalVM 
-
-   > AdoptOpenJDK 
-
-   > OracleJDK 
-
-The above JVMs allow **PowerNukkitX** to process **JavaScript** or **Java** programs faster
-
-**Enter the following command to install the JVM** 
-
-#### GraalVM
-
-```
-pnx jvm install=GraalVM  
+chmod +x . /pnx
+./pnx jvm install=OracleJDK # Install jdk17, ignore this if you already have it
+./pnx
 ```
 
-#### AdoptOpenJDK
-
+### Windows PowerShell Enter the following command to try
 ```
-pnx jvm install=AdoptOpenJDK
-```
-
-#### OracleJDK 
-
-```
-pnx jvm install=OracleJDK
+.\pnx.exe jvm install=OracleJDK # install jdk17, ignore this if you already have it
+.\pnx.exe
 ```
 
-**Download process requires a waiting period**
-
-##### GraalJIT Instant Compiler Installation Steps
-
-1. First check if GraalJIT is installed
+### Windows CMD Enter the following command to try
 ```
-pnx comp check 
+pnx.exe jvm install=OracleJDK # install jdk17, ignore this if you already have it
+pnx.exe
 ```
-2. If not installed then enter the following command in the command box
-```
-pnx comp install=graaljit
-```
-3. Check again if GraalJIT is installed successfully
-```
-pnx comp check 
-```
-Once installed, it will improve the speed of your JVM
-
-9. Enter the following command in the command box to install the PNX server core
-```
-pnx server install
-```
-This will bring up the PNX master branch cores updated within the last 30 days
-
-Enter the number of the corresponding branch after the text below to download it
-
-```
-Enter the index of the PNX version you want to install:
-```
-10. Enter the following command in the command box to install the dependent libraries required for PNX to run
-```
-pnx libs -u
-```
-11. Double-click PNX.exe to start the server
-
-    **Note: You need to install the relevant VC runtime libraries**
-### Steps to install PNX server based on PNX-CLI-Linux-x86(Arm)
-1. Download the PNX-CLI-Linux-x86(Arm).zip archive 【[Download](https://github.com/PowerNukkitX/PNX-CLI/releases)】
-2. After downloading, enter the following command 
-**Note: /xxx/xxx stands for the folder where your PNX-CLI-Linux-x86(Arm).zip is located**
-```
-cd /xxx/xxx
-```
-3. Unzip PNX-CLI-Linux-x86(Arm).zip using **unzip**, the file **pnx** will be available when the unzip is complete
-```
-unzip PNX-CLI-Linux-x86(Arm).zip
-```
-4. Enter the following command in the command box to install the PNX Quick Deployment Tool, once installed, you will be able to use the PNX-CLI related commands wherever you are in the command box\
-**Note: You will need to restart the command terminal after the installation is complete**
-```
-pnx sys-install
-```
-5. Enter the following command for PNX-CLI help
-```
-pnx -h
-```
-If prompted for insufficient privileges use the following command to raise privileges [**skip step if privileges are available**]
-```
-chmod 777 pnx
-```
-6. Enter the following command in the command box to check if your computer is installing the JAVA 17 environment
-```
-pnx jvm check
-```
-7. Enter the following command in the command box to check for an installable JVM【**Skip step 8**】
-
-```
-pnx jvm remote
-```
-
-8. Select any of the following JVMs to install on your computer
-
-   > GraalVM 
-
-   > AdoptOpenJDK 
-
-   > OracleJDK 
-
-The above JVMs allow **PowerNukkitX** to process **JavaScript** or **Java** programs faster
-
-**Enter the following command to install the JVM** 
-
-#### GraalVM
-
-```
-pnx jvm install=GraalVM  
-```
-
-#### AdoptOpenJDK
-
-```
-pnx jvm install=AdoptOpenJDK
-```
-
-#### OracleJDK 
-
-```
-pnx jvm install=OracleJDK
-```
-
-**Download process requires a waiting period**
-
-##### GraalJIT Instant Compiler Installation Steps
-
-1. First check if GraalJIT is installed
-
-```
-pnx comp check 
-```
-
-2. If not installed then enter the following command in the command box
-
-```
-pnx comp install=graaljit
-```
-
-3. Check again if GraalJIT is installed successfully
-
-```
-pnx comp check 
-```
-
-Once installed, it will improve the speed of your JVM
-
-9. Enter the following command in the command box to install the PNX server core
-
-```
-pnx server install
-```
-This will bring up the PNX master branch cores updated within the last 30 days
-
-Enter the number of the corresponding branch after the text below to download it
-
-```
-Enter the index of the PNX version you want to install:
-```
-10. Enter the following command in the command box to install the dependent libraries required for PNX to run
-```
-pnx libs -u
-```
-11. After installation enter the following command to start the server
-```
-pnx
-```
-## How do I get PNX to run for a long time on a Linux host?
-### To use the screen command, proceed in detail:
-1. Type the following command in the command box to check if screen is installed
-```
-which screen
-```
-2. Enter the following command in the command box to install screen
-
-  **Note: Depends on the host system**
-
-###### CentOS
-
-```
-yum install screen
-```
-###### Ubuntu
-
-```
-apt-get install screen
-```
-3. Create the screen program
-```
-screen [-opts] [cmd [args]]
-```
-or
-```
-screen -r [host.tty]
-```
-**screen Common Settings:**
-
-> -A -[r|R]      Adapt all windows to the new display width & height.
->
-> -d (-r)        Detach the elsewhere running screen (and reattach here).
->
-> -h lines       Set the size of the scrollback history buffer.
->
-> -ls [match]    or
->
-> -list          Do nothing, just list our SockDir [on possible matches].
->
-> -r [session]   Reattach to a detached screen process.
->
-> -R             Reattach if possible, otherwise start a new session.
->
-> -s shell       Shell to execute rather than $SHELL.
->
-> -S sockname    Name this session <pid>.sockname instead of <pid>.<tty>.<host>.
->
-> -v             Print "Screen version 4.06.02 (GNU) 23-Oct-17".
->
-> -wipe [match]  Do nothing, just clean up SockDir [on possible matches].
->
-> -x             Attach to a not detached screen. (Multi display mode).
