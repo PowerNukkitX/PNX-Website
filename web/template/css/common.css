@@ -53,6 +53,12 @@
 
 p.category-title {
     font-weight: bold;
+    display: inline;
+}
+
+.category-expander {
+    border-radius: 50%;
+    margin-left: 4px;
 }
 
 ol.category-sub {

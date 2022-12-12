@@ -83,7 +83,8 @@
           "cssClass": {
             "p": "category-title mdui-text-color-theme",
             "ol": "category-sub",
-            "strong": "mdui-text-color-theme-accent"
+            "strong": "mdui-text-color-theme-accent",
+            "li": "category-folder"
           }
         }
       },
