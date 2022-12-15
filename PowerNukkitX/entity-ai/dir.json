@@ -19,27 +19,27 @@
     },
     {
       "zh-cn": "记忆.md",
-      "en-us": "记忆.md"
+      "en-us": "Memory.md"
     },
     {
       "zh-cn": "传感器.md",
-      "en-us": "传感器.md"
+      "en-us": "Sensors.md"
     },
     {
       "zh-cn": "运动控制器.md",
-      "en-us": "运动控制器.md"
+      "en-us": "Motion Controller.md"
     },
     {
       "zh-cn": "寻路器.md",
-      "en-us": "寻路器.md"
+      "en-us": "Navigator.md"
     },
     {
       "zh-cn": "行为组.md",
-      "en-us": "行为组.md"
+      "en-us": "Behavior Group.md"
     },
     {
       "zh-cn": "工作周期.md",
-      "en-us": "工作周期.md"
+      "en-us": "Work Cycle.md"
     }
   ]
 }
