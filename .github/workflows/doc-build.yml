@@ -60,6 +60,7 @@ jobs:
 
       - name: 部署中文文档
         uses: fangbinwei/aliyun-oss-website-action@v1
+        if: (github.ref_name == 'master') && success()
         with:
           accessKeyId: ${{ secrets.ALIYUN_ACCESS_KEY_ID }}
           accessKeySecret: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
