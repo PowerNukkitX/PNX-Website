@@ -26,7 +26,8 @@ Then, restart the server, and now you can try the terra terrain generator.
 
 ## Use a third-party Terra terrain configuration package
 
-Terra allows you to get completely new terrains by using different configuration packs
+Terra allows you to get completely new terrains by using different configuration packs. Simply put
+the pack into `./terra/packs` and restart your server to install it.  
 
 You can view the currently available configuration packages (incomplete) at this site: [Community Packs](https://terra.polydev.org/config/community-packs.html)
 
@@ -58,7 +59,7 @@ For some specific configuration packages, there may be cases where the world hei
 
 After the setup is successful, you should be able to see the new terrain brought by the Reimag END configuration package in the end:
 
-![REIMAGEND](%relativePrefix%image/common/terra_faq/ReimagEND-tiny.png)
+![REIMAGEND](%relativePrefix%image/common/terra_faq/ReimagEND-min.png)
 
 ## Why terra doesn't work
 

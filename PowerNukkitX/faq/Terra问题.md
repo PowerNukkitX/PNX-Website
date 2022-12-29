@@ -26,7 +26,7 @@ worlds:
 
 ## 使用第三方Terra地形配置包
 
-Terra允许你通过使用不同的配置包获得全新的地形
+Terra允许你通过使用不同的配置包获得全新的地形，将配置包放入`./terra/packs`文件夹中，重启服务器即可完成安装。  
 
 你可在此站点查看目前可用的配置包（不全）： [Community Packs](https://terra.polydev.org/config/community-packs.html)
 
@@ -58,7 +58,7 @@ worlds:
 
 设置成功后，在末地中你应该能看到ReimagEND配置包带来的全新地形：
 
-![REIMAGEND](%relativePrefix%image/common/terra_faq/ReimagEND-tiny.png)
+![REIMAGEND](%relativePrefix%image/common/terra_faq/ReimagEND-min.png)
 
 ## 为什么设置不生效  
 
