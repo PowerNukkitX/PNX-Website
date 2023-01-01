@@ -12,7 +12,7 @@ After reading the tutorial below, you will not need to ask for help from anyone 
 ### Choose Our Tools
 
 - [AmuletMC](https://www.amuletmc.com/)
-- [PNXWorldConverter](https://github.com/PowerNukkitX/PNXWorldConverter/blob/patch/chs/README_CHS.md) - [Go to download](https://github.com/PowerNukkitX/PNXWorldConverter/releases/latest)
+- [PNXWorldConverter](https://github.com/PowerNukkitX/PNXWorldConverter) - [Go to download](https://github.com/PowerNukkitX/PNXWorldConverter/releases/latest)
 
 ### The Idea of Conversion
 
