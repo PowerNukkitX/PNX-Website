@@ -75,7 +75,7 @@ We can use the absolute path to the Java17 executable file (in Windows this is `
 ![pSin5kR.md.png](https://s1.ax1x.com/2023/01/03/pSin5kR.md.png)
 
 ```shell
-"C:\Program Files\Java\jdk-17.0.2+8\bin\java.exe" -jar pnxworldconvert-1.0.2.jar -t ./Temple of the Jungle -d OVERWORLD
+"C:\Program Files\Java\jdk-17.0.2+8\bin\java.exe" -jar pnxworldconvert-1.0.2.jar -t ./丛林神庙 -d OVERWORLD
 ```
 This method is often not elegant enough and is often lamented by experts.
 
