@@ -32,7 +32,7 @@ The famous Italian artist once said:
 > Theoretical detachment from practice is the greatest misfortune.
 > <p align="right">- Leonardo da Vinci</p>
 
-Practicing this skill only takes three steps and will only take about 2 minutes of your time.
+The steps for practicing this skill are divided into three steps, and you can master it in about 2 minutes.
 
 Before we begin, we need to prepare the following two files:
 
@@ -77,7 +77,7 @@ We can use the absolute path to the Java17 executable file (in Windows this is `
 ```shell
 "C:\Program Files\Java\jdk-17.0.2+8\bin\java.exe" -jar pnxworldconvert-1.0.2.jar -t ./丛林神庙 -d OVERWORLD
 ```
-This method is often not elegant enough and is often lamented by experts.
+However, this method is often not elegant enough and is often lamented by some.
 
 #### Step 3
 
