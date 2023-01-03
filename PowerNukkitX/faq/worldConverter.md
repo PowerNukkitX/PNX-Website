@@ -43,9 +43,9 @@ For learning purposes only, not for commercial use.
 
 When you are ready, the directory structure should look something like this:
 > - 丛林神庙
->  - region
->  - level.dat
->  - ...
+>   - region
+>   - level.dat
+>   - ...
 > - pnxworldconvert-1.0.2.jar
 
 #### Step 1
