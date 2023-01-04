@@ -6,6 +6,8 @@
   "title": {
     "Server_faq.md": "Server related",
     "Terra_faq.md": "Terra related",
+    "地图转换.md": "手把手教你转换地图",
+    "worldConverter.md": "Convert Your World to PNX",
     "To_Newcomers.md": "To newcomers",
     "玩家重生点相关的解释.md": "玩家重生点解释",
     "Player's spawn point explain.md": "Spawn Point explain"
@@ -18,6 +20,10 @@
     {
       "zh-cn": "Terra问题.md",
       "en-us": "Terra_faq.md"
+    },
+    {
+      "zh-cn": "地图转换.md",
+      "en-us": "worldConverter.md"
     },
     {
       "zh-cn": "新人解惑.md",
