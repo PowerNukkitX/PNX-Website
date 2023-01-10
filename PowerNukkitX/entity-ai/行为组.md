@@ -16,13 +16,13 @@ _**author: daoge_cmd**_
 
 行为组包含了所有组件，即行为组组成了一个完整的AI
 
-通过覆写```EntityIntelligent```类的```getBehaviorGroup()```方法并返回自己的行为组实例，生物就可以获得自己的AI
+生物在初始化时，会调用一次```requireBehaviorGroup()```方法，此方法返回的行为组实例将伴随此生物的整个生命周期
+
+通过覆写```EntityIntelligent```类的```requireBehaviorGroup()```方法并返回自己的行为组实例，生物就可以获得自己的AI
 
 ### 1.0.2 单例性
 
-对于每个生物，在其生命周期中应只实例化并存在一个行为组实例
-
-请确保```getBehaviorGroup()```方法返回的是单例
+对于每个生物，在其生命周期中只存在一个行为组实例
 
 ## 1.1 新建一个行为组
 
