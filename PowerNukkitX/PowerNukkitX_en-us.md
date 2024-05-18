@@ -1,5 +1,7 @@
 # PowerNukkitX  
 
+## You are looking at the documentation for PNX version 1.0, PNX is now available in version 2.0, please check out our latest [documentation](https:docs.powernukkitx.com)
+
 ![PNX Banner](./image/PNX_BANNER.png)  
 
 <h3 style="width: fit-content;" class="mdui-center">High-performance, more-feature, highly extensible server software</h2>  

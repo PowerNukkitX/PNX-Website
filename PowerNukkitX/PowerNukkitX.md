@@ -1,5 +1,7 @@
 # PowerNukkitX  
 
+## 你正在查看PNX1.0版本的文档，PNX现在已经推出2.0版本，请查阅我们最新的[文档](https://docs.powernukkitx.com/)
+
 ![PNX Banner](./image/PNX_BANNER.png)  
 
 <h3 style="width: fit-content;" class="mdui-center">高性能、富原版特性、高拓展性的独立服务端核心</h2>  
